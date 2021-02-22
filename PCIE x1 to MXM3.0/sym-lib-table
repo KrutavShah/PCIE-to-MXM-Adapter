@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PCIEx1toMXM3.0-rescue)(type Legacy)(uri ${KIPRJMOD}/PCIEx1toMXM3.0-rescue.lib)(options "")(descr ""))
+)
