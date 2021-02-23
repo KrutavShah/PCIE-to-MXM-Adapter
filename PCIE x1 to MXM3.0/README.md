@@ -17,7 +17,7 @@ This card will fit in a full height slot, but not half height.
 - HDMI: 1 Type A port (1.4 compatible)
 - VGA: 1 virtual dummy adapter. Turn the dummy toggle to the ON position to activate.
 - Power: Maximum of 75W over PCIE connector, but actual maximum may be less. 
-- 6-Pin power connector is available to increase maximum power through put.
+6-Pin power connector is available to increase maximum power throughput.
 - PCB: 2 Layer, 1.6mm Thick, Fits within 100x100mm size.
 
 ## Help out the project!
