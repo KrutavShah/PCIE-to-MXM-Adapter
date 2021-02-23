@@ -1956,42 +1956,42 @@ PCIE 6 Pin Power
 $Comp
 L SamacSys_Parts:45558-0003 J4
 U 1 1 621FF001
-P 12650 6700
-F 0 "J4" H 13050 6965 50  0000 C CNN
-F 1 "45558-0003" H 13050 6874 50  0000 C CNN
-F 2 "455580003" H 13300 6800 50  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/455580003_sd.pdf" H 13300 6700 50  0001 L CNN
-F 4 "MOLEX - 45558-0003 - CONNECTOR, HEADER, 6POS, 2ROW, 4.2MM" H 13300 6600 50  0001 L CNN "Description"
-F 5 "10" H 13300 6500 50  0001 L CNN "Height"
-F 6 "538-45558-0003" H 13300 6400 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/45558-0003?qs=c7kbnNtxOmgPtIF7q2whYA%3D%3D" H 13300 6300 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 13300 6200 50  0001 L CNN "Manufacturer_Name"
-F 9 "45558-0003" H 13300 6100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    12650 6700
+P 12650 7000
+F 0 "J4" H 13050 7265 50  0000 C CNN
+F 1 "45558-0003" H 13050 7174 50  0000 C CNN
+F 2 "455580003" H 13300 7100 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/455580003_sd.pdf" H 13300 7000 50  0001 L CNN
+F 4 "MOLEX - 45558-0003 - CONNECTOR, HEADER, 6POS, 2ROW, 4.2MM" H 13300 6900 50  0001 L CNN "Description"
+F 5 "10" H 13300 6800 50  0001 L CNN "Height"
+F 6 "538-45558-0003" H 13300 6700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/45558-0003?qs=c7kbnNtxOmgPtIF7q2whYA%3D%3D" H 13300 6600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 13300 6500 50  0001 L CNN "Manufacturer_Name"
+F 9 "45558-0003" H 13300 6400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    12650 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13450 6700 13500 6700
+	13450 7000 13500 7000
 Wire Wire Line
-	12650 6900 12600 6900
+	12650 7200 12600 7200
 Wire Wire Line
-	12600 6900 12600 6800
+	12600 7200 12600 7100
 Wire Wire Line
-	12600 6800 12650 6800
+	12600 7100 12650 7100
 Wire Wire Line
-	12650 6700 12600 6700
+	12650 7000 12600 7000
 Wire Wire Line
-	12600 6700 12600 6800
-Connection ~ 12600 6800
+	12600 7000 12600 7100
+Connection ~ 12600 7100
 $Comp
 L power:GND #PWR021
 U 1 1 6225D602
-P 12600 7000
-F 0 "#PWR021" H 12600 6750 50  0001 C CNN
-F 1 "GND" H 12605 6827 50  0000 C CNN
-F 2 "" H 12600 7000 50  0001 C CNN
-F 3 "" H 12600 7000 50  0001 C CNN
-	1    12600 7000
+P 12600 7300
+F 0 "#PWR021" H 12600 7050 50  0001 C CNN
+F 1 "GND" H 12605 7127 50  0000 C CNN
+F 2 "" H 12600 7300 50  0001 C CNN
+F 3 "" H 12600 7300 50  0001 C CNN
+	1    12600 7300
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -2001,35 +2001,30 @@ Wire Notes Line
 Wire Notes Line
 	13800 6250 13800 8350
 Wire Wire Line
-	12600 6900 12600 7000
-Connection ~ 12600 6900
+	12600 7200 12600 7300
+Connection ~ 12600 7200
 Wire Wire Line
-	13450 6800 13500 6800
+	13450 7100 13500 7100
 Wire Wire Line
-	13500 6800 13500 6700
+	13500 7100 13500 7000
 Wire Wire Line
-	13450 6900 13500 6900
+	13450 7200 13500 7200
 Wire Wire Line
-	13500 6900 13500 6800
-Connection ~ 13500 6800
-Wire Wire Line
-	13500 6900 13500 7000
-Connection ~ 13500 6900
-Wire Wire Line
-	13500 7300 13500 7400
+	13500 7200 13500 7100
+Connection ~ 13500 7100
 $Comp
 L power:+12V #PWR022
 U 1 1 624F7081
-P 13500 7400
-F 0 "#PWR022" H 13500 7250 50  0001 C CNN
-F 1 "+12V" H 13515 7573 50  0000 C CNN
-F 2 "" H 13500 7400 50  0001 C CNN
-F 3 "" H 13500 7400 50  0001 C CNN
-	1    13500 7400
+P 13500 7300
+F 0 "#PWR022" H 13500 7150 50  0001 C CNN
+F 1 "+12V" H 13515 7473 50  0000 C CNN
+F 2 "" H 13500 7300 50  0001 C CNN
+F 3 "" H 13500 7300 50  0001 C CNN
+	1    13500 7300
 	-1   0    0    1   
 $EndComp
 Text Notes 12350 8300 0    50   ~ 0
-This external power input is \noptional. Traces need to be large, \nand protection is needed.
+This external power input is \noptional. Traces need to be large, \nand protection is recommended,\nbut not needed.
 $Comp
 L SamacSys_Parts:208658-1081 J3
 U 1 1 62557FEA
@@ -2049,17 +2044,6 @@ F 9 "208658-1081" H 2250 10100 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 Text GLabel 3600 3700 1    50   Output ~ 0
 TH_PWM
-$Comp
-L Diode:1N4007 D6
-U 1 1 605A5522
-P 13500 7150
-F 0 "D6" V 13546 7070 50  0000 R CNN
-F 1 "1N4007" V 13455 7070 50  0000 R CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 13500 6975 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 13500 7150 50  0001 C CNN
-	1    13500 7150
-	0    1    -1   0   
-$EndComp
 NoConn ~ 1900 8750
 Wire Wire Line
 	13650 2750 12850 2750
@@ -2328,6 +2312,9 @@ Wire Wire Line
 	16300 1350 16450 1350
 Text Notes 600  2050 0    118  ~ 0
 4. You may ignore some of the diodes.\n   They are for protection.
+Wire Wire Line
+	13500 7300 13500 7200
+Connection ~ 13500 7200
 Wire Bus Line
 	8550 3000 9800 3000
 Wire Bus Line
