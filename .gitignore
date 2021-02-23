@@ -1,4 +1,5 @@
-# Ignore list for KiCAD Projects
+# Ignore list for KiCAD Files and Projects.
+
 # Temporary files
 *.000
 *.bak
