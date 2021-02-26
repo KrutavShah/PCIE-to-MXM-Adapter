@@ -1,4 +1,4 @@
-## PCIE x1 to MXM 3.0 Adapter
+# PCIE x1 to MXM 3.0 Adapter
 
 This adapter card is the most basic one, and includes (1) HDMI output, 
 a VGA dummy toggle, and an external 6 pin power connector.
