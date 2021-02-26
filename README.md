@@ -1,5 +1,8 @@
 # PCIE to MXM Adapter
 This adapter/card allows you to plug an MXM 3.0 graphics card into a desktop PCIE port.
+There's multiple use cases for this, including MXM card testing, repair, basic computer use, gaming, light workstation use, and more.
+These adapter designs are all opensource for your convenience. I made this desicion because of the very high prices that these MXM adapters usually go for online.
+As always, feel free to create issues on this repository and contribute to the project!
 
 ## Licensing information
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
