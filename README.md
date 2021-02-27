@@ -5,8 +5,6 @@ These adapter designs are all opensource for your convenience. I made this desic
 As always, feel free to create issues on this repository and contribute to the project!
 
 ## Licensing information
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-sa].
 
