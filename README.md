@@ -4,7 +4,7 @@ There's multiple use cases for this, including MXM card testing, repair, basic c
 These adapter designs are all opensource for your convenience. I made this desicion because of the very high prices that these MXM adapters usually go for online.
 As always, feel free to create issues on this repository and contribute to the project!
 
-![Picture of the PCIE x1 to MXM Adapter.](/PCIE\ x1\ to \MXM3.0/Images/Front2.PNG "Picture of the PCIE x1 to MXM Adapter.")
+![Picture of the PCIE x1 to MXM Adapter.](/PCIE x1 to MXM3.0/Images/Front2.PNG "Picture of the PCIE x1 to MXM Adapter.")
 
 ## Licensing information
 This work is licensed under a
