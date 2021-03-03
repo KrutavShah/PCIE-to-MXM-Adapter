@@ -13,61 +13,189 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L power:GND #PWR03
+U 1 1 5F8174A5
+P 11850 2000
+F 0 "#PWR03" H 11850 1750 50  0001 C CNN
+F 1 "GND" H 11855 1827 50  0000 C CNN
+F 2 "" H 11850 2000 50  0001 C CNN
+F 3 "" H 11850 2000 50  0001 C CNN
+	1    11850 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 1850 11850 2000
+Text Label 8450 2450 3    50   ~ 0
+PET0_P
+Text Label 8550 2450 3    50   ~ 0
+PET0_N
+Text Label 8650 2450 3    50   ~ 0
+PET1_P
+Text Label 8750 2450 3    50   ~ 0
+PET1_N
+Text Label 8850 2450 3    50   ~ 0
+PET2_P
+Text Label 8950 2450 3    50   ~ 0
+PET2_N
+Text Label 9050 2450 3    50   ~ 0
+PET3_P
+Text Label 9150 2450 3    50   ~ 0
+PET3_N
+Text Label 9250 2450 3    50   ~ 0
+PET4_P
+Text Label 9350 2450 3    50   ~ 0
+PET4_N
+Text Label 9450 2450 3    50   ~ 0
+PET5_P
+Text Label 9550 2450 3    50   ~ 0
+PET5_N
+Text Label 9650 2450 3    50   ~ 0
+PET6_P
+Text Label 9750 2450 3    50   ~ 0
+PET6_N
+Text Label 9850 2450 3    50   ~ 0
+PET7_P
+Text Label 9950 2450 3    50   ~ 0
+PET7_N
+Text Label 10050 2450 3    50   ~ 0
+PET8_P
+Text Label 10150 2450 3    50   ~ 0
+PET8_N
+Text Label 10250 2450 3    50   ~ 0
+PET9_P
+Text Label 10350 2450 3    50   ~ 0
+PET9_N
+Text Label 10450 2450 3    50   ~ 0
+PET10_P
+Text Label 10550 2450 3    50   ~ 0
+PET10_N
+Text Label 10650 2450 3    50   ~ 0
+PET11_P
+Text Label 10750 2450 3    50   ~ 0
+PET11_N
+Text Label 10850 2450 3    50   ~ 0
+PET12_P
+Text Label 10950 2450 3    50   ~ 0
+PET12_N
+Text Label 11050 2450 3    50   ~ 0
+PET13_P
+Text Label 11150 2450 3    50   ~ 0
+PET13_N
+Text Label 11250 2450 3    50   ~ 0
+PET14_P
+Text Label 11350 2450 3    50   ~ 0
+PET14_N
+Text Label 11450 2450 3    50   ~ 0
+PET15_P
+Text Label 11550 2450 3    50   ~ 0
+PET15_N
+Text Label 8450 1250 1    50   ~ 0
+PER0_P
+Text Label 8550 1250 1    50   ~ 0
+PER0_N
+Text Label 8650 1250 1    50   ~ 0
+PER1_P
+Text Label 8750 1250 1    50   ~ 0
+PER1_N
+Text Label 8850 1250 1    50   ~ 0
+PER2_P
+Text Label 8950 1250 1    50   ~ 0
+PER2_N
+Text Label 9050 1250 1    50   ~ 0
+PER3_P
+Text Label 9150 1250 1    50   ~ 0
+PER3_N
+Text Label 9250 1250 1    50   ~ 0
+PER4_P
+Text Label 9350 1250 1    50   ~ 0
+PER4_N
+Text Label 9450 1250 1    50   ~ 0
+PER5_P
+Text Label 9550 1250 1    50   ~ 0
+PER5_N
+Text Label 9650 1250 1    50   ~ 0
+PER6_P
+Text Label 9750 1250 1    50   ~ 0
+PER6_N
+Text Label 9850 1250 1    50   ~ 0
+PER7_P
+Text Label 9950 1250 1    50   ~ 0
+PER7_N
+Text Label 10050 1250 1    50   ~ 0
+PER8_P
+Text Label 10150 1250 1    50   ~ 0
+PER8_N
+Text Label 10250 1250 1    50   ~ 0
+PER9_P
+Text Label 10350 1250 1    50   ~ 0
+PER9_N
+Text Label 10450 1250 1    50   ~ 0
+PER10_P
+Text Label 10550 1250 1    50   ~ 0
+PER10_N
+Text Label 10650 1250 1    50   ~ 0
+PER11_P
+Text Label 10750 1250 1    50   ~ 0
+PER11_N
+Text Label 10850 1250 1    50   ~ 0
+PER12_P
+Text Label 10950 1250 1    50   ~ 0
+PER12_N
+Text Label 11050 1250 1    50   ~ 0
+PER13_P
+Text Label 11150 1250 1    50   ~ 0
+PER13_N
+Text Label 11250 1250 1    50   ~ 0
+PER14_P
+Text Label 11350 1250 1    50   ~ 0
+PER14_N
+Text Label 11450 1250 1    50   ~ 0
+PER15_P
+Text Label 11550 1250 1    50   ~ 0
+PER15_N
 Wire Notes Line
 	14650 500  16500 500 
 Wire Notes Line
 	16500 2300 14650 2300
 Wire Notes Line
 	16500 500  16500 2300
-$Comp
-L Diode:1N4007 D1
-U 1 1 5F7E8C37
-P 14900 950
-F 0 "D1" H 14900 1167 50  0000 C CNN
-F 1 "1N4007" H 14900 1076 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 14900 775 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 14900 950 50  0001 C CNN
-	1    14900 950 
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	15600 1750 15600 1650
 $Comp
 L power:GND #PWR0101
 U 1 1 5F7ECA98
-P 15600 1750
-F 0 "#PWR0101" H 15600 1500 50  0001 C CNN
-F 1 "GND" H 15605 1577 50  0000 C CNN
-F 2 "" H 15600 1750 50  0001 C CNN
-F 3 "" H 15600 1750 50  0001 C CNN
-	1    15600 1750
+P 15600 1900
+F 0 "#PWR0101" H 15600 1650 50  0001 C CNN
+F 1 "GND" H 15605 1727 50  0000 C CNN
+F 2 "" H 15600 1900 50  0001 C CNN
+F 3 "" H 15600 1900 50  0001 C CNN
+	1    15600 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16200 1350 16200 1100
 $Comp
 L power:+5V #PWR0102
 U 1 1 5F7ED161
-P 16200 1100
-F 0 "#PWR0102" H 16200 950 50  0001 C CNN
-F 1 "+5V" H 16215 1273 50  0000 C CNN
-F 2 "" H 16200 1100 50  0001 C CNN
-F 3 "" H 16200 1100 50  0001 C CNN
-	1    16200 1100
+P 16300 750
+F 0 "#PWR0102" H 16300 600 50  0001 C CNN
+F 1 "+5V" H 16315 923 50  0000 C CNN
+F 2 "" H 16300 750 50  0001 C CNN
+F 3 "" H 16300 750 50  0001 C CNN
+	1    16300 750 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR0103
 U 1 1 5F7ED653
-P 14750 950
-F 0 "#PWR0103" H 14750 800 50  0001 C CNN
-F 1 "+12V" H 14765 1123 50  0000 C CNN
-F 2 "" H 14750 950 50  0001 C CNN
-F 3 "" H 14750 950 50  0001 C CNN
-	1    14750 950 
+P 15100 950
+F 0 "#PWR0103" H 15100 800 50  0001 C CNN
+F 1 "+12V" H 15115 1123 50  0000 C CNN
+F 2 "" H 15100 950 50  0001 C CNN
+F 3 "" H 15100 950 50  0001 C CNN
+	1    15100 950 
 	1    0    0    -1  
 $EndComp
-Text Notes 14700 650  0    50   ~ 0
+Text Notes 14700 600  0    50   ~ 10
 12V to 5V Converter
 $Comp
 L Regulator_Linear:AMS1117-5.0 U1
@@ -85,43 +213,34 @@ L Device:C C1
 U 1 1 5F7F5528
 P 15100 1550
 F 0 "C1" H 15215 1596 50  0000 L CNN
-F 1 "C" H 15215 1505 50  0000 L CNN
+F 1 "100μF" H 15215 1505 50  0000 L CNN
 F 2 "" H 15138 1400 50  0001 C CNN
 F 3 "~" H 15100 1550 50  0001 C CNN
 	1    15100 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 3750 3900 2600
-Wire Wire Line
-	4000 2700 4000 3750
-Wire Wire Line
-	6150 1950 6150 1750
-Wire Wire Line
-	6250 1850 6250 1750
 $Comp
 L power:+12V #PWR01
 U 1 1 5F812105
-P 6150 1750
-F 0 "#PWR01" H 6150 1600 50  0001 C CNN
-F 1 "+12V" H 6165 1923 50  0000 C CNN
-F 2 "" H 6150 1750 50  0001 C CNN
-F 3 "" H 6150 1750 50  0001 C CNN
-	1    6150 1750
+P 5650 1300
+F 0 "#PWR01" H 5650 1150 50  0001 C CNN
+F 1 "+12V" H 5665 1473 50  0000 C CNN
+F 2 "" H 5650 1300 50  0001 C CNN
+F 3 "" H 5650 1300 50  0001 C CNN
+	1    5650 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR02
 U 1 1 5F81546F
-P 6350 1750
-F 0 "#PWR02" H 6350 1600 50  0001 C CNN
-F 1 "+3.3V" H 6365 1923 50  0000 C CNN
-F 2 "" H 6350 1750 50  0001 C CNN
-F 3 "" H 6350 1750 50  0001 C CNN
-	1    6350 1750
+P 5850 1750
+F 0 "#PWR02" H 5850 1600 50  0001 C CNN
+F 1 "+3.3V" H 5865 1923 50  0000 C CNN
+F 2 "" H 5850 1750 50  0001 C CNN
+F 3 "" H 5850 1750 50  0001 C CNN
+	1    5850 1750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6250 1750
 Wire Notes Line
 	16500 2350 14650 2350
 Wire Notes Line
@@ -131,68 +250,33 @@ Wire Notes Line
 Wire Notes Line
 	14650 2350 14650 4150
 $Comp
-L Device:LED D2
-U 1 1 5F81CB66
-P 15650 2700
-F 0 "D2" H 15643 2917 50  0000 C CNN
-F 1 "LED" H 15643 2826 50  0000 C CNN
-F 2 "" H 15650 2700 50  0001 C CNN
-F 3 "~" H 15650 2700 50  0001 C CNN
-	1    15650 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D3
 U 1 1 5F81D6F7
-P 15650 3050
-F 0 "D3" H 15643 3267 50  0000 C CNN
-F 1 "LED" H 15643 3176 50  0000 C CNN
-F 2 "" H 15650 3050 50  0001 C CNN
-F 3 "~" H 15650 3050 50  0001 C CNN
-	1    15650 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D4
-U 1 1 5F81DB4F
-P 15650 3450
-F 0 "D4" H 15643 3667 50  0000 C CNN
-F 1 "LED" H 15643 3576 50  0000 C CNN
-F 2 "" H 15650 3450 50  0001 C CNN
-F 3 "~" H 15650 3450 50  0001 C CNN
-	1    15650 3450
+P 15500 3000
+F 0 "D3" H 15493 3217 50  0000 C CNN
+F 1 "LED" H 15493 3126 50  0000 C CNN
+F 2 "" H 15500 3000 50  0001 C CNN
+F 3 "~" H 15500 3000 50  0001 C CNN
+	1    15500 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15300 1350 15100 1350
 Wire Wire Line
-	15100 1350 15100 950 
-Wire Wire Line
-	15100 950  15050 950 
-Wire Wire Line
 	15100 1400 15100 1350
 Connection ~ 15100 1350
 Wire Wire Line
 	15100 1700 15100 1750
-Wire Wire Line
-	15100 1350 14700 1350
-Wire Wire Line
-	15100 1750 14700 1750
-Connection ~ 15100 1750
-Wire Wire Line
-	14700 1400 14700 1350
-Wire Wire Line
-	14700 1750 14700 1700
 Connection ~ 15600 1750
 $Comp
 L Device:C C2
 U 1 1 5F82B183
-P 14700 1550
-F 0 "C2" H 14815 1596 50  0000 L CNN
-F 1 "C" H 14815 1505 50  0000 L CNN
-F 2 "" H 14738 1400 50  0001 C CNN
-F 3 "~" H 14700 1550 50  0001 C CNN
-	1    14700 1550
+P 14750 1550
+F 0 "C2" H 14865 1596 50  0000 L CNN
+F 1 "100μF" H 14865 1505 50  0000 L CNN
+F 2 "" H 14788 1400 50  0001 C CNN
+F 3 "~" H 14750 1550 50  0001 C CNN
+	1    14750 1550
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -200,32 +284,18 @@ Wire Notes Line
 $Comp
 L Device:C C3
 U 1 1 5F834A39
-P 16250 2050
-F 0 "C3" H 16365 2096 50  0000 L CNN
-F 1 "C" H 16365 2005 50  0000 L CNN
-F 2 "" H 16288 1900 50  0001 C CNN
-F 3 "~" H 16250 2050 50  0001 C CNN
-	1    16250 2050
-	0    1    1    0   
+P 16250 2150
+F 0 "C3" H 16365 2196 50  0000 L CNN
+F 1 "22μF" H 16365 2105 50  0000 L CNN
+F 2 "" H 16288 2000 50  0001 C CNN
+F 3 "~" H 16250 2150 50  0001 C CNN
+	1    16250 2150
+	0    -1   -1   0   
 $EndComp
-$Comp
-L Diode:1N4007 D5
-U 1 1 5F83915D
-P 16050 1350
-F 0 "D5" H 16050 1133 50  0000 C CNN
-F 1 "1N4007" H 16050 1224 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 16050 1175 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 16050 1350 50  0001 C CNN
-	1    16050 1350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	16200 1350 16450 1350
-Connection ~ 16200 1350
 Wire Wire Line
 	15100 1750 15600 1750
-Text Notes 14700 2450 0    50   ~ 0
-Power status LEDs
+Text Notes 14700 2450 0    50   ~ 10
+5V status LED
 Wire Wire Line
 	2900 4450 2900 4600
 $Comp
@@ -248,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 4450 14000 4250
 Wire Wire Line
-	13700 4550 14250 4550
+	13700 4550 13850 4550
 Wire Wire Line
 	14250 4550 14250 4250
 $Comp
@@ -285,143 +355,62 @@ F 3 "" H 13800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15500 3450 15350 3450
-Wire Wire Line
-	15350 3450 15350 3050
-Wire Wire Line
-	15350 2700 15500 2700
-Wire Wire Line
-	15500 3050 15350 3050
-Connection ~ 15350 3050
-Wire Wire Line
-	15350 3050 15350 2700
-Wire Wire Line
-	15350 3050 15050 3050
-Wire Wire Line
-	15050 3050 15050 3200
+	14900 3000 14900 3150
 $Comp
 L power:GND #PWR08
 U 1 1 5F8508D9
-P 15050 3200
-F 0 "#PWR08" H 15050 2950 50  0001 C CNN
-F 1 "GND" H 15055 3027 50  0000 C CNN
-F 2 "" H 15050 3200 50  0001 C CNN
-F 3 "" H 15050 3200 50  0001 C CNN
-	1    15050 3200
+P 14900 3150
+F 0 "#PWR08" H 14900 2900 50  0001 C CNN
+F 1 "GND" H 14905 2977 50  0000 C CNN
+F 2 "" H 14900 3150 50  0001 C CNN
+F 3 "" H 14900 3150 50  0001 C CNN
+	1    14900 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15800 2700 15900 2700
-Wire Wire Line
-	15800 3050 15900 3050
-$Comp
-L Device:R_US R2
-U 1 1 5F856A1D
-P 16050 2700
-F 0 "R2" V 15845 2700 50  0000 C CNN
-F 1 "R_US" V 15936 2700 50  0000 C CNN
-F 2 "" V 16090 2690 50  0001 C CNN
-F 3 "~" H 16050 2700 50  0001 C CNN
-	1    16050 2700
-	0    1    1    0   
-$EndComp
+	15650 3000 15700 3000
 $Comp
 L Device:R_US R3
 U 1 1 5F857965
-P 16050 3050
-F 0 "R3" V 15845 3050 50  0000 C CNN
-F 1 "R_US" V 15936 3050 50  0000 C CNN
-F 2 "" V 16090 3040 50  0001 C CNN
-F 3 "~" H 16050 3050 50  0001 C CNN
-	1    16050 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R4
-U 1 1 5F857FDE
-P 16050 3450
-F 0 "R4" V 15845 3450 50  0000 C CNN
-F 1 "R_US" V 15936 3450 50  0000 C CNN
-F 2 "" V 16090 3440 50  0001 C CNN
-F 3 "~" H 16050 3450 50  0001 C CNN
-	1    16050 3450
+P 15900 3000
+F 0 "R3" V 15695 3000 50  0000 C CNN
+F 1 "2KΩ" V 15786 3000 50  0000 C CNN
+F 2 "" V 15940 2990 50  0001 C CNN
+F 3 "~" H 15900 3000 50  0001 C CNN
+	1    15900 3000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	16200 2700 16300 2700
-Wire Wire Line
-	16200 3050 16300 3050
-Wire Wire Line
-	16200 3450 16300 3450
+	16050 3000 16150 3000
 $Comp
 L power:+5V #PWR011
 U 1 1 5F85DBCA
-P 16300 3050
-F 0 "#PWR011" H 16300 2900 50  0001 C CNN
-F 1 "+5V" H 16315 3223 50  0000 C CNN
-F 2 "" H 16300 3050 50  0001 C CNN
-F 3 "" H 16300 3050 50  0001 C CNN
-	1    16300 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR010
-U 1 1 5F85E3F2
-P 16300 2700
-F 0 "#PWR010" H 16300 2550 50  0001 C CNN
-F 1 "+3.3V" H 16315 2873 50  0000 C CNN
-F 2 "" H 16300 2700 50  0001 C CNN
-F 3 "" H 16300 2700 50  0001 C CNN
-	1    16300 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR012
-U 1 1 5F85EE47
-P 16300 3450
-F 0 "#PWR012" H 16300 3300 50  0001 C CNN
-F 1 "+12V" H 16315 3623 50  0000 C CNN
-F 2 "" H 16300 3450 50  0001 C CNN
-F 3 "" H 16300 3450 50  0001 C CNN
-	1    16300 3450
+P 16150 3000
+F 0 "#PWR011" H 16150 2850 50  0001 C CNN
+F 1 "+5V" H 16165 3173 50  0000 C CNN
+F 2 "" H 16150 3000 50  0001 C CNN
+F 3 "" H 16150 3000 50  0001 C CNN
+	1    16150 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5F85F95A
-P 15850 3900
-F 0 "#PWR09" H 15850 3650 50  0001 C CNN
-F 1 "GND" H 15855 3727 50  0000 C CNN
-F 2 "" H 15850 3900 50  0001 C CNN
-F 3 "" H 15850 3900 50  0001 C CNN
-	1    15850 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R1
-U 1 1 5F860846
-P 15850 3700
-F 0 "R1" H 15918 3746 50  0000 L CNN
-F 1 "R_US" H 15918 3655 50  0000 L CNN
-F 2 "" V 15890 3690 50  0001 C CNN
-F 3 "~" H 15850 3700 50  0001 C CNN
-	1    15850 3700
+P 15700 3400
+F 0 "#PWR09" H 15700 3150 50  0001 C CNN
+F 1 "GND" H 15705 3227 50  0000 C CNN
+F 2 "" H 15700 3400 50  0001 C CNN
+F 3 "" H 15700 3400 50  0001 C CNN
+	1    15700 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15800 3450 15850 3450
-Wire Wire Line
-	15850 3900 15850 3850
-Wire Wire Line
-	15850 3550 15850 3450
-Connection ~ 15850 3450
-Wire Wire Line
-	15850 3450 15900 3450
+	15700 3400 15700 3350
 $Comp
-L dk_USB-DVI-HDMI-Connectors:2040210-1_NonStock J4
+L PCIEx1toMXM3.0-rescue:2040210-1_NonStock-dk_USB-DVI-HDMI-Connectors J5
 U 1 1 5F868E85
 P 7550 8850
-F 0 "J4" H 7550 9787 60  0000 C CNN
+F 0 "J5" H 7550 9787 60  0000 C CNN
 F 1 "2040210-1_NonStock" H 7550 9681 60  0000 C CNN
 F 2 "digikey-footprints:DisplayPort_2040210-1" H 7750 9050 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2040210&DocType=Customer+Drawing&DocLang=Japanese" H 7750 9150 60  0001 L CNN
@@ -437,54 +426,6 @@ F 12 "Active NonStock" H 7750 10050 60  0001 L CNN "Status"
 	1    7550 8850
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:HDMI_A_1.4 J3
-U 1 1 5F86D26C
-P 2550 9400
-F 0 "J3" H 2980 9446 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 2980 9355 50  0000 L CNN
-F 2 "" H 2575 9400 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 2575 9400 50  0001 C CNN
-	1    2550 9400
-	0    1    1    0   
-$EndComp
-$Comp
-L dk_USB-DVI-HDMI-Connectors:74320-9010 J5
-U 1 1 5F87271B
-P 2450 1650
-F 0 "J5" V 2453 2727 60  0000 L CNN
-F 1 "74320-9010" V 2347 2727 60  0000 L CNN
-F 2 "digikey-footprints:DVI_Female_74320-9010" H 2650 1850 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/743209010_sd.pdf" H 2650 1950 60  0001 L CNN
-F 4 "WM6096-ND" H 2650 2050 60  0001 L CNN "Digi-Key_PN"
-F 5 "74320-9010" H 2650 2150 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 2650 2250 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 2650 2350 60  0001 L CNN "Family"
-F 8 "https://www.molex.com/pdm_docs/sd/743209010_sd.pdf" H 2650 2450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/molex/74320-9010/WM6096-ND/1989239" H 2650 2550 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT DVI-I DL 29POS PCB R/A" H 2650 2650 60  0001 L CNN "Description"
-F 11 "Molex" H 2650 2750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2650 2850 60  0001 L CNN "Status"
-	1    2450 1650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3650 9400 3750 9400
-Wire Wire Line
-	3750 9400 3750 9600
-$Comp
-L power:+5V #PWR013
-U 1 1 5F8C325D
-P 3750 9600
-F 0 "#PWR013" H 3750 9450 50  0001 C CNN
-F 1 "+5V" H 3765 9773 50  0000 C CNN
-F 2 "" H 3750 9600 50  0001 C CNN
-F 3 "" H 3750 9600 50  0001 C CNN
-	1    3750 9600
-	-1   0    0    1   
-$EndComp
-Text GLabel 12200 5150 3    50   UnSpc ~ 0
-CEC
 $Comp
 L Connector:MXM3.0 J2
 U 1 1 5F7EADB8
@@ -641,8 +582,8 @@ Wire Notes Line
 	5350 6800 9200 6800
 Wire Notes Line
 	9200 6800 9200 10350
-Text Notes 7950 6950 0    50   ~ 0
-Displayport Connector type A
+Text Notes 8200 6950 0    50   ~ 10
+Displayport Connector 0
 Wire Wire Line
 	7100 5150 7100 6450
 Wire Wire Line
@@ -824,631 +765,6 @@ Wire Wire Line
 Connection ~ 6500 6950
 Wire Wire Line
 	6500 6950 6500 7550
-Wire Notes Line
-	5300 10350 550  10350
-Wire Notes Line
-	5300 5950 550  5950
-Wire Notes Line
-	5300 5950 5300 10350
-Wire Notes Line
-	550  5950 550  10350
-Wire Wire Line
-	13000 5150 13000 6100
-Wire Wire Line
-	13200 5150 13200 6200
-Wire Wire Line
-	13300 5150 13300 6250
-Text GLabel 2450 9000 1    50   UnSpc ~ 0
-CEC
-Wire Wire Line
-	4200 3750 4200 2550
-Wire Wire Line
-	4200 2550 1750 2550
-Wire Wire Line
-	1750 2550 1750 2150
-Wire Wire Line
-	1550 2150 1550 2500
-Wire Wire Line
-	1550 2500 4300 2500
-Wire Wire Line
-	4300 2500 4300 3750
-Wire Wire Line
-	4400 3750 4400 650 
-Wire Wire Line
-	1650 1250 1650 600 
-Wire Wire Line
-	1650 600  4500 600 
-Wire Wire Line
-	4500 600  4500 3750
-Wire Wire Line
-	1850 650  4400 650 
-Wire Wire Line
-	1850 650  1850 1250
-Wire Wire Line
-	1550 1250 1550 700 
-Wire Wire Line
-	1550 700  4700 700 
-Wire Wire Line
-	4700 700  4700 3750
-Wire Wire Line
-	4600 3750 4600 750 
-Wire Wire Line
-	4600 750  1750 750 
-Wire Wire Line
-	1750 750  1750 1250
-Wire Wire Line
-	5000 3750 5000 2450
-Wire Wire Line
-	5000 2450 2750 2450
-Wire Wire Line
-	2750 2450 2750 2150
-Wire Wire Line
-	2950 2150 2950 2400
-Wire Wire Line
-	2950 2400 5100 2400
-Wire Wire Line
-	5100 2400 5100 3750
-Wire Wire Line
-	5200 3750 5200 800 
-Wire Wire Line
-	5200 800  2550 800 
-Wire Wire Line
-	2550 800  2550 1250
-Wire Wire Line
-	2750 1250 2750 850 
-Wire Wire Line
-	2750 850  5300 850 
-Wire Wire Line
-	5300 850  5300 3750
-Wire Wire Line
-	5400 3750 5400 900 
-Wire Wire Line
-	5400 900  2450 900 
-Wire Wire Line
-	2450 900  2450 1250
-Wire Wire Line
-	5500 3750 5500 950 
-Wire Wire Line
-	5500 950  2250 950 
-Wire Wire Line
-	2250 950  2250 1250
-Wire Wire Line
-	5600 3750 5600 1000
-Wire Wire Line
-	5600 1000 2350 1000
-Wire Wire Line
-	2350 1000 2350 1250
-Wire Wire Line
-	2150 1250 2150 1050
-Wire Wire Line
-	2150 1050 5700 1050
-Wire Wire Line
-	5700 1050 5700 3750
-Wire Wire Line
-	5800 3750 5800 2350
-Wire Wire Line
-	5800 2350 2350 2350
-Wire Wire Line
-	2350 2350 2350 2150
-Wire Wire Line
-	2150 2150 2150 2300
-Wire Wire Line
-	2150 2300 5900 2300
-Wire Wire Line
-	5900 2300 5900 3750
-Wire Wire Line
-	6400 3750 6400 2850
-Wire Wire Line
-	6400 2250 4300 2250
-Wire Wire Line
-	4300 2250 4300 1100
-Wire Wire Line
-	4300 1100 3050 1100
-Wire Wire Line
-	3050 1100 3050 1250
-Wire Wire Line
-	1950 1250 1950 1100
-Wire Wire Line
-	1950 1100 1050 1100
-Wire Wire Line
-	1050 1100 1050 1300
-Wire Wire Line
-	2050 1100 1950 1100
-Connection ~ 1950 1100
-Wire Wire Line
-	1950 2150 1950 2300
-Wire Wire Line
-	1950 2300 650  2300
-Wire Wire Line
-	650  2300 650  1100
-Wire Wire Line
-	650  1100 1050 1100
-Connection ~ 1050 1100
-Wire Wire Line
-	2550 2150 2550 2450
-Wire Wire Line
-	2550 2450 1950 2450
-Wire Wire Line
-	1950 2450 1950 2300
-Connection ~ 1950 2300
-$Comp
-L power:+5V #PWR018
-U 1 1 601B4DCA
-P 2650 1250
-F 0 "#PWR018" H 2650 1100 50  0001 C CNN
-F 1 "+5V" H 2665 1423 50  0000 C CNN
-F 2 "" H 2650 1250 50  0001 C CNN
-F 3 "" H 2650 1250 50  0001 C CNN
-	1    2650 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 1100 2050 1250
-Wire Wire Line
-	2850 1250 2850 550 
-Wire Wire Line
-	2850 550  1050 550 
-Wire Wire Line
-	1050 550  1050 1100
-Wire Wire Line
-	3650 2050 3650 2250
-Wire Wire Line
-	3650 2750 650  2750
-Wire Wire Line
-	650  2750 650  2300
-Connection ~ 650  2300
-Wire Wire Line
-	3350 2150 3350 2250
-Wire Wire Line
-	3350 2250 3650 2250
-Connection ~ 3650 2250
-Wire Wire Line
-	3650 2250 3650 2750
-Wire Wire Line
-	3150 1250 3150 1150
-Wire Wire Line
-	3150 1150 4200 1150
-Wire Wire Line
-	4200 1150 4200 1250
-Wire Wire Line
-	3350 1250 3350 1200
-Wire Wire Line
-	3350 1200 4100 1200
-Wire Wire Line
-	4100 1200 4100 1250
-Wire Wire Line
-	3150 2150 3150 2200
-Wire Wire Line
-	3150 2200 4200 2200
-Wire Wire Line
-	3450 2150 4100 2150
-$Comp
-L power:GND #PWR017
-U 1 1 602B4878
-P 1050 1300
-F 0 "#PWR017" H 1050 1050 50  0001 C CNN
-F 1 "GND" H 1055 1127 50  0000 C CNN
-F 2 "" H 1050 1300 50  0001 C CNN
-F 3 "" H 1050 1300 50  0001 C CNN
-	1    1050 1300
-	1    0    0    -1  
-$EndComp
-Text GLabel 4200 2100 1    50   UnSpc ~ 0
-C3
-Text GLabel 4100 2100 1    50   UnSpc ~ 0
-C4
-Text GLabel 4200 1250 3    50   UnSpc ~ 0
-C1
-Text GLabel 4100 1250 3    50   UnSpc ~ 0
-C2
-Wire Wire Line
-	4100 2100 4100 2150
-Wire Wire Line
-	4200 2100 4200 2200
-Text GLabel 2950 1250 1    50   UnSpc ~ 0
-VGA_VS
-Text GLabel 13200 7150 2    50   UnSpc ~ 0
-C3
-Text GLabel 13000 7850 2    50   UnSpc ~ 0
-C4
-Text GLabel 14100 6350 2    50   UnSpc ~ 0
-C1
-Text GLabel 13300 6800 2    50   UnSpc ~ 0
-C2
-Wire Notes Line
-	14450 5900 14450 8000
-Wire Notes Line
-	14450 8000 11800 8000
-Wire Notes Line
-	11800 8000 11800 5900
-Wire Notes Line
-	11800 5900 14450 5900
-Text GLabel 13100 7500 2    50   UnSpc ~ 0
-VGA_VS
-Wire Wire Line
-	6400 2850 6200 2850
-Wire Wire Line
-	6200 2850 6200 3050
-Connection ~ 6400 2850
-Wire Wire Line
-	6400 2850 6400 2250
-$Comp
-L power:GND #PWR019
-U 1 1 60406125
-P 6200 3350
-F 0 "#PWR019" H 6200 3100 50  0001 C CNN
-F 1 "GND" H 6205 3177 50  0000 C CNN
-F 2 "" H 6200 3350 50  0001 C CNN
-F 3 "" H 6200 3350 50  0001 C CNN
-	1    6200 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R6
-U 1 1 6040666A
-P 6200 3200
-F 0 "R6" H 6268 3246 50  0000 L CNN
-F 1 "10K" H 6268 3155 50  0000 L CNN
-F 2 "" V 6240 3190 50  0001 C CNN
-F 3 "~" H 6200 3200 50  0001 C CNN
-	1    6200 3200
-	-1   0    0    1   
-$EndComp
-Text Notes 11850 6000 0    50   ~ 0
-VGA (DVI-I) Interface
-Text Notes 13450 6200 0    50   ~ 0
-Note: VGA traces need to \nhave 50 OHM impedence \nfrom MXM to VGA port
-$Comp
-L Device:R_US R7
-U 1 1 6049272E
-P 12050 6300
-F 0 "R7" H 11982 6254 50  0000 R CNN
-F 1 "150Ω 1%" H 11982 6345 50  0000 R CNN
-F 2 "" V 12090 6290 50  0001 C CNN
-F 3 "~" H 12050 6300 50  0001 C CNN
-	1    12050 6300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13100 5150 13100 6150
-$Comp
-L Device:R_US R8
-U 1 1 6056507C
-P 12050 6800
-F 0 "R8" H 11982 6754 50  0000 R CNN
-F 1 "150Ω 1%" H 11982 6845 50  0000 R CNN
-F 2 "" V 12090 6790 50  0001 C CNN
-F 3 "~" H 12050 6800 50  0001 C CNN
-	1    12050 6800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R9
-U 1 1 605CAB75
-P 12450 6300
-F 0 "R9" H 12382 6254 50  0000 R CNN
-F 1 "150Ω 1%" H 12382 6345 50  0000 R CNN
-F 2 "" V 12490 6290 50  0001 C CNN
-F 3 "~" H 12450 6300 50  0001 C CNN
-	1    12450 6300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R10
-U 1 1 605EC647
-P 12450 6800
-F 0 "R10" H 12382 6754 50  0000 R CNN
-F 1 "150Ω 1%" H 12382 6845 50  0000 R CNN
-F 2 "" V 12490 6790 50  0001 C CNN
-F 3 "~" H 12450 6800 50  0001 C CNN
-	1    12450 6800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R11
-U 1 1 6060E14E
-P 12450 7300
-F 0 "R11" H 12382 7254 50  0000 R CNN
-F 1 "150Ω 1%" H 12382 7345 50  0000 R CNN
-F 2 "" V 12490 7290 50  0001 C CNN
-F 3 "~" H 12450 7300 50  0001 C CNN
-	1    12450 7300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12200 6300 12200 6100
-Wire Wire Line
-	12200 6100 13000 6100
-Connection ~ 13000 6100
-Wire Wire Line
-	12600 6300 12600 6150
-Wire Wire Line
-	12600 6150 13100 6150
-Connection ~ 13100 6150
-Wire Wire Line
-	12200 6800 12200 6750
-Wire Wire Line
-	12200 6750 12650 6750
-Wire Wire Line
-	12650 6750 12650 6200
-Wire Wire Line
-	12650 6200 13200 6200
-Connection ~ 13200 6200
-Wire Wire Line
-	12600 6800 12700 6800
-Wire Wire Line
-	12700 6800 12700 6250
-Wire Wire Line
-	12700 6250 13300 6250
-Connection ~ 13300 6250
-Wire Wire Line
-	13400 5150 13400 6300
-Wire Wire Line
-	12300 6300 12300 6800
-Wire Wire Line
-	11900 6300 11900 6800
-Wire Wire Line
-	12300 7300 12300 6800
-Connection ~ 12300 6800
-Wire Wire Line
-	12600 7300 12750 7300
-Wire Wire Line
-	12750 7300 12750 6300
-Wire Wire Line
-	12750 6300 13400 6300
-Connection ~ 13400 6300
-Wire Wire Line
-	13400 6300 13400 6350
-Wire Wire Line
-	11900 6800 11900 7300
-Wire Wire Line
-	11900 7300 12300 7300
-Connection ~ 11900 6800
-Connection ~ 12300 7300
-Wire Wire Line
-	11900 7300 11900 7400
-Connection ~ 11900 7300
-$Comp
-L power:GND #PWR020
-U 1 1 60874273
-P 11900 7400
-F 0 "#PWR020" H 11900 7150 50  0001 C CNN
-F 1 "GND" H 11905 7227 50  0000 C CNN
-F 2 "" H 11900 7400 50  0001 C CNN
-F 3 "" H 11900 7400 50  0001 C CNN
-	1    11900 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13000 6100 13000 7450
-Wire Wire Line
-	13100 6150 13100 7100
-Wire Wire Line
-	13200 6200 13200 6750
-Wire Wire Line
-	13300 6250 13300 6400
-Wire Wire Line
-	13400 6350 13700 6350
-$Comp
-L dk_Ferrite-Beads-and-Chips:BLM18PG121SN1D FB1
-U 1 1 60B93E39
-P 13000 7650
-F 0 "FB1" V 12947 7778 60  0000 L CNN
-F 1 "BLM18PG121SN1D" V 13053 7778 60  0000 L CNN
-F 2 "digikey-footprints:0603" H 13200 7850 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13200 7950 60  0001 L CNN
-F 4 "490-1037-1-ND" H 13200 8050 60  0001 L CNN "Digi-Key_PN"
-F 5 "BLM18PG121SN1D" H 13200 8150 60  0001 L CNN "MPN"
-F 6 "Filters" H 13200 8250 60  0001 L CNN "Category"
-F 7 "Ferrite Beads and Chips" H 13200 8350 60  0001 L CNN "Family"
-F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13200 8450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 13200 8550 60  0001 L CNN "DK_Detail_Page"
-F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 13200 8650 60  0001 L CNN "Description"
-F 11 "Murata Electronics North America" H 13200 8750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 13200 8850 60  0001 L CNN "Status"
-	1    13000 7650
-	0    1    1    0   
-$EndComp
-$Comp
-L dk_Ferrite-Beads-and-Chips:BLM18PG121SN1D FB2
-U 1 1 60B95D7C
-P 13100 7300
-F 0 "FB2" V 13047 7428 60  0000 L CNN
-F 1 "BLM18PG121SN1D" V 13153 7428 60  0000 L CNN
-F 2 "digikey-footprints:0603" H 13300 7500 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13300 7600 60  0001 L CNN
-F 4 "490-1037-1-ND" H 13300 7700 60  0001 L CNN "Digi-Key_PN"
-F 5 "BLM18PG121SN1D" H 13300 7800 60  0001 L CNN "MPN"
-F 6 "Filters" H 13300 7900 60  0001 L CNN "Category"
-F 7 "Ferrite Beads and Chips" H 13300 8000 60  0001 L CNN "Family"
-F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13300 8100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 13300 8200 60  0001 L CNN "DK_Detail_Page"
-F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 13300 8300 60  0001 L CNN "Description"
-F 11 "Murata Electronics North America" H 13300 8400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 13300 8500 60  0001 L CNN "Status"
-	1    13100 7300
-	0    1    1    0   
-$EndComp
-$Comp
-L dk_Ferrite-Beads-and-Chips:BLM18PG121SN1D FB3
-U 1 1 60C35FED
-P 13200 6950
-F 0 "FB3" V 13147 7078 60  0000 L CNN
-F 1 "BLM18PG121SN1D" V 13253 7078 60  0000 L CNN
-F 2 "digikey-footprints:0603" H 13400 7150 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13400 7250 60  0001 L CNN
-F 4 "490-1037-1-ND" H 13400 7350 60  0001 L CNN "Digi-Key_PN"
-F 5 "BLM18PG121SN1D" H 13400 7450 60  0001 L CNN "MPN"
-F 6 "Filters" H 13400 7550 60  0001 L CNN "Category"
-F 7 "Ferrite Beads and Chips" H 13400 7650 60  0001 L CNN "Family"
-F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13400 7750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 13400 7850 60  0001 L CNN "DK_Detail_Page"
-F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 13400 7950 60  0001 L CNN "Description"
-F 11 "Murata Electronics North America" H 13400 8050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 13400 8150 60  0001 L CNN "Status"
-	1    13200 6950
-	0    1    1    0   
-$EndComp
-$Comp
-L dk_Ferrite-Beads-and-Chips:BLM18PG121SN1D FB4
-U 1 1 60C35FFC
-P 13300 6600
-F 0 "FB4" V 13247 6728 60  0000 L CNN
-F 1 "BLM18PG121SN1D" V 13353 6728 60  0000 L CNN
-F 2 "digikey-footprints:0603" H 13500 6800 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13500 6900 60  0001 L CNN
-F 4 "490-1037-1-ND" H 13500 7000 60  0001 L CNN "Digi-Key_PN"
-F 5 "BLM18PG121SN1D" H 13500 7100 60  0001 L CNN "MPN"
-F 6 "Filters" H 13500 7200 60  0001 L CNN "Category"
-F 7 "Ferrite Beads and Chips" H 13500 7300 60  0001 L CNN "Family"
-F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13500 7400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 13500 7500 60  0001 L CNN "DK_Detail_Page"
-F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 13500 7600 60  0001 L CNN "Description"
-F 11 "Murata Electronics North America" H 13500 7700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 13500 7800 60  0001 L CNN "Status"
-	1    13300 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L dk_Ferrite-Beads-and-Chips:BLM18PG121SN1D FB5
-U 1 1 60C5C755
-P 13900 6350
-F 0 "FB5" V 13847 6478 60  0000 L CNN
-F 1 "BLM18PG121SN1D" V 13953 6478 60  0000 L CNN
-F 2 "digikey-footprints:0603" H 14100 6550 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 14100 6650 60  0001 L CNN
-F 4 "490-1037-1-ND" H 14100 6750 60  0001 L CNN "Digi-Key_PN"
-F 5 "BLM18PG121SN1D" H 14100 6850 60  0001 L CNN "MPN"
-F 6 "Filters" H 14100 6950 60  0001 L CNN "Category"
-F 7 "Ferrite Beads and Chips" H 14100 7050 60  0001 L CNN "Family"
-F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 14100 7150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 14100 7250 60  0001 L CNN "DK_Detail_Page"
-F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 14100 7350 60  0001 L CNN "Description"
-F 11 "Murata Electronics North America" H 14100 7450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 14100 7550 60  0001 L CNN "Status"
-	1    13900 6350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5F8174A5
-P 12350 2000
-F 0 "#PWR03" H 12350 1750 50  0001 C CNN
-F 1 "GND" H 12355 1827 50  0000 C CNN
-F 2 "" H 12350 2000 50  0001 C CNN
-F 3 "" H 12350 2000 50  0001 C CNN
-	1    12350 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12350 1850 12350 2000
-Wire Wire Line
-	6950 1750 6350 1750
-Wire Wire Line
-	6950 1850 6250 1850
-Wire Wire Line
-	6950 1950 6150 1950
-Wire Wire Line
-	6900 3100 6900 3750
-Wire Wire Line
-	7000 3750 7000 3200
-Wire Wire Line
-	6700 3750 6700 1100
-Wire Wire Line
-	7850 2450 7850 2700
-Wire Wire Line
-	7750 2600 7750 2450
-$Comp
-L Connector1:Bus_PCI_Express_x16 J1
-U 1 1 5F88FEF0
-P 9650 1850
-F 0 "J1" V 9696 -894 50  0000 R CNN
-F 1 "Bus_PCI_Express_x16" V 9605 -894 50  0000 R CNN
-F 2 "Connector_PCBEdge:BUS_PCIexpress_x16" H 9650 2750 50  0001 C CNN
-F 3 "http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63" H 9600 1600 50  0001 C CNN
-	1    9650 1850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8150 3200 8150 2450
-Wire Wire Line
-	8050 2450 8050 3100
-Wire Wire Line
-	6900 3100 8050 3100
-Wire Wire Line
-	7000 3200 8150 3200
-Wire Wire Line
-	4000 2700 7850 2700
-Wire Wire Line
-	3900 2600 7750 2600
-Text Label 8950 2450 3    50   ~ 0
-PET0_P
-Text Label 9050 2450 3    50   ~ 0
-PET0_N
-Wire Wire Line
-	7850 1250 7850 1100
-Wire Wire Line
-	6700 1100 7850 1100
-Text Label 9150 2450 3    50   ~ 0
-PET1_P
-Text Label 9250 2450 3    50   ~ 0
-PET1_N
-Text Label 9350 2450 3    50   ~ 0
-PET2_P
-Text Label 9450 2450 3    50   ~ 0
-PET2_N
-Text Label 9550 2450 3    50   ~ 0
-PET3_P
-Text Label 9650 2450 3    50   ~ 0
-PET3_N
-Text Label 9750 2450 3    50   ~ 0
-PET4_P
-Text Label 9850 2450 3    50   ~ 0
-PET4_N
-Text Label 9950 2450 3    50   ~ 0
-PET5_P
-Text Label 10050 2450 3    50   ~ 0
-PET5_N
-Text Label 10150 2450 3    50   ~ 0
-PET6_P
-Text Label 10250 2450 3    50   ~ 0
-PET6_N
-Text Label 10350 2450 3    50   ~ 0
-PET7_P
-Text Label 10450 2450 3    50   ~ 0
-PET7_N
-Text Label 10550 2450 3    50   ~ 0
-PET8_P
-Text Label 10650 2450 3    50   ~ 0
-PET8_N
-Text Label 10750 2450 3    50   ~ 0
-PET9_P
-Text Label 10850 2450 3    50   ~ 0
-PET9_N
-Text Label 10950 2450 3    50   ~ 0
-PET10_P
-Text Label 11050 2450 3    50   ~ 0
-PET10_N
-Text Label 11150 2450 3    50   ~ 0
-PET11_P
-Text Label 11250 2450 3    50   ~ 0
-PET11_N
-Text Label 11350 2450 3    50   ~ 0
-PET12_P
-Text Label 11450 2450 3    50   ~ 0
-PET12_N
-Text Label 11550 2450 3    50   ~ 0
-PET13_P
-Text Label 11650 2450 3    50   ~ 0
-PET13_N
-Text Label 11750 2450 3    50   ~ 0
-PET14_P
-Text Label 11850 2450 3    50   ~ 0
-PET14_N
-Text Label 11950 2450 3    50   ~ 0
-PET15_P
-Text Label 12050 2450 3    50   ~ 0
-PET15_N
 Text Label 10100 3750 1    50   ~ 0
 PET0_P
 Text Label 10200 3750 1    50   ~ 0
@@ -1513,70 +829,6 @@ Text Label 7100 3750 1    50   ~ 0
 PET15_P
 Text Label 7200 3750 1    50   ~ 0
 PET15_N
-Text Label 8950 1250 1    50   ~ 0
-PER0_P
-Text Label 9050 1250 1    50   ~ 0
-PER0_N
-Text Label 9150 1250 1    50   ~ 0
-PER1_P
-Text Label 9250 1250 1    50   ~ 0
-PER1_N
-Text Label 9350 1250 1    50   ~ 0
-PER2_P
-Text Label 9450 1250 1    50   ~ 0
-PER2_N
-Text Label 9550 1250 1    50   ~ 0
-PER3_P
-Text Label 9650 1250 1    50   ~ 0
-PER3_N
-Text Label 9750 1250 1    50   ~ 0
-PER4_P
-Text Label 9850 1250 1    50   ~ 0
-PER4_N
-Text Label 9950 1250 1    50   ~ 0
-PER5_P
-Text Label 10050 1250 1    50   ~ 0
-PER5_N
-Text Label 10150 1250 1    50   ~ 0
-PER6_P
-Text Label 10250 1250 1    50   ~ 0
-PER6_N
-Text Label 10350 1250 1    50   ~ 0
-PER7_P
-Text Label 10450 1250 1    50   ~ 0
-PER7_N
-Text Label 10550 1250 1    50   ~ 0
-PER8_P
-Text Label 10650 1250 1    50   ~ 0
-PER8_N
-Text Label 10750 1250 1    50   ~ 0
-PER9_P
-Text Label 10850 1250 1    50   ~ 0
-PER9_N
-Text Label 10950 1250 1    50   ~ 0
-PER10_P
-Text Label 11050 1250 1    50   ~ 0
-PER10_N
-Text Label 11150 1250 1    50   ~ 0
-PER11_P
-Text Label 11250 1250 1    50   ~ 0
-PER11_N
-Text Label 11350 1250 1    50   ~ 0
-PER12_P
-Text Label 11450 1250 1    50   ~ 0
-PER12_N
-Text Label 11550 1250 1    50   ~ 0
-PER13_P
-Text Label 11650 1250 1    50   ~ 0
-PER13_N
-Text Label 11750 1250 1    50   ~ 0
-PER14_P
-Text Label 11850 1250 1    50   ~ 0
-PER14_N
-Text Label 11950 1250 1    50   ~ 0
-PER15_P
-Text Label 12050 1250 1    50   ~ 0
-PER15_N
 Text Label 13300 3750 1    50   ~ 0
 PER0_P
 Text Label 13400 3750 1    50   ~ 0
@@ -1645,24 +897,22 @@ Text Label 3300 3750 1    50   ~ 0
 PWR_EN
 Text Label 3800 3750 1    50   ~ 0
 TH_OVERT#
-Text Label 6600 3750 1    50   ~ 0
-PERST
-Text Label 8150 1250 1    50   ~ 0
+Text Label 7650 1250 1    50   ~ 0
 PERST
 Text Label 12100 5150 3    50   ~ 0
 WAKE
-Text Label 8050 1250 1    50   ~ 0
+Text Label 7550 1250 1    50   ~ 0
 WAKE
 $Comp
 L Device:C C14
 U 1 1 60E50F2F
 P 16250 1750
 F 0 "C14" H 16365 1796 50  0000 L CNN
-F 1 "C" H 16365 1705 50  0000 L CNN
+F 1 "22μF" H 16365 1705 50  0000 L CNN
 F 2 "" H 16288 1600 50  0001 C CNN
 F 3 "~" H 16250 1750 50  0001 C CNN
 	1    16250 1750
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	16400 1750 16450 1750
@@ -1671,14 +921,10 @@ Wire Wire Line
 Wire Wire Line
 	16450 1350 16450 1750
 Wire Wire Line
-	16450 1750 16450 2050
-Wire Wire Line
-	16450 2050 16400 2050
+	16450 2150 16400 2150
 Connection ~ 16450 1750
 Wire Wire Line
-	16100 2050 16050 2050
-Wire Wire Line
-	16050 2050 16050 1750
+	16100 2150 16050 2150
 Connection ~ 16050 1750
 Wire Wire Line
 	16050 1750 16100 1750
@@ -1705,14 +951,1606 @@ DP_D_L3
 Text Label 4200 5150 3    50   ~ 0
 DP_D_L3#
 $Comp
-L Motor:Fan_4pin M?
+L Motor:Fan_4pin J6
 U 1 1 5F8255D4
-P 15750 4750
-F 0 "M?" H 15908 4846 50  0000 L CNN
-F 1 "Fan_4pin" H 15908 4755 50  0000 L CNN
-F 2 "" H 15750 4760 50  0001 C CNN
-F 3 "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf" H 15750 4760 50  0001 C CNN
-	1    15750 4750
+P 15850 5150
+F 0 "J6" H 16008 5246 50  0000 L CNN
+F 1 "Fan_4pin" H 16008 5155 50  0000 L CNN
+F 2 "" H 15850 5160 50  0001 C CNN
+F 3 "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf" H 15850 5160 50  0001 C CNN
+	1    15850 5150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7250 2450 7250 2600
+Wire Wire Line
+	7350 2450 7350 2700
+Text Label 6900 3750 1    50   ~ 0
+REFCLK_P
+Text Label 7000 3750 1    50   ~ 0
+REFCLK_N
+Text Label 2900 4550 0    50   ~ 0
+SH
+Wire Wire Line
+	3900 2600 5050 2600
+Wire Wire Line
+	4000 2700 5150 2700
+Wire Wire Line
+	4000 2700 4000 3750
+Wire Wire Line
+	3900 3750 3900 2600
+Text Label 6600 3750 1    50   ~ 0
+PERST
+$Comp
+L power:+5V #PWR013
+U 1 1 5F8C325D
+P 3700 9350
+F 0 "#PWR013" H 3700 9200 50  0001 C CNN
+F 1 "+5V" H 3715 9523 50  0000 C CNN
+F 2 "" H 3700 9350 50  0001 C CNN
+F 3 "" H 3700 9350 50  0001 C CNN
+	1    3700 9350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 9150 3700 9350
+Text Label 2700 8750 1    50   ~ 0
+CK_P
+Text Label 2600 8750 1    50   ~ 0
+CK_N
+Text Label 2900 8750 1    50   ~ 0
+D0_P
+Text Label 2800 8750 1    50   ~ 0
+D0_N
+Text Label 3300 8750 1    50   ~ 0
+D2_P
+Text Label 3200 8750 1    50   ~ 0
+D2_N
+Text Label 3100 8750 1    50   ~ 0
+D1_P
+Text Label 3000 8750 1    50   ~ 0
+D1_N
+Text GLabel 2400 8750 1    50   UnSpc ~ 0
+CEC
+Wire Wire Line
+	3600 9150 3700 9150
+Text GLabel 12200 5150 3    50   UnSpc ~ 0
+CEC
+Wire Wire Line
+	1400 9350 1300 9350
+Wire Wire Line
+	1300 9350 1300 9450
+Wire Wire Line
+	1300 9450 1400 9450
+Wire Wire Line
+	1400 8950 1300 8950
+Wire Wire Line
+	1300 8950 1300 9050
+Connection ~ 1300 9350
+Wire Wire Line
+	1400 9250 1300 9250
+Connection ~ 1300 9250
+Wire Wire Line
+	1300 9250 1300 9350
+Wire Wire Line
+	1400 9150 1300 9150
+Connection ~ 1300 9150
+Wire Wire Line
+	1300 9150 1300 9250
+Wire Wire Line
+	1400 9050 1300 9050
+Connection ~ 1300 9050
+Wire Wire Line
+	1300 9050 1300 9150
+Wire Wire Line
+	1300 9350 1150 9350
+Wire Wire Line
+	1150 9350 1150 9250
+$Comp
+L power:GND #PWR017
+U 1 1 5F9F4434
+P 1150 9250
+F 0 "#PWR017" H 1150 9000 50  0001 C CNN
+F 1 "GND" H 1155 9077 50  0000 C CNN
+F 2 "" H 1150 9250 50  0001 C CNN
+F 3 "" H 1150 9250 50  0001 C CNN
+	1    1150 9250
+	-1   0    0    1   
+$EndComp
+Text Label 2200 7850 1    50   ~ 0
+TMDS_SCL
+Text Label 2100 7850 1    50   ~ 0
+TMDS_SDA
+Text Label 5000 3750 1    50   ~ 0
+CK_P
+Text Label 5100 3750 1    50   ~ 0
+CK_N
+Text Label 4200 3750 1    50   ~ 0
+D0_P
+Text Label 4300 3750 1    50   ~ 0
+D0_N
+Text Label 4600 3750 1    50   ~ 0
+D2_P
+Text Label 4700 3750 1    50   ~ 0
+D2_N
+Text Label 4400 3750 1    50   ~ 0
+D1_P
+Text Label 4500 3750 1    50   ~ 0
+D1_N
+Text Label 5200 3750 1    50   ~ 0
+TMDS_SCL
+Text Label 5300 3750 1    50   ~ 0
+TMDS_SDA
+Text Label 1800 8250 1    50   ~ 0
+TMDS_HPD
+Text Label 6400 3750 1    50   ~ 0
+TMDS_HPD
+Wire Wire Line
+	1800 8250 1800 8550
+Wire Wire Line
+	1800 8550 1300 8550
+Wire Wire Line
+	1300 8550 1300 8600
+Connection ~ 1800 8550
+Wire Wire Line
+	1800 8550 1800 8750
+$Comp
+L Device:R_US R6
+U 1 1 5FADFD59
+P 1300 8750
+F 0 "R6" H 1368 8796 50  0000 L CNN
+F 1 "100K" H 1368 8705 50  0000 L CNN
+F 2 "" V 1340 8740 50  0001 C CNN
+F 3 "~" H 1300 8750 50  0001 C CNN
+	1    1300 8750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 8900 1300 8950
+Connection ~ 1300 8950
+Wire Notes Line
+	16500 4200 14650 4200
+Wire Notes Line
+	14650 4200 14650 5950
+Wire Notes Line
+	14650 5950 16500 5950
+Wire Notes Line
+	16500 5950 16500 4200
+Wire Wire Line
+	13400 3750 13400 3300
+Wire Wire Line
+	13300 3750 13300 3300
+Entry Wire Line
+	13300 3200 13400 3300
+Entry Wire Line
+	13200 3200 13300 3300
+Wire Wire Line
+	6450 1950 5650 1950
+Wire Wire Line
+	6450 1850 5750 1850
+Wire Wire Line
+	6450 1750 5850 1750
+Entry Wire Line
+	8650 700  8550 800 
+Entry Wire Line
+	8550 700  8450 800 
+Wire Wire Line
+	8550 1250 8550 800 
+Wire Wire Line
+	8450 2450 8450 2900
+Wire Wire Line
+	8550 2450 8550 2900
+Entry Wire Line
+	8550 3000 8450 2900
+Entry Wire Line
+	8650 3000 8550 2900
+Wire Wire Line
+	13200 3750 13200 3300
+Wire Wire Line
+	13100 3750 13100 3300
+Entry Wire Line
+	13100 3200 13200 3300
+Entry Wire Line
+	13000 3200 13100 3300
+Wire Wire Line
+	13000 3750 13000 3300
+Wire Wire Line
+	12900 3750 12900 3300
+Entry Wire Line
+	12900 3200 13000 3300
+Entry Wire Line
+	12800 3200 12900 3300
+Wire Wire Line
+	12800 3750 12800 3300
+Wire Wire Line
+	12700 3750 12700 3300
+Entry Wire Line
+	12700 3200 12800 3300
+Entry Wire Line
+	12600 3200 12700 3300
+Wire Wire Line
+	12600 3750 12600 3300
+Wire Wire Line
+	12500 3750 12500 3300
+Entry Wire Line
+	12500 3200 12600 3300
+Entry Wire Line
+	12400 3200 12500 3300
+Wire Wire Line
+	12400 3750 12400 3300
+Wire Wire Line
+	12300 3750 12300 3300
+Entry Wire Line
+	12300 3200 12400 3300
+Entry Wire Line
+	12200 3200 12300 3300
+Wire Wire Line
+	12200 3750 12200 3300
+Wire Wire Line
+	12100 3750 12100 3300
+Entry Wire Line
+	12100 3200 12200 3300
+Entry Wire Line
+	12000 3200 12100 3300
+Wire Wire Line
+	12000 3750 12000 3300
+Wire Wire Line
+	11900 3750 11900 3300
+Entry Wire Line
+	11900 3200 12000 3300
+Entry Wire Line
+	11800 3200 11900 3300
+Wire Wire Line
+	11800 3750 11800 3300
+Wire Wire Line
+	11700 3750 11700 3300
+Entry Wire Line
+	11700 3200 11800 3300
+Entry Wire Line
+	11600 3200 11700 3300
+Wire Wire Line
+	11600 3750 11600 3300
+Wire Wire Line
+	11500 3750 11500 3300
+Entry Wire Line
+	11500 3200 11600 3300
+Entry Wire Line
+	11400 3200 11500 3300
+Wire Wire Line
+	11400 3750 11400 3300
+Wire Wire Line
+	11300 3750 11300 3300
+Entry Wire Line
+	11300 3200 11400 3300
+Entry Wire Line
+	11200 3200 11300 3300
+Wire Wire Line
+	11200 3750 11200 3300
+Wire Wire Line
+	11100 3750 11100 3300
+Entry Wire Line
+	11100 3200 11200 3300
+Entry Wire Line
+	11000 3200 11100 3300
+Wire Wire Line
+	11000 3750 11000 3300
+Wire Wire Line
+	10900 3750 10900 3300
+Entry Wire Line
+	10900 3200 11000 3300
+Entry Wire Line
+	10800 3200 10900 3300
+Wire Wire Line
+	10800 3750 10800 3300
+Wire Wire Line
+	10700 3750 10700 3300
+Entry Wire Line
+	10700 3200 10800 3300
+Entry Wire Line
+	10600 3200 10700 3300
+Wire Wire Line
+	10600 3750 10600 3300
+Wire Wire Line
+	10500 3750 10500 3300
+Entry Wire Line
+	10500 3200 10600 3300
+Entry Wire Line
+	10400 3200 10500 3300
+Wire Wire Line
+	10400 3750 10400 3300
+Wire Wire Line
+	10300 3750 10300 3300
+Entry Wire Line
+	10300 3200 10400 3300
+Entry Wire Line
+	10200 3200 10300 3300
+Wire Wire Line
+	10200 3750 10200 3300
+Wire Wire Line
+	10100 3750 10100 3300
+Entry Wire Line
+	10100 3200 10200 3300
+Entry Wire Line
+	10000 3200 10100 3300
+Wire Wire Line
+	10000 3750 10000 3300
+Wire Wire Line
+	9900 3750 9900 3300
+Entry Wire Line
+	9900 3200 10000 3300
+Entry Wire Line
+	9800 3200 9900 3300
+Wire Wire Line
+	9800 3750 9800 3300
+Wire Wire Line
+	9700 3750 9700 3300
+Entry Wire Line
+	9700 3200 9800 3300
+Entry Wire Line
+	9600 3200 9700 3300
+Wire Wire Line
+	9600 3750 9600 3300
+Wire Wire Line
+	9500 3750 9500 3300
+Entry Wire Line
+	9500 3200 9600 3300
+Entry Wire Line
+	9400 3200 9500 3300
+Wire Wire Line
+	9400 3750 9400 3300
+Wire Wire Line
+	9300 3750 9300 3300
+Entry Wire Line
+	9300 3200 9400 3300
+Entry Wire Line
+	9200 3200 9300 3300
+Wire Wire Line
+	9200 3750 9200 3300
+Wire Wire Line
+	9100 3750 9100 3300
+Entry Wire Line
+	9100 3200 9200 3300
+Entry Wire Line
+	9000 3200 9100 3300
+Wire Wire Line
+	9000 3750 9000 3300
+Wire Wire Line
+	8900 3750 8900 3300
+Entry Wire Line
+	8900 3200 9000 3300
+Entry Wire Line
+	8800 3200 8900 3300
+Wire Wire Line
+	8800 3750 8800 3300
+Wire Wire Line
+	8700 3750 8700 3300
+Entry Wire Line
+	8700 3200 8800 3300
+Entry Wire Line
+	8600 3200 8700 3300
+Wire Wire Line
+	8600 3750 8600 3300
+Wire Wire Line
+	8500 3750 8500 3300
+Entry Wire Line
+	8500 3200 8600 3300
+Entry Wire Line
+	8400 3200 8500 3300
+Wire Wire Line
+	8400 3750 8400 3300
+Wire Wire Line
+	8300 3750 8300 3300
+Entry Wire Line
+	8300 3200 8400 3300
+Entry Wire Line
+	8200 3200 8300 3300
+Wire Wire Line
+	8200 3750 8200 3300
+Wire Wire Line
+	8100 3750 8100 3300
+Entry Wire Line
+	8100 3200 8200 3300
+Entry Wire Line
+	8000 3200 8100 3300
+Wire Wire Line
+	8000 3750 8000 3300
+Wire Wire Line
+	7900 3750 7900 3300
+Entry Wire Line
+	7900 3200 8000 3300
+Entry Wire Line
+	7800 3200 7900 3300
+Wire Wire Line
+	7800 3750 7800 3300
+Wire Wire Line
+	7700 3750 7700 3300
+Entry Wire Line
+	7700 3200 7800 3300
+Entry Wire Line
+	7600 3200 7700 3300
+Wire Wire Line
+	7600 3750 7600 3300
+Wire Wire Line
+	7500 3750 7500 3300
+Entry Wire Line
+	7500 3200 7600 3300
+Entry Wire Line
+	7400 3200 7500 3300
+Wire Wire Line
+	7400 3750 7400 3300
+Wire Wire Line
+	7300 3750 7300 3300
+Entry Wire Line
+	7300 3200 7400 3300
+Entry Wire Line
+	7200 3200 7300 3300
+Wire Wire Line
+	7200 3750 7200 3300
+Wire Wire Line
+	7100 3750 7100 3300
+Entry Wire Line
+	7100 3200 7200 3300
+Entry Wire Line
+	7000 3200 7100 3300
+Wire Wire Line
+	15550 5250 15150 5250
+Text GLabel 15150 5250 0    50   Input ~ 0
+TH_PWM
+$Comp
+L PCIEx1toMXM3.0-rescue:BLM18PG121SN1D-dk_Ferrite-Beads-and-Chips FB5
+U 1 1 60C5C755
+P 15950 6700
+F 0 "FB5" V 15897 6828 60  0000 L CNN
+F 1 "BLM18PG121SN1D" V 16003 6828 60  0000 L CNN
+F 2 "digikey-footprints:0603" H 16150 6900 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 16150 7000 60  0001 L CNN
+F 4 "490-1037-1-ND" H 16150 7100 60  0001 L CNN "Digi-Key_PN"
+F 5 "BLM18PG121SN1D" H 16150 7200 60  0001 L CNN "MPN"
+F 6 "Filters" H 16150 7300 60  0001 L CNN "Category"
+F 7 "Ferrite Beads and Chips" H 16150 7400 60  0001 L CNN "Family"
+F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 16150 7500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 16150 7600 60  0001 L CNN "DK_Detail_Page"
+F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 16150 7700 60  0001 L CNN "Description"
+F 11 "Murata Electronics North America" H 16150 7800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 16150 7900 60  0001 L CNN "Status"
+	1    15950 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L PCIEx1toMXM3.0-rescue:BLM18PG121SN1D-dk_Ferrite-Beads-and-Chips FB4
+U 1 1 60C35FFC
+P 15350 6950
+F 0 "FB4" V 15297 7078 60  0000 L CNN
+F 1 "BLM18PG121SN1D" V 15403 7078 60  0000 L CNN
+F 2 "digikey-footprints:0603" H 15550 7150 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 15550 7250 60  0001 L CNN
+F 4 "490-1037-1-ND" H 15550 7350 60  0001 L CNN "Digi-Key_PN"
+F 5 "BLM18PG121SN1D" H 15550 7450 60  0001 L CNN "MPN"
+F 6 "Filters" H 15550 7550 60  0001 L CNN "Category"
+F 7 "Ferrite Beads and Chips" H 15550 7650 60  0001 L CNN "Family"
+F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 15550 7750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 15550 7850 60  0001 L CNN "DK_Detail_Page"
+F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 15550 7950 60  0001 L CNN "Description"
+F 11 "Murata Electronics North America" H 15550 8050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15550 8150 60  0001 L CNN "Status"
+	1    15350 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L PCIEx1toMXM3.0-rescue:BLM18PG121SN1D-dk_Ferrite-Beads-and-Chips FB3
+U 1 1 60C35FED
+P 15250 7300
+F 0 "FB3" V 15197 7428 60  0000 L CNN
+F 1 "BLM18PG121SN1D" V 15303 7428 60  0000 L CNN
+F 2 "digikey-footprints:0603" H 15450 7500 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 15450 7600 60  0001 L CNN
+F 4 "490-1037-1-ND" H 15450 7700 60  0001 L CNN "Digi-Key_PN"
+F 5 "BLM18PG121SN1D" H 15450 7800 60  0001 L CNN "MPN"
+F 6 "Filters" H 15450 7900 60  0001 L CNN "Category"
+F 7 "Ferrite Beads and Chips" H 15450 8000 60  0001 L CNN "Family"
+F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 15450 8100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 15450 8200 60  0001 L CNN "DK_Detail_Page"
+F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 15450 8300 60  0001 L CNN "Description"
+F 11 "Murata Electronics North America" H 15450 8400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15450 8500 60  0001 L CNN "Status"
+	1    15250 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L PCIEx1toMXM3.0-rescue:BLM18PG121SN1D-dk_Ferrite-Beads-and-Chips FB2
+U 1 1 60B95D7C
+P 15150 7650
+F 0 "FB2" V 15097 7778 60  0000 L CNN
+F 1 "BLM18PG121SN1D" V 15203 7778 60  0000 L CNN
+F 2 "digikey-footprints:0603" H 15350 7850 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 15350 7950 60  0001 L CNN
+F 4 "490-1037-1-ND" H 15350 8050 60  0001 L CNN "Digi-Key_PN"
+F 5 "BLM18PG121SN1D" H 15350 8150 60  0001 L CNN "MPN"
+F 6 "Filters" H 15350 8250 60  0001 L CNN "Category"
+F 7 "Ferrite Beads and Chips" H 15350 8350 60  0001 L CNN "Family"
+F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 15350 8450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 15350 8550 60  0001 L CNN "DK_Detail_Page"
+F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 15350 8650 60  0001 L CNN "Description"
+F 11 "Murata Electronics North America" H 15350 8750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15350 8850 60  0001 L CNN "Status"
+	1    15150 7650
+	0    1    1    0   
+$EndComp
+$Comp
+L PCIEx1toMXM3.0-rescue:BLM18PG121SN1D-dk_Ferrite-Beads-and-Chips FB1
+U 1 1 60B93E39
+P 15050 8000
+F 0 "FB1" V 14997 8128 60  0000 L CNN
+F 1 "BLM18PG121SN1D" V 15103 8128 60  0000 L CNN
+F 2 "digikey-footprints:0603" H 15250 8200 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 15250 8300 60  0001 L CNN
+F 4 "490-1037-1-ND" H 15250 8400 60  0001 L CNN "Digi-Key_PN"
+F 5 "BLM18PG121SN1D" H 15250 8500 60  0001 L CNN "MPN"
+F 6 "Filters" H 15250 8600 60  0001 L CNN "Category"
+F 7 "Ferrite Beads and Chips" H 15250 8700 60  0001 L CNN "Family"
+F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 15250 8800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 15250 8900 60  0001 L CNN "DK_Detail_Page"
+F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 15250 9000 60  0001 L CNN "Description"
+F 11 "Murata Electronics North America" H 15250 9100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15250 9200 60  0001 L CNN "Status"
+	1    15050 8000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15450 6700 15750 6700
+Wire Wire Line
+	15350 6600 15350 6750
+Wire Wire Line
+	15250 6550 15250 7100
+Wire Wire Line
+	15150 6500 15150 7450
+Wire Wire Line
+	15050 6450 15050 7800
+$Comp
+L power:GND #PWR020
+U 1 1 60874273
+P 13950 7750
+F 0 "#PWR020" H 13950 7500 50  0001 C CNN
+F 1 "GND" H 13955 7577 50  0000 C CNN
+F 2 "" H 13950 7750 50  0001 C CNN
+F 3 "" H 13950 7750 50  0001 C CNN
+	1    13950 7750
+	1    0    0    -1  
+$EndComp
+Connection ~ 13950 7650
+Wire Wire Line
+	13950 7650 13950 7750
+Connection ~ 14350 7650
+Connection ~ 13950 7150
+Wire Wire Line
+	13950 7650 14350 7650
+Wire Wire Line
+	13950 7150 13950 7650
+Wire Wire Line
+	15450 6650 15450 6700
+Wire Wire Line
+	14800 6650 15450 6650
+Wire Wire Line
+	14800 7650 14800 6650
+Wire Wire Line
+	14650 7650 14800 7650
+Connection ~ 14350 7150
+Wire Wire Line
+	14350 7650 14350 7150
+Wire Wire Line
+	13950 6650 13950 7150
+Wire Wire Line
+	14350 6650 14350 7150
+Wire Wire Line
+	14750 6600 15350 6600
+Wire Wire Line
+	14750 7150 14750 6600
+Wire Wire Line
+	14650 7150 14750 7150
+Wire Wire Line
+	14700 6550 15250 6550
+Wire Wire Line
+	14700 7100 14700 6550
+Wire Wire Line
+	14250 7100 14700 7100
+Wire Wire Line
+	14250 7150 14250 7100
+Wire Wire Line
+	14650 6500 15150 6500
+Wire Wire Line
+	14650 6650 14650 6500
+Wire Wire Line
+	14250 6450 15050 6450
+Wire Wire Line
+	14250 6650 14250 6450
+$Comp
+L Device:R_US R11
+U 1 1 6060E14E
+P 14500 7650
+F 0 "R11" H 14432 7604 50  0000 R CNN
+F 1 "150Ω 1%" H 14432 7695 50  0000 R CNN
+F 2 "" V 14540 7640 50  0001 C CNN
+F 3 "~" H 14500 7650 50  0001 C CNN
+	1    14500 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 605EC647
+P 14500 7150
+F 0 "R10" H 14432 7104 50  0000 R CNN
+F 1 "150Ω 1%" H 14432 7195 50  0000 R CNN
+F 2 "" V 14540 7140 50  0001 C CNN
+F 3 "~" H 14500 7150 50  0001 C CNN
+	1    14500 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R9
+U 1 1 605CAB75
+P 14500 6650
+F 0 "R9" H 14432 6604 50  0000 R CNN
+F 1 "150Ω 1%" H 14432 6695 50  0000 R CNN
+F 2 "" V 14540 6640 50  0001 C CNN
+F 3 "~" H 14500 6650 50  0001 C CNN
+	1    14500 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 6056507C
+P 14100 7150
+F 0 "R8" H 14032 7104 50  0000 R CNN
+F 1 "150Ω 1%" H 14032 7195 50  0000 R CNN
+F 2 "" V 14140 7140 50  0001 C CNN
+F 3 "~" H 14100 7150 50  0001 C CNN
+	1    14100 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 6049272E
+P 14100 6650
+F 0 "R7" H 14032 6604 50  0000 R CNN
+F 1 "150Ω 1%" H 14032 6695 50  0000 R CNN
+F 2 "" V 14140 6640 50  0001 C CNN
+F 3 "~" H 14100 6650 50  0001 C CNN
+	1    14100 6650
+	0    -1   -1   0   
+$EndComp
+Text Notes 15500 6550 0    50   ~ 0
+Note: VGA traces need to \nhave 50 OHM impedence \nfrom MXM to VGA port
+Text Notes 13900 6350 0    50   ~ 10
+VGA (DVI-I) Interface
+Text GLabel 15150 7850 2    50   UnSpc ~ 0
+VGA_VS
+Wire Notes Line
+	13850 6250 16500 6250
+Wire Notes Line
+	13850 8350 13850 6250
+Wire Notes Line
+	16500 8350 13850 8350
+Wire Notes Line
+	16500 6250 16500 8350
+Text GLabel 15350 7150 2    50   UnSpc ~ 0
+C2
+Text GLabel 16150 6700 2    50   UnSpc ~ 0
+C1
+Text GLabel 15050 8200 2    50   UnSpc ~ 0
+C4
+Text GLabel 15250 7500 2    50   UnSpc ~ 0
+C3
+Wire Wire Line
+	15050 6450 15050 6200
+Connection ~ 15050 6450
+Wire Wire Line
+	15150 6500 15150 6150
+Connection ~ 15150 6500
+Wire Wire Line
+	15250 6550 15250 6100
+Connection ~ 15250 6550
+Wire Wire Line
+	15350 6600 15350 6050
+Wire Wire Line
+	15350 6050 13300 6050
+Connection ~ 15350 6600
+Wire Wire Line
+	15450 6650 15450 6000
+Wire Wire Line
+	15450 6000 13400 6000
+Connection ~ 15450 6650
+Wire Wire Line
+	13100 5150 13100 6150
+Wire Wire Line
+	13300 5150 13300 6050
+Wire Wire Line
+	15250 6100 13200 6100
+Wire Wire Line
+	13200 6100 13200 5150
+Wire Wire Line
+	13100 6150 15150 6150
+Wire Wire Line
+	15050 6200 13000 6200
+Text Notes 14700 4350 0    50   ~ 10
+Cooling Fan Circuit
+Text Label 6500 6850 3    50   ~ 0
+DP_A_HPD
+Text Label 6600 6850 3    50   ~ 0
+DP_A_AUX_P
+Text Label 6700 6850 3    50   ~ 0
+DP_A_AUX_N
+Text Label 6800 6850 3    50   ~ 0
+DP_A_L3_P
+Text Label 6900 6850 3    50   ~ 0
+DP_A_L3_N
+Text Label 7000 6850 3    50   ~ 0
+DP_A_L2_P
+Text Label 7100 6850 3    50   ~ 0
+DP_A_L2_N
+Text Label 7200 6850 3    50   ~ 0
+DP_A_L1_P
+Text Label 7300 6850 3    50   ~ 0
+DP_A_L1_N
+Text Label 7400 6850 3    50   ~ 0
+DP_A_L0_P
+Text Label 7500 6850 3    50   ~ 0
+DP_A_L0_N
+Wire Notes Line
+	16500 8400 13850 8400
+Wire Notes Line
+	13850 8400 13850 9200
+Wire Notes Line
+	13850 9200 16500 9200
+Wire Notes Line
+	16500 9200 16500 8400
+Text Notes 13900 8500 0    50   ~ 10
+VGA Dummy Toggle
+Text Notes 15400 9150 0    50   ~ 0
+Fake presence of 1 display\n
+$Comp
+L Device:R_US R12
+U 1 1 608C4184
+P 14650 8800
+F 0 "R12" H 14582 8754 50  0000 R CNN
+F 1 "75Ω" H 14582 8845 50  0000 R CNN
+F 2 "" V 14690 8790 50  0001 C CNN
+F 3 "~" H 14650 8800 50  0001 C CNN
+	1    14650 8800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 8800 14350 8800
+Wire Wire Line
+	14800 8800 14950 8800
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 60936153
+P 15150 8800
+F 0 "SW1" H 15150 9035 50  0000 C CNN
+F 1 "SW_SPST" H 15150 8944 50  0000 C CNN
+F 2 "" H 15150 8800 50  0001 C CNN
+F 3 "~" H 15150 8800 50  0001 C CNN
+	1    15150 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 8800 15500 8800
+$Comp
+L power:GND #PWR024
+U 1 1 609920AD
+P 15500 8800
+F 0 "#PWR024" H 15500 8550 50  0001 C CNN
+F 1 "GND" V 15505 8672 50  0000 R CNN
+F 2 "" H 15500 8800 50  0001 C CNN
+F 3 "" H 15500 8800 50  0001 C CNN
+	1    15500 8800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 3750 6900 3350
+Wire Wire Line
+	6900 3350 6800 3350
+Wire Wire Line
+	6800 3350 6800 2900
+Wire Wire Line
+	6800 2900 7550 2900
+Wire Wire Line
+	7000 3750 7000 3300
+Wire Wire Line
+	7000 3300 6850 3300
+Wire Wire Line
+	6850 3300 6850 2950
+Wire Wire Line
+	6850 2950 7650 2950
+Wire Wire Line
+	7650 2950 7650 2450
+Wire Wire Line
+	15850 5350 15850 5450
+$Comp
+L power:GND #PWR026
+U 1 1 60A10591
+P 15850 5450
+F 0 "#PWR026" H 15850 5200 50  0001 C CNN
+F 1 "GND" V 15855 5322 50  0000 R CNN
+F 2 "" H 15850 5450 50  0001 C CNN
+F 3 "" H 15850 5450 50  0001 C CNN
+	1    15850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR025
+U 1 1 60ABDEBE
+P 15850 4450
+F 0 "#PWR025" H 15850 4300 50  0001 C CNN
+F 1 "+12V" H 15865 4623 50  0000 C CNN
+F 2 "" H 15850 4450 50  0001 C CNN
+F 3 "" H 15850 4450 50  0001 C CNN
+	1    15850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15550 5050 15150 5050
+NoConn ~ 15150 5050
+Wire Wire Line
+	15100 1350 14750 1350
+Wire Wire Line
+	14750 1350 14750 1400
+Wire Wire Line
+	14750 1700 14750 1750
+Wire Wire Line
+	14750 1750 15100 1750
+Connection ~ 15100 1750
+Wire Wire Line
+	13000 5150 13000 6200
+Text GLabel 14350 8800 0    50   UnSpc ~ 0
+C1
+Text Notes 600  1150 0    118  ~ 0
+1. This model only contains (1) HDMI 1.4 Type A\nconnector and a VGA dummy toggle.
+Wire Wire Line
+	13400 5150 13400 6000
+Text Notes 600  10300 0    50   ~ 0
+This HDMI port is optional for the test board,\nit doesn't have any protection features and likely\ndoesn't work that well but it's there if needed.
+Wire Notes Line
+	4500 10350 550  10350
+Wire Notes Line
+	550  6800 550  10350
+Wire Notes Line
+	4500 10350 4500 6800
+Wire Notes Line
+	4500 6800 550  6800
+Text Notes 600  6950 0    50   ~ 10
+HDMI Port 0 (TMDS)
+Text Notes 14700 5900 0    50   ~ 0
+No pin to plug tachometer in, it seems.
+Wire Notes Line
+	12750 500  14600 500 
+Wire Notes Line
+	14600 2300 12750 2300
+Wire Notes Line
+	14600 500  14600 2300
+Text Notes 12800 600  0    50   ~ 10
+Power control
+Wire Notes Line
+	12750 2300 12750 500 
+Wire Wire Line
+	15600 1900 15600 1750
+Wire Wire Line
+	16050 1750 16050 2150
+Wire Wire Line
+	16450 1750 16450 2150
+Text Notes 14700 2250 0    50   ~ 0
+*May not need all capacitors
+Wire Wire Line
+	7850 2450 7850 2550
+Wire Wire Line
+	7850 2550 7950 2550
+Wire Wire Line
+	7950 2550 7950 2450
+$Comp
+L power:+3.3VA #PWR018
+U 1 1 6109CDFA
+P 5750 1550
+F 0 "#PWR018" H 5750 1400 50  0001 C CNN
+F 1 "+3.3VA" H 5765 1723 50  0000 C CNN
+F 2 "" H 5750 1550 50  0001 C CNN
+F 3 "" H 5750 1550 50  0001 C CNN
+	1    5750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1550 5750 1850
+Wire Wire Line
+	5650 1300 5650 1950
+$Comp
+L power:+3.3VA #PWR019
+U 1 1 61122352
+P 13000 900
+F 0 "#PWR019" H 13000 750 50  0001 C CNN
+F 1 "+3.3VA" H 13015 1073 50  0000 C CNN
+F 2 "" H 13000 900 50  0001 C CNN
+F 3 "" H 13000 900 50  0001 C CNN
+	1    13000 900 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12000 5150
+NoConn ~ 7850 1250
+NoConn ~ 7950 1250
+NoConn ~ 8050 1250
+NoConn ~ 8150 1250
+NoConn ~ 8250 1250
+Text Label 11900 5150 3    50   ~ 0
+PRSNT_R#
+Text Label 13000 1250 3    50   ~ 0
+PRSNT_R#
+$Comp
+L Device:R_US R15
+U 1 1 612A24E4
+P 13000 1100
+F 0 "R15" H 12932 1054 50  0000 R CNN
+F 1 "100KΩ" H 12932 1145 50  0000 R CNN
+F 2 "" V 13040 1090 50  0001 C CNN
+F 3 "~" H 13000 1100 50  0001 C CNN
+	1    13000 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13000 900  13000 950 
+Connection ~ 13000 900 
+Text Notes 7750 7050 0    50   ~ 0
+Optional, and will likely be omitted.
+Text Notes 600  7050 0    50   ~ 0
+Available for LVDS/TMDS output testing and for usage as a display device.
+Text Notes 12800 2450 0    50   ~ 10
+PCIE  Device Mode Switch
+Text Notes 13150 3050 0    50   ~ 0
+VGA Compatible / 3D Render Device
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 614174B6
+P 13850 2750
+F 0 "SW2" H 13850 2985 50  0000 C CNN
+F 1 "SW_SPST" H 13850 2894 50  0000 C CNN
+F 2 "" H 13850 2750 50  0001 C CNN
+F 3 "~" H 13850 2750 50  0001 C CNN
+	1    13850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 2750 14200 2750
+$Comp
+L power:GND #PWR023
+U 1 1 614174BD
+P 14200 2750
+F 0 "#PWR023" H 14200 2500 50  0001 C CNN
+F 1 "GND" V 14205 2622 50  0000 R CNN
+F 2 "" H 14200 2750 50  0001 C CNN
+F 3 "" H 14200 2750 50  0001 C CNN
+	1    14200 2750
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	12750 2350 12750 3100
+Wire Notes Line
+	12750 3100 14600 3100
+Wire Notes Line
+	14600 2350 14600 3100
+Text Label 13400 1250 3    50   ~ 0
+TH_OVERT#
+$Comp
+L Device:R_US R17
+U 1 1 6155BB13
+P 13400 1100
+F 0 "R17" H 13332 1054 50  0000 R CNN
+F 1 "100KΩ" H 13332 1145 50  0000 R CNN
+F 2 "" V 13440 1090 50  0001 C CNN
+F 3 "~" H 13400 1100 50  0001 C CNN
+	1    13400 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13400 900  13400 950 
+Wire Wire Line
+	13000 900  13400 900 
+Wire Notes Line
+	14600 2350 12750 2350
+Text Label 14450 700  2    50   ~ 0
+PWR_EN
+Wire Wire Line
+	15850 4450 15850 4500
+Wire Wire Line
+	15850 4800 15850 4850
+$Comp
+L Device:L L1
+U 1 1 61806297
+P 16300 1000
+F 0 "L1" V 16490 1000 50  0000 C CNN
+F 1 "4.7μH" V 16399 1000 50  0000 C CNN
+F 2 "" H 16300 1000 50  0001 C CNN
+F 3 "~" H 16300 1000 50  0001 C CNN
+	1    16300 1000
+	-1   0    0    1   
+$EndComp
+Text Label 12600 5150 3    50   ~ 0
+VGA_DISABLE#
+Text Label 12850 2750 0    50   ~ 0
+VGA_DISABLE#
+Text Notes 15200 3000 0    50   ~ 0
+5V
+Text GLabel 15700 2950 1    50   Output ~ 0
+Enable
+Text GLabel 13950 700  0    50   Input ~ 0
+Enable
+$Comp
+L Device:R_US R14
+U 1 1 61EC0545
+P 2450 8050
+F 0 "R14" H 2382 8004 50  0000 R CNN
+F 1 "4.3KΩ" H 2382 8095 50  0000 R CNN
+F 2 "" V 2490 8040 50  0001 C CNN
+F 3 "~" H 2450 8050 50  0001 C CNN
+	1    2450 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R18
+U 1 1 61EDC855
+P 2450 8150
+F 0 "R18" H 2382 8104 50  0000 R CNN
+F 1 "4.3KΩ" H 2382 8195 50  0000 R CNN
+F 2 "" V 2490 8140 50  0001 C CNN
+F 3 "~" H 2450 8150 50  0001 C CNN
+	1    2450 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 8050 2300 8050
+Wire Wire Line
+	2100 8050 2100 8750
+Wire Wire Line
+	2200 8150 2300 8150
+Wire Wire Line
+	2200 8150 2200 8750
+Wire Wire Line
+	2100 8050 2100 7850
+Connection ~ 2100 8050
+Wire Wire Line
+	2200 8150 2200 7850
+Connection ~ 2200 8150
+Wire Wire Line
+	2600 8150 2700 8150
+Wire Wire Line
+	2700 8050 2600 8050
+$Comp
+L power:+3.3V #PWR012
+U 1 1 62075898
+P 2800 8050
+F 0 "#PWR012" H 2800 7900 50  0001 C CNN
+F 1 "+3.3V" H 2815 8223 50  0000 C CNN
+F 2 "" H 2800 8050 50  0001 C CNN
+F 3 "" H 2800 8050 50  0001 C CNN
+	1    2800 8050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 8050 2700 8150
+Wire Wire Line
+	2800 8050 2700 8050
+Connection ~ 2700 8050
+Text Notes 12800 2250 0    50   ~ 0
+Thermal shutdown is required. Send a \nPCIE reset signal when TH_OVERT# is\nhigh to prevent damage to MXM module.
+Text Notes 12350 9550 0    118  ~ 24
+PCIE x1 to MXM 3.0 adapter for basic use.
+Wire Notes Line
+	12300 6250 13800 6250
+Text Notes 12350 6350 0    50   ~ 10
+PCIE 6 Pin Power 
+Wire Notes Line
+	12300 8350 13800 8350
+Wire Notes Line
+	12300 6250 12300 8350
+Wire Notes Line
+	13800 6250 13800 8350
+Text Notes 12350 8300 0    50   ~ 0
+This external power input is \noptional. Traces need to be large, \nand protection is recommended,\nbut not needed.
+$Comp
+L SamacSys_Parts:208658-1081 J3
+U 1 1 62557FEA
+P 2500 9250
+F 0 "J3" V 2875 9250 50  0000 C CNN
+F 1 "208658-1081" V 2966 9250 50  0000 C CNN
+F 2 "2086581081" H 2250 10800 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/2086581081_sd.pdf" H 2250 10700 50  0001 L CNN
+F 4 "HDMI, Displayport & DVI Connectors 0.5mm HDMI Recep RA 19CKT" H 2250 10600 50  0001 L CNN "Description"
+F 5 "6.44" H 2250 10500 50  0001 L CNN "Height"
+F 6 "538-208658-1081" H 2250 10400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/208658-1081?qs=wnTfsH77Xs42S8XwiJrhYg%3D%3D" H 2250 10300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 2250 10200 50  0001 L CNN "Manufacturer_Name"
+F 9 "208658-1081" H 2250 10100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2500 9250
+	0    1    1    0   
+$EndComp
+Text GLabel 3600 3700 1    50   Output ~ 0
+TH_PWM
+NoConn ~ 1900 8750
+Wire Wire Line
+	13650 2750 12850 2750
+$Comp
+L Device:R_US R16
+U 1 1 6084BE52
+P 5050 2300
+F 0 "R16" H 4982 2254 50  0000 R CNN
+F 1 "2.2KΩ" H 4982 2345 50  0000 R CNN
+F 2 "" V 5090 2290 50  0001 C CNN
+F 3 "~" H 5050 2300 50  0001 C CNN
+	1    5050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R20
+U 1 1 6084BE58
+P 5150 2300
+F 0 "R20" H 5082 2254 50  0000 R CNN
+F 1 "2.2KΩ" H 5082 2345 50  0000 R CNN
+F 2 "" V 5190 2290 50  0001 C CNN
+F 3 "~" H 5150 2300 50  0001 C CNN
+	1    5150 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2150 5150 2050
+Wire Wire Line
+	5050 2050 5050 2150
+$Comp
+L power:+3.3V #PWR029
+U 1 1 6084BE60
+P 5050 1950
+F 0 "#PWR029" H 5050 1800 50  0001 C CNN
+F 1 "+3.3V" H 5065 2123 50  0000 C CNN
+F 2 "" H 5050 1950 50  0001 C CNN
+F 3 "" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2050 5150 2050
+Wire Wire Line
+	5050 1950 5050 2050
+Connection ~ 5050 2050
+Wire Wire Line
+	5050 2450 5050 2600
+Connection ~ 5050 2600
+Wire Wire Line
+	5050 2600 7250 2600
+Wire Wire Line
+	5150 2450 5150 2700
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 7350 2700
+Text Notes 550  750  0    118  ~ 24
+Notes:
+Text Notes 600  1400 0    118  ~ 0
+2. SMBus lines are optional.
+Text Notes 600  1650 0    118  ~ 0
+3. CLKREQ is optional.
+NoConn ~ 8400 5150
+NoConn ~ 8500 5150
+NoConn ~ 8600 5150
+NoConn ~ 8700 5150
+NoConn ~ 8800 5150
+NoConn ~ 8900 5150
+NoConn ~ 9000 5150
+NoConn ~ 9100 5150
+NoConn ~ 9200 5150
+NoConn ~ 9300 5150
+NoConn ~ 9400 5150
+NoConn ~ 10500 5150
+NoConn ~ 9500 5150
+NoConn ~ 9600 5150
+NoConn ~ 9700 5150
+NoConn ~ 9800 5150
+NoConn ~ 9900 5150
+NoConn ~ 10000 5150
+NoConn ~ 10100 5150
+NoConn ~ 10200 5150
+NoConn ~ 10300 5150
+NoConn ~ 10400 5150
+NoConn ~ 10600 5150
+NoConn ~ 10700 5150
+NoConn ~ 10800 5150
+NoConn ~ 10900 5150
+NoConn ~ 11000 5150
+NoConn ~ 11100 5150
+NoConn ~ 11200 5150
+NoConn ~ 11300 5150
+NoConn ~ 11400 5150
+NoConn ~ 11500 5150
+Text Label 5800 2600 0    50   ~ 0
+SMCLK
+Text Label 5800 2700 0    50   ~ 0
+SMDAT
+Wire Wire Line
+	14900 3000 15350 3000
+$Comp
+L Device:R_US R1
+U 1 1 60F3A2E6
+P 15700 3200
+F 0 "R1" V 15495 3200 50  0000 C CNN
+F 1 "1KΩ" V 15586 3200 50  0000 C CNN
+F 2 "" V 15740 3190 50  0001 C CNN
+F 3 "~" H 15700 3200 50  0001 C CNN
+	1    15700 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15700 3050 15700 3000
+Connection ~ 15700 3000
+Wire Wire Line
+	15700 3000 15750 3000
+Wire Wire Line
+	15700 2950 15700 3000
+Text Notes 14700 4100 0    50   ~ 0
+Signals when 5V power is available.\nPWR_EN can be asserted when 5V\nrail is on and stablized.
+Wire Wire Line
+	3600 3700 3600 3750
+$Comp
+L Device:C_Small C16
+U 1 1 610BB377
+P 14150 950
+F 0 "C16" V 14379 950 50  0000 C CNN
+F 1 "0.1μF 16V" V 14288 950 50  0000 C CNN
+F 2 "" H 14150 950 50  0001 C CNN
+F 3 "~" H 14150 950 50  0001 C CNN
+	1    14150 950 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 850  14150 700 
+Connection ~ 14150 700 
+Wire Wire Line
+	14150 700  14450 700 
+Wire Wire Line
+	13950 700  14150 700 
+$Comp
+L power:GND #PWR010
+U 1 1 6129EB32
+P 14150 1100
+F 0 "#PWR010" H 14150 850 50  0001 C CNN
+F 1 "GND" H 14155 927 50  0000 C CNN
+F 2 "" H 14150 1100 50  0001 C CNN
+F 3 "" H 14150 1100 50  0001 C CNN
+	1    14150 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 1050 14150 1100
+NoConn ~ 11600 5150
+NoConn ~ 11700 5150
+NoConn ~ 11800 5150
+$Comp
+L Device:C C15
+U 1 1 613A1070
+P 13850 4700
+F 0 "C15" H 13965 4746 50  0000 L CNN
+F 1 "22μF" H 13965 4655 50  0000 L CNN
+F 2 "" H 13888 4550 50  0001 C CNN
+F 3 "~" H 13850 4700 50  0001 C CNN
+	1    13850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 613A1076
+P 14250 4700
+F 0 "C17" H 14365 4746 50  0000 L CNN
+F 1 "22μF" H 14365 4655 50  0000 L CNN
+F 2 "" H 14288 4550 50  0001 C CNN
+F 3 "~" H 14250 4700 50  0001 C CNN
+	1    14250 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 13850 4550
+Wire Wire Line
+	13850 4550 14250 4550
+Connection ~ 14250 4550
+Wire Wire Line
+	13850 4850 14250 4850
+$Comp
+L power:GND #PWR028
+U 1 1 6140233E
+P 14250 4900
+F 0 "#PWR028" H 14250 4650 50  0001 C CNN
+F 1 "GND" H 14255 4727 50  0000 C CNN
+F 2 "" H 14250 4900 50  0001 C CNN
+F 3 "" H 14250 4900 50  0001 C CNN
+	1    14250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14250 4900 14250 4850
+Wire Wire Line
+	13400 1250 13400 1650
+Wire Wire Line
+	13400 1650 13550 1650
+$Comp
+L Transistor_BJT:BC848 Q1
+U 1 1 61450255
+P 13750 1650
+F 0 "Q1" H 13941 1696 50  0000 L CNN
+F 1 "BC848" H 13941 1605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13950 1575 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 13750 1650 50  0001 L CNN
+	1    13750 1650
+	1    0    0    -1  
+$EndComp
+Text Label 13750 1900 2    50   ~ 0
+PERST
+Wire Wire Line
+	13750 1900 13850 1900
+Wire Wire Line
+	13850 1900 13850 1850
+Wire Wire Line
+	13850 1450 13850 900 
+Wire Wire Line
+	13850 900  13400 900 
+Connection ~ 13400 900 
+$Comp
+L Diode:PMEG4010ET D5
+U 1 1 614E2E0D
+P 16050 1350
+F 0 "D5" H 16050 1134 50  0000 C CNN
+F 1 "PMEG4010ET" H 16050 1225 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 16050 1175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf" H 16050 1350 50  0001 C CNN
+	1    16050 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:PMEG4010ET D7
+U 1 1 6156F328
+P 15850 4650
+F 0 "D7" V 15896 4729 50  0000 L CNN
+F 1 "PMEG4010ET" V 15805 4729 50  0000 L CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 15850 4475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf" H 15850 4650 50  0001 C CNN
+	1    15850 4650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Diode:PMEG4010ET D1
+U 1 1 61620706
+P 15100 1100
+F 0 "D1" H 15100 1316 50  0000 C CNN
+F 1 "PMEG4010ET" H 15100 1225 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 15100 925 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf" H 15100 1100 50  0001 C CNN
+	1    15100 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15100 1350 15100 1250
+Wire Wire Line
+	16200 1350 16300 1350
+Wire Wire Line
+	16300 750  16300 850 
+Wire Wire Line
+	16300 1150 16300 1350
+Connection ~ 16300 1350
+Wire Wire Line
+	16300 1350 16450 1350
+Text Notes 600  2050 0    118  ~ 0
+4. You may ignore some of the diodes.\n   They are for protection.
+$Comp
+L SamacSys_Parts:45558-0003 J4
+U 1 1 621FF001
+P 12650 7000
+F 0 "J4" H 13050 7265 50  0000 C CNN
+F 1 "45558-0003" H 13050 7174 50  0000 C CNN
+F 2 "455580003" H 13300 7100 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/455580003_sd.pdf" H 13300 7000 50  0001 L CNN
+F 4 "MOLEX - 45558-0003 - CONNECTOR, HEADER, 6POS, 2ROW, 4.2MM" H 13300 6900 50  0001 L CNN "Description"
+F 5 "10" H 13300 6800 50  0001 L CNN "Height"
+F 6 "538-45558-0003" H 13300 6700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/45558-0003?qs=c7kbnNtxOmgPtIF7q2whYA%3D%3D" H 13300 6600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 13300 6500 50  0001 L CNN "Manufacturer_Name"
+F 9 "45558-0003" H 13300 6400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    12650 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 7000 13500 7000
+Wire Wire Line
+	12650 7200 12600 7200
+Wire Wire Line
+	12600 7200 12600 7100
+Wire Wire Line
+	12600 7100 12650 7100
+Wire Wire Line
+	12650 7000 12600 7000
+Wire Wire Line
+	12600 7000 12600 7100
+Connection ~ 12600 7100
+$Comp
+L power:GND #PWR021
+U 1 1 6225D602
+P 12600 7300
+F 0 "#PWR021" H 12600 7050 50  0001 C CNN
+F 1 "GND" H 12605 7127 50  0000 C CNN
+F 2 "" H 12600 7300 50  0001 C CNN
+F 3 "" H 12600 7300 50  0001 C CNN
+	1    12600 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 7200 12600 7300
+Connection ~ 12600 7200
+Wire Wire Line
+	13450 7100 13500 7100
+Wire Wire Line
+	13500 7100 13500 7000
+Wire Wire Line
+	13450 7200 13500 7200
+Wire Wire Line
+	13500 7200 13500 7100
+Connection ~ 13500 7100
+$Comp
+L power:+12V #PWR022
+U 1 1 624F7081
+P 13500 7300
+F 0 "#PWR022" H 13500 7150 50  0001 C CNN
+F 1 "+12V" H 13515 7473 50  0000 C CNN
+F 2 "" H 13500 7300 50  0001 C CNN
+F 3 "" H 13500 7300 50  0001 C CNN
+	1    13500 7300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13500 7300 13500 7200
+Connection ~ 13500 7200
+Wire Wire Line
+	8450 1250 8450 800 
+Wire Wire Line
+	7550 2900 7550 2450
+Text Label 7650 2450 3    50   ~ 0
+REFCLK_N
+Text Label 7550 2450 3    50   ~ 0
+REFCLK_P
+$Comp
+L Connector:Bus_PCI_Express_x16 J1
+U 1 1 60419948
+P 9150 1850
+F 0 "J1" V 9104 -893 50  0000 R CNN
+F 1 "Bus_PCI_Express_x16" H 9550 -1100 50  0000 R CNN
+F 2 "Connector_PCBEdge:BUS_PCIexpress_x16" H 9150 2750 50  0001 C CNN
+F 3 "http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63" H 9100 1600 50  0001 C CNN
+	1    9150 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 2450 8650 2900
+Wire Wire Line
+	8750 2450 8750 2900
+Entry Wire Line
+	8750 3000 8650 2900
+Entry Wire Line
+	8850 3000 8750 2900
+Wire Wire Line
+	8850 2450 8850 2900
+Wire Wire Line
+	8950 2450 8950 2900
+Entry Wire Line
+	8950 3000 8850 2900
+Entry Wire Line
+	9050 3000 8950 2900
+Wire Wire Line
+	9050 2450 9050 2900
+Wire Wire Line
+	9150 2450 9150 2900
+Entry Wire Line
+	9150 3000 9050 2900
+Entry Wire Line
+	9250 3000 9150 2900
+Wire Wire Line
+	9250 2450 9250 2900
+Wire Wire Line
+	9350 2450 9350 2900
+Entry Wire Line
+	9350 3000 9250 2900
+Entry Wire Line
+	9450 3000 9350 2900
+Wire Wire Line
+	9450 2450 9450 2900
+Wire Wire Line
+	9550 2450 9550 2900
+Entry Wire Line
+	9550 3000 9450 2900
+Entry Wire Line
+	9650 3000 9550 2900
+Wire Wire Line
+	9650 2450 9650 2900
+Wire Wire Line
+	9750 2450 9750 2900
+Entry Wire Line
+	9750 3000 9650 2900
+Entry Wire Line
+	9850 3000 9750 2900
+Wire Wire Line
+	9850 2450 9850 2900
+Wire Wire Line
+	9950 2450 9950 2900
+Entry Wire Line
+	9950 3000 9850 2900
+Entry Wire Line
+	10050 3000 9950 2900
+Wire Wire Line
+	10050 2450 10050 2900
+Wire Wire Line
+	10150 2450 10150 2900
+Entry Wire Line
+	10150 3000 10050 2900
+Entry Wire Line
+	10250 3000 10150 2900
+Wire Wire Line
+	10250 2450 10250 2900
+Wire Wire Line
+	10350 2450 10350 2900
+Entry Wire Line
+	10350 3000 10250 2900
+Entry Wire Line
+	10450 3000 10350 2900
+Wire Wire Line
+	10450 2450 10450 2900
+Wire Wire Line
+	10550 2450 10550 2900
+Entry Wire Line
+	10550 3000 10450 2900
+Entry Wire Line
+	10650 3000 10550 2900
+Wire Wire Line
+	10650 2450 10650 2900
+Wire Wire Line
+	10750 2450 10750 2900
+Entry Wire Line
+	10750 3000 10650 2900
+Entry Wire Line
+	10850 3000 10750 2900
+Wire Wire Line
+	10850 2450 10850 2900
+Wire Wire Line
+	10950 2450 10950 2900
+Entry Wire Line
+	10950 3000 10850 2900
+Entry Wire Line
+	11050 3000 10950 2900
+Wire Wire Line
+	11050 2450 11050 2900
+Wire Wire Line
+	11150 2450 11150 2900
+Entry Wire Line
+	11150 3000 11050 2900
+Entry Wire Line
+	11250 3000 11150 2900
+Wire Wire Line
+	11250 2450 11250 2900
+Wire Wire Line
+	11350 2450 11350 2900
+Entry Wire Line
+	11350 3000 11250 2900
+Entry Wire Line
+	11450 3000 11350 2900
+Wire Wire Line
+	11450 2450 11450 2900
+Wire Wire Line
+	11550 2450 11550 2900
+Entry Wire Line
+	11550 3000 11450 2900
+Entry Wire Line
+	11650 3000 11550 2900
+Wire Bus Line
+	12350 3000 12350 700 
+Wire Bus Line
+	8550 700  12350 700 
+Wire Bus Line
+	8550 3000 12350 3000
+Wire Bus Line
+	7000 3200 13300 3200
 $EndSCHEMATC
