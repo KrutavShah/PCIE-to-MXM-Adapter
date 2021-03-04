@@ -1,0 +1,139 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Administrator\Documents\KiCad Projects\PCIE to MXM Adapter\PCIE x16 to MXM3.0\Imported PCIEx16toMXM3.0\PCIEx16toMXM3.0.PcbDoc
+Date     : 3/3/2021
+Time     : 5:46:52 PM
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('B.Cu-GND') OR InNamedPolygon('F.Cu-GND')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('Default')),(All)
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad J1-A11(125.17mm,3.95mm) on B.Cu And Track (125.72mm,1mm)(125.72mm,7.95mm) on Edge.Cuts 
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad J1-A11(125.17mm,3.95mm) on B.Cu And Track (125.72mm,1mm)(125.72mm,7.95mm) on Edge.Cuts 
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad J1-A12(128.17mm,3.95mm) on B.Cu And Track (127.62mm,1mm)(127.62mm,7.95mm) on Edge.Cuts 
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad J1-A12(128.17mm,3.95mm) on B.Cu And Track (127.62mm,1mm)(127.62mm,7.95mm) on Edge.Cuts 
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad J1-B11(125.17mm,3.95mm) on F.Cu And Track (125.72mm,1mm)(125.72mm,7.95mm) on Edge.Cuts 
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad J1-B11(125.17mm,3.95mm) on F.Cu And Track (125.72mm,1mm)(125.72mm,7.95mm) on Edge.Cuts 
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad J1-B12(128.17mm,3.95mm) on F.Cu And Track (127.62mm,1mm)(127.62mm,7.95mm) on Edge.Cuts 
+   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad J1-B12(128.17mm,3.95mm) on F.Cu And Track (127.62mm,1mm)(127.62mm,7.95mm) on Edge.Cuts 
+Rule Violations :8
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net Net-(C1-Pad1) Between Pad D1-1(221.925mm,85.121mm) on F.Cu And Pad U1-3(227.177mm,51.79mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net Net-(C1-Pad1) Between Pad D1-1(224.124mm,18.291mm) on Multi-Layer And Pad U1-3(227.177mm,51.79mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad D1-2(219.925mm,86.071mm) on F.Cu And Pad D7-2(228.825mm,86.071mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad D7-2(228.825mm,86.071mm) on F.Cu And Pad D1-2(234.284mm,18.291mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net +12V Between Via (127.33mm,33.998mm) from F.Cu to B.Cu And Pad D1-2(234.284mm,18.291mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad J2-9(121.55mm,33.421mm) on F.Cu And Pad D5-1(224.231mm,25.159mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Net-(D5-Pad2) Between Pad D5-2(224.375mm,86.071mm) on F.Cu And Pad U1-2(227.177mm,54.09mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net Net-(D5-Pad2) Between Pad U1-2(233.477mm,54.09mm) on F.Cu And Pad D5-2(234.391mm,25.159mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad D7-2(228.825mm,86.071mm) on F.Cu And Pad J4-2(229.219mm,96.431mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Net-(FB1-Pad1) Between Pad J2-164(113.35mm,73.171mm) on F.Cu And Pad FB1-1(228.891mm,37.199mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net Net-(FB2-Pad1) Between Pad J2-162(113.35mm,72.671mm) on F.Cu And Pad FB2-1(228.702mm,31.611mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net Net-(FB3-Pad1) Between Pad J2-172(113.35mm,75.171mm) on F.Cu And Pad FB3-1(228.684mm,42.901mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net Net-(FB4-Pad1) Between Pad J2-170(113.35mm,74.671mm) on F.Cu And Pad FB4-1(227.88mm,69.816mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net Net-(FB5-Pad2) Between Pad J2-168(113.35mm,74.171mm) on F.Cu And Pad FB5-2(232.83mm,74.416mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net Net-(J1-PadA1) Between Pad J1-A1(115.17mm,4.5mm) on B.Cu And Pad J1-B17(133.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Pad J1-A9(123.17mm,3.95mm) on B.Cu And Pad J1-A10(124.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A12(128.17mm,3.95mm) on B.Cu And Pad J1-B13(129.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A15(131.17mm,3.95mm) on B.Cu And Pad J1-B16(132.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A18(134.17mm,3.95mm) on B.Cu And Pad J1-B18(134.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad J1-A2(116.17mm,3.95mm) on B.Cu And Pad J1-A3(117.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad J1-A2(116.17mm,3.95mm) on B.Cu And Pad J1-B2(116.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A20(136.17mm,3.95mm) on B.Cu And Pad J1-B21(137.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B22(138.17mm,3.95mm) on F.Cu And Pad J1-A23(139.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A24(140.17mm,3.95mm) on B.Cu And Pad J1-B25(141.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B26(142.17mm,3.95mm) on F.Cu And Pad J1-A27(143.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A28(144.17mm,3.95mm) on B.Cu And Pad J1-B29(145.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad J1-A3(117.17mm,3.95mm) on B.Cu And Track (121.55mm,24.671mm)(124.11mm,24.671mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A31(147.17mm,3.95mm) on B.Cu And Pad J1-B32(148.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A34(150.17mm,3.95mm) on B.Cu And Pad J1-B35(151.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B36(152.17mm,3.95mm) on F.Cu And Pad J1-A37(153.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A38(154.17mm,3.95mm) on B.Cu And Pad J1-B39(155.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B40(156.17mm,3.95mm) on F.Cu And Pad J1-A41(157.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A42(158.17mm,3.95mm) on B.Cu And Pad J1-B43(159.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B44(160.17mm,3.95mm) on F.Cu And Pad J1-A45(161.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A46(162.17mm,3.95mm) on B.Cu And Pad J1-B47(163.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A49(165.17mm,3.95mm) on B.Cu And Pad J1-B49(165.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A51(167.17mm,3.95mm) on B.Cu And Pad J1-B52(168.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B53(169.17mm,3.95mm) on F.Cu And Pad J1-A54(170.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A55(171.17mm,3.95mm) on B.Cu And Pad J1-B56(172.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B57(173.17mm,3.95mm) on F.Cu And Pad J1-A58(174.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A59(175.17mm,3.95mm) on B.Cu And Pad J1-B60(176.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B61(177.17mm,3.95mm) on F.Cu And Pad J1-A62(178.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A63(179.17mm,3.95mm) on B.Cu And Pad J1-B64(180.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A67(183.17mm,3.95mm) on B.Cu And Pad J1-B68(184.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B69(185.17mm,3.95mm) on F.Cu And Pad J1-A70(186.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A71(187.17mm,3.95mm) on B.Cu And Pad J1-B72(188.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B73(189.17mm,3.95mm) on F.Cu And Pad J1-A74(190.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A75(191.17mm,3.95mm) on B.Cu And Pad J1-B76(192.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B77(193.17mm,3.95mm) on F.Cu And Pad J1-A78(194.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-A79(195.17mm,3.95mm) on B.Cu And Pad J1-B80(196.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Pad J1-B8(122.17mm,3.95mm) on F.Cu And Pad J1-A9(123.17mm,3.95mm) on B.Cu 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad J1-B1(115.17mm,3.95mm) on F.Cu And Pad J1-B2(116.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +3.3VA Between Pad J1-B10(124.17mm,3.95mm) on F.Cu And Pad Q1-3(235.275mm,85.121mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad J1-B2(116.17mm,3.95mm) on F.Cu And Pad J1-B3(117.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-B4(118.17mm,3.95mm) on F.Cu And Pad J1-B7(121.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Pad J2-280(113.35mm,101.921mm) on F.Cu And Pad J1-B8(122.17mm,3.95mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net CK_N Between Pad J3-12(81.283mm,79.499mm) on F.Cu And Pad J2-176(113.35mm,76.171mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net CK_P Between Pad J3-10(81.283mm,78.499mm) on F.Cu And Pad J2-178(113.35mm,76.671mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net D2_N Between Pad J3-3(81.283mm,74.999mm) on F.Cu And Pad J2-188(113.35mm,79.171mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net D2_P Between Pad J3-1(81.283mm,73.999mm) on F.Cu And Pad J2-190(113.35mm,79.671mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net D1_N Between Pad J3-6(81.283mm,76.499mm) on F.Cu And Pad J2-194(113.35mm,80.671mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net D1_P Between Pad J3-4(81.283mm,75.499mm) on F.Cu And Pad J2-196(113.35mm,81.171mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net TH_OVERT# Between Pad J2-20(113.35mm,37.171mm) on F.Cu And Pad Q1-1(233.275mm,86.071mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net D0_N Between Pad J3-9(81.283mm,77.999mm) on F.Cu And Pad J2-200(113.35mm,82.171mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net D0_P Between Pad J3-7(81.283mm,76.999mm) on F.Cu And Pad J2-202(113.35mm,82.671mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net DP_D_L3# Between Pad J2-206(113.35mm,83.671mm) on F.Cu And Pad J2-212(113.35mm,85.171mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net DP_D_L3 Between Pad J2-208(113.35mm,84.171mm) on F.Cu And Pad J2-214(113.35mm,85.671mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net DP_D_L3# Between Pad J2-212(113.35mm,85.171mm) on F.Cu And Pad J2-218(113.35mm,86.671mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net DP_D_L3 Between Pad J2-214(113.35mm,85.671mm) on F.Cu And Pad J2-220(113.35mm,87.171mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net DP_D_L3# Between Pad J2-218(113.35mm,86.671mm) on F.Cu And Pad J2-224(113.35mm,88.171mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net DP_D_L3 Between Pad J2-220(113.35mm,87.171mm) on F.Cu And Pad J2-226(113.35mm,88.671mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net CEC Between Pad J3-13(81.283mm,79.999mm) on F.Cu And Pad J2-29(121.55mm,39.421mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net TMDS_HPD Between Pad J3-19(81.283mm,82.999mm) on F.Cu And Pad J2-31(121.55mm,39.921mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net TMDS_SDA Between Pad J3-16(81.283mm,81.499mm) on F.Cu And Pad J2-33(121.55mm,40.421mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net TMDS_SCL Between Pad J3-15(81.283mm,80.999mm) on F.Cu And Pad J2-35(121.55mm,40.921mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +5V Between Pad J3-18(81.283mm,82.499mm) on F.Cu And Pad J2-9(121.55mm,33.421mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad J4-1(225.019mm,96.431mm) on Multi-Layer And Pad J4-2(229.219mm,96.431mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net +12V Between Pad J4-2(229.219mm,96.431mm) on Multi-Layer And Pad J4-3(233.419mm,96.431mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net PERST Between Via (115.062mm,71.184mm) from F.Cu to B.Cu And Pad Q1-2(233.275mm,84.171mm) on F.Cu 
+   Violation between Un-Routed Net Constraint: Net Net-(D5-Pad2) Between Pad U1-2(227.177mm,54.09mm) on F.Cu And Pad U1-2(233.477mm,54.09mm) on F.Cu 
+Rule Violations :80
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 88
+Waived Violations : 0
+Time Elapsed        : 00:00:01
