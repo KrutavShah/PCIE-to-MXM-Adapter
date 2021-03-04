@@ -16,7 +16,7 @@ This card will fit in a full height slot, but not half height.
 - MXM Type: 3.0 Type A card (Size B may work with the addition of an external power connector.
 - HDMI: 1 Type A port (1.4 compatible)
 - VGA: 1 virtual dummy adapter. Turn the dummy toggle to the ON position to activate.
-- Power: Maximum of 75W over PCIE connector, but actual maximum value may be less. 
+- Power: Maximum of 25W over PCIE connector, but actual maximum value may be less. 
 6-Pin power connector is available to increase maximum power throughput.
 - PCB: 2 Layer, 1.6mm Thick, Fits within 100x100mm size.
 
