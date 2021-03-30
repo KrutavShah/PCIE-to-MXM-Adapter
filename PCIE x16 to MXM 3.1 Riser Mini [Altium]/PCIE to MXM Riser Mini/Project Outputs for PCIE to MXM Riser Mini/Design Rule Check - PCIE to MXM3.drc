@@ -1,0 +1,60 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC
+Date     : 3/24/2021
+Time     : 12:02:21 PM
+
+ERROR : More than 30 violations detected, DRC was stopped
+
+WARNING: Unplated multi-layer pad(s) detected
+   Pad Free-MH3(7mm,7.5mm) on MultiLayer on Net GND
+   Pad Free-MH4(5mm,106.15mm) on MultiLayer on Net GND
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A23(69.65mm,3.5mm) on BottomLayer And Pad P1-A24(70.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A27(73.65mm,3.5mm) on BottomLayer And Pad P1-A28(74.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A41(87.65mm,3.5mm) on BottomLayer And Pad P1-A42(88.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A45(91.65mm,3.5mm) on BottomLayer And Pad P1-A46(92.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A54(100.65mm,3.5mm) on BottomLayer And Pad P1-A55(101.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A58(104.65mm,3.5mm) on BottomLayer And Pad P1-A59(105.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A66(112.65mm,3.5mm) on BottomLayer And Pad P1-A67(113.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A70(116.65mm,3.5mm) on BottomLayer And Pad P1-A71(117.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A74(120.65mm,3.5mm) on BottomLayer And Pad P1-A75(121.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-A78(124.65mm,3.5mm) on BottomLayer And Pad P1-A79(125.65mm,3.5mm) on BottomLayer 
+   Violation between Un-Routed Net Constraint: Net PRSNT2# Between Pad P1-B17(63.65mm,4mm) on TopLayer And Pad P1-B31(77.65mm,4mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B21(67.65mm,3.5mm) on TopLayer And Pad P1-B22(68.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B25(71.65mm,3.5mm) on TopLayer And Pad P1-B26(72.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net PRSNT2# Between Pad P1-B31(77.65mm,4mm) on TopLayer And Pad P1-B48(94.65mm,4mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B39(85.65mm,3.5mm) on TopLayer And Pad P1-B40(86.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B43(89.65mm,3.5mm) on TopLayer And Pad P1-B44(90.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net PRSNT2# Between Pad P1-B48(94.65mm,4mm) on TopLayer And Pad P1-B81(127.65mm,4mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B52(98.65mm,3.5mm) on TopLayer And Pad P1-B53(99.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B56(102.65mm,3.5mm) on TopLayer And Pad P1-B57(103.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B64(110.65mm,3.5mm) on TopLayer And Pad P1-B65(111.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B68(114.65mm,3.5mm) on TopLayer And Pad P1-B69(115.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B72(118.65mm,3.5mm) on TopLayer And Pad P1-B73(119.65mm,3.5mm) on TopLayer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-B76(122.65mm,3.5mm) on TopLayer And Pad P1-B77(123.65mm,3.5mm) on TopLayer 
+Rule Violations :27
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+   Violation between Width Constraint: Track (48.642mm,3.508mm)(48.642mm,6.53mm) on BottomLayer Actual Width = 0.69mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (48.646mm,3.504mm)(48.646mm,6.526mm) on TopLayer Actual Width = 0.69mm, Target Width = 0.254mm
+   Violation between Width Constraint: Track (51.65mm,3.5mm)(51.65mm,6.522mm) on TopLayer Actual Width = 0.69mm, Target Width = 0.254mm
+Rule Violations :3
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+
+Violations Detected : 30
+Waived Violations : 0
+Time Elapsed        : 00:00:00

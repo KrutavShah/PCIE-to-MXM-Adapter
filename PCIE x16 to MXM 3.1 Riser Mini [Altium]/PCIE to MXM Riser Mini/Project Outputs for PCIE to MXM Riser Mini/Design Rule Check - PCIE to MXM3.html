@@ -1,0 +1,405 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3/24/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:02:21 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC" class="file"><acronym title="C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC">C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">2</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">30</td></tr>
+</table>
+</td>
+</table>
+<p class="error">ERROR : More than 30 violations detected, DRC was stopped</p><a name="IDIBRZQUSRNHMRBPUICKLDXV1WDBQCWL44HLW0ABLPIXCPJAOYH5XI"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDO4ZI4F5W0FTFG3ISRT04ULWWUEB4WLSH5S5VMKBYVFL0GSBAEKM">Unplated multi-layer pad(s) detected</a></td>
+<td class="column2">2</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">2</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2XBFYIPTJCVLDMMGURL0S3GYHF5OSQ3E4NYMWAF205XXUABZEAYO">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5WVXQPVVTZEAPPMASC1MAOEFHHVICHNOGH0EPLLGNKTEAQS5RZGG">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZV33HOQOOEWJJEO0LYSDHBIE3BL1LPDBWX2CPXI2NL0U5KEWMIWI">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">27</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDK52VXU32YCDGDHT1WRFGZ4O3HONAF40DAJRTO5MZBYVHBZCNHM2E">Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID40AJXHD2USGHOCMVJSZTLRJLTBFQJAOL4B0IIPJUKQ2JDT1R5Y5D">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">30</td>
+</tr>
+</table><br><a name="ID5U2M1ZWOUEDSFAFG1HNFP5SAXM2SRJMGKCPWMXDWIB1LMMKQA3WO"><h2>Warnings</h2></a><a name="IDO4ZI4F5W0FTFG3ISRT04ULWWUEB4WLSH5S5VMKBYVFL0GSBAEKM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">Unplated multi-layer pad(s) detected</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4074.803mil|Location2.X=4350.394mil|Location1.Y=4114.173mil|Location2.Y=4350.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4074.803mil|Location2.X=4350.394mil|Location1.Y=4114.173mil|Location2.Y=4350.394mil|Absolute=True">Pad Free-MH3(7mm,7.5mm) on MultiLayer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3986.22mil|Location2.X=9015.748mil|Location1.Y=3992.126mil|Location2.Y=8263.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3986.22mil|Location2.X=9015.748mil|Location1.Y=3992.126mil|Location2.Y=8263.78mil|Absolute=True">Net GND</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3986.22mil|Location2.X=4281.496mil|Location1.Y=7968.504mil|Location2.Y=8263.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3986.22mil|Location2.X=4281.496mil|Location1.Y=7968.504mil|Location2.Y=8263.78mil|Absolute=True">Pad Free-MH4(5mm,106.15mm) on MultiLayer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3986.22mil|Location2.X=9015.748mil|Location1.Y=3992.126mil|Location2.Y=8263.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3986.22mil|Location2.X=9015.748mil|Location1.Y=3992.126mil|Location2.Y=8263.78mil|Absolute=True">Net GND</acronym></a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZV33HOQOOEWJJEO0LYSDHBIE3BL1LPDBWX2CPXI2NL0U5KEWMIWI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4112.599mil|Location2.X=4312.599mil|Location1.Y=4132.283mil|Location2.Y=4332.283mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4112.599mil|Location2.X=4312.599mil|Location1.Y=4132.283mil|Location2.Y=4332.283mil|Absolute=True">Un-Routed Net Constraint:  </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4112.599mil|Location2.X=4312.599mil|Location1.Y=4132.283mil|Location2.Y=4332.283mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4112.599mil|Location2.X=4312.599mil|Location1.Y=4132.283mil|Location2.Y=4332.283mil|Absolute=True">Un-Routed Net Constraint:  </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4033.858mil|Location2.X=4233.858mil|Location1.Y=8016.142mil|Location2.Y=8216.142mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4033.858mil|Location2.X=4233.858mil|Location1.Y=8016.142mil|Location2.Y=8216.142mil|Absolute=True">Un-Routed Net Constraint:  </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4033.858mil|Location2.X=4233.858mil|Location1.Y=8016.142mil|Location2.Y=8216.142mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4033.858mil|Location2.X=4233.858mil|Location1.Y=8016.142mil|Location2.Y=8216.142mil|Absolute=True">Un-Routed Net Constraint:  </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6665.354mil|Location2.X=6732.283mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6665.354mil|Location2.X=6732.283mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A23(69.65mm,3.5mm) on BottomLayer And Pad P1-A24(70.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6822.835mil|Location2.X=6889.764mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6822.835mil|Location2.X=6889.764mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A27(73.65mm,3.5mm) on BottomLayer And Pad P1-A28(74.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7374.016mil|Location2.X=7440.945mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7374.016mil|Location2.X=7440.945mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A41(87.65mm,3.5mm) on BottomLayer And Pad P1-A42(88.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7531.496mil|Location2.X=7598.425mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7531.496mil|Location2.X=7598.425mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A45(91.65mm,3.5mm) on BottomLayer And Pad P1-A46(92.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7885.827mil|Location2.X=7952.756mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7885.827mil|Location2.X=7952.756mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A54(100.65mm,3.5mm) on BottomLayer And Pad P1-A55(101.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8043.307mil|Location2.X=8110.236mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8043.307mil|Location2.X=8110.236mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A58(104.65mm,3.5mm) on BottomLayer And Pad P1-A59(105.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8358.268mil|Location2.X=8425.197mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8358.268mil|Location2.X=8425.197mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A66(112.65mm,3.5mm) on BottomLayer And Pad P1-A67(113.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8515.748mil|Location2.X=8582.677mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8515.748mil|Location2.X=8582.677mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A70(116.65mm,3.5mm) on BottomLayer And Pad P1-A71(117.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8673.229mil|Location2.X=8740.158mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8673.229mil|Location2.X=8740.158mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A74(120.65mm,3.5mm) on BottomLayer And Pad P1-A75(121.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8830.709mil|Location2.X=8897.638mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8830.709mil|Location2.X=8897.638mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-A78(124.65mm,3.5mm) on BottomLayer And Pad P1-A79(125.65mm,3.5mm) on BottomLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6429.134mil|Location2.X=7007.874mil|Location1.Y=4031.496mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6429.134mil|Location2.X=7007.874mil|Location1.Y=4031.496mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net PRSNT2# Between Pad P1-B17(63.65mm,4mm) on TopLayer And Pad P1-B31(77.65mm,4mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6586.614mil|Location2.X=6653.543mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6586.614mil|Location2.X=6653.543mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B21(67.65mm,3.5mm) on TopLayer And Pad P1-B22(68.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6744.095mil|Location2.X=6811.024mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6744.095mil|Location2.X=6811.024mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B25(71.65mm,3.5mm) on TopLayer And Pad P1-B26(72.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6980.315mil|Location2.X=7677.166mil|Location1.Y=4031.496mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6980.315mil|Location2.X=7677.166mil|Location1.Y=4031.496mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net PRSNT2# Between Pad P1-B31(77.65mm,4mm) on TopLayer And Pad P1-B48(94.65mm,4mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7295.276mil|Location2.X=7362.205mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7295.276mil|Location2.X=7362.205mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B39(85.65mm,3.5mm) on TopLayer And Pad P1-B40(86.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7452.756mil|Location2.X=7519.685mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7452.756mil|Location2.X=7519.685mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B43(89.65mm,3.5mm) on TopLayer And Pad P1-B44(90.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.607mil|Location2.X=8976.378mil|Location1.Y=4031.496mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.607mil|Location2.X=8976.378mil|Location1.Y=4031.496mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net PRSNT2# Between Pad P1-B48(94.65mm,4mm) on TopLayer And Pad P1-B81(127.65mm,4mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7807.087mil|Location2.X=7874.016mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7807.087mil|Location2.X=7874.016mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B52(98.65mm,3.5mm) on TopLayer And Pad P1-B53(99.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7964.567mil|Location2.X=8031.496mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7964.567mil|Location2.X=8031.496mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B56(102.65mm,3.5mm) on TopLayer And Pad P1-B57(103.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8279.528mil|Location2.X=8346.457mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8279.528mil|Location2.X=8346.457mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B64(110.65mm,3.5mm) on TopLayer And Pad P1-B65(111.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8437.008mil|Location2.X=8503.937mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8437.008mil|Location2.X=8503.937mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B68(114.65mm,3.5mm) on TopLayer And Pad P1-B69(115.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8594.488mil|Location2.X=8661.418mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8594.488mil|Location2.X=8661.418mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B72(118.65mm,3.5mm) on TopLayer And Pad P1-B73(119.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8751.969mil|Location2.X=8818.898mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8751.969mil|Location2.X=8818.898mil|Location1.Y=3992.126mil|Location2.Y=4157.48mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-B76(122.65mm,3.5mm) on TopLayer And Pad P1-B77(123.65mm,3.5mm) on TopLayer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDK52VXU32YCDGDHT1WRFGZ4O3HONAF40DAJRTO5MZBYVHBZCNHM2E"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5829.884mil|Location2.X=5873.874mil|Location1.Y=4119.52mil|Location2.Y=4159.873mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5829.884mil|Location2.X=5873.874mil|Location1.Y=4119.52mil|Location2.Y=4159.873mil|Absolute=True">Width Constraint: Track (48.642mm,3.508mm)(48.642mm,6.53mm) on BottomLayer Actual Width = 0.69mm, Target Width = 0.254mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5830.043mil|Location2.X=5874.033mil|Location1.Y=4119.361mil|Location2.Y=4159.713mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5830.043mil|Location2.X=5874.033mil|Location1.Y=4119.361mil|Location2.Y=4159.713mil|Absolute=True">Width Constraint: Track (48.646mm,3.504mm)(48.646mm,6.526mm) on TopLayer Actual Width = 0.69mm, Target Width = 0.254mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5948.312mil|Location2.X=5992.302mil|Location1.Y=4119.202mil|Location2.Y=4159.554mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Documents\Krutav Projects\PCIE to MXM Adapter\PCIE x16 to MXM 3.1 Riser Mini [Altium]\PCIE to MXM Riser Mini\PCB\PCIE to MXM3.1 Riser Mini.PCBDOC;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5948.312mil|Location2.X=5992.302mil|Location1.Y=4119.202mil|Location2.Y=4159.554mil|Absolute=True">Width Constraint: Track (51.65mm,3.5mm)(51.65mm,6.522mm) on TopLayer Actual Width = 0.69mm, Target Width = 0.254mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

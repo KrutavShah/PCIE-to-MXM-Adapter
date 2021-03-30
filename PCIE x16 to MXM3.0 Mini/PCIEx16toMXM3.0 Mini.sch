@@ -2243,10 +2243,10 @@ Wire Wire Line
 Text Notes 600  1900 0    118  ~ 0
 4. Protection diodes are not present.
 $Comp
-L SamacSys_Parts:45558-0003 J4
+L SamacSys_Parts:45558-0003 J3
 U 1 1 621FF001
 P 12650 7000
-F 0 "J4" H 13050 7265 50  0000 C CNN
+F 0 "J3" H 13050 7265 50  0000 C CNN
 F 1 "45558-0003" H 13050 7174 50  0000 C CNN
 F 2 "455580003" H 13300 7100 50  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/455580003_sd.pdf" H 13300 7000 50  0001 L CNN
@@ -3477,6 +3477,12 @@ Wire Wire Line
 	6800 3250 6800 3700
 Connection ~ 5050 2950
 Connection ~ 5150 3050
+$Sheet
+S 800  2850 1750 1400
+U 60999EC8
+F0 "Page_PCIE" 50
+F1 "Page_PCIE.sch" 50
+$EndSheet
 Wire Bus Line
 	12550 3550 13300 3550
 Wire Bus Line
@@ -3485,10 +3491,4 @@ Wire Bus Line
 	8550 850  12350 850 
 Wire Bus Line
 	7000 3550 12550 3550
-$Sheet
-S 800  2850 1750 1400
-U 60999EC8
-F0 "Page_PCIE" 50
-F1 "Page_PCIE.sch" 50
-$EndSheet
 $EndSCHEMATC
