@@ -10,7 +10,7 @@ As always, feel free to create issues on this repository and contribute to the p
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License][cc-by-nc-nd].
 
-Some of the material here, such as the footprints in the parts library are the works of various providers such as Molex LLC. Those organizations hold all rights to those resources and is not placed under the license that this project is using.
+Some of the material here, such as the footprints in the parts library are the works of various providers such as Molex LLC. Those organizations hold the rights to those resources that have been used in this project.
 
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
 
