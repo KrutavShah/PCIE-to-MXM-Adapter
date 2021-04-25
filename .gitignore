@@ -1,4 +1,4 @@
-# Ignore list for KiCAD Files and Projects.
+# Ignore list for files not needed.
 
 # Temporary files
 *.000
@@ -23,3 +23,7 @@ fp-info-cache
 #Reports
 *.html
 *.htm
+
+#ZIP Files
+*.zip
+

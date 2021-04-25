@@ -124,10 +124,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for PCIE to MXM Riser Mini\Design Rule Check - PCIE to MXM3.html
-DItemRevisionGUID=
-
 [DeviceSheet1]
 DocumentPath=Managed\Sheets\4CFC1913-8592-4AF6-BEC3-40B7A4C73F9D\CON_PCI_Express_X16_164PIN.SchDoc
 ClassGenCCAutoEnabled=1
