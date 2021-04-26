@@ -159,7 +159,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LLHMAYOK
 
 [Document8]
-DocumentPath=Schematics\PCIE x4 Edge Connector Interface.SchDoc
+DocumentPath=Schematics\PCIE x1 Edge Connector Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
