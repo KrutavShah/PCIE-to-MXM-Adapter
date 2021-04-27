@@ -1,4 +1,4 @@
-Record=TopLevelDocument|FileName=PCI Express_24130X11115_164PIN.schdoc|SheetNumber=3
+Record=TopLevelDocument|FileName=PCI Express_24130X11115_164PIN.schdoc|SheetNumber=1
 Record=SheetSymbol|SourceDocument=PCI Express_24130X11115_164PIN.schdoc|Designator=U_CON_PCI_Express_X16_164PIN|SchDesignator=U_CON_PCI_Express_X16_164PIN|FileName=CON_PCI_Express_X16_164PIN.SchDoc|SheetNumber= |SymbolType=Design Item|RawFileName=CON_PCI_Express_X16_164PIN.SchDoc|DesignItemId=SCH-0001-00057-2|SourceLibraryName=Altium Shanghai|ObjectKind=Sheet Symbol|RevisionGUID=4CFC1913-8592-4AF6-BEC3-40B7A4C73F9D|ItemGUID=AE7793C4-AD5C-4978-8248-568356F81ECF|VaultGUID=9F0439D8-5E13-4286-B92A-0416224E50A9
 Record=NoMainPathDocument|SourceDocument=PCI Express_24130X11115_164PIN.schdoc|FileName=PCIE x16 Edge Connector Interface.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=PCI Express_24130X11115_164PIN.schdoc|FileName=Table of Contents and Information.SchDoc|SheetNumber=1

@@ -40,23 +40,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PCIEx1toMXM3.0.PcbDoc.LOG
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=PCB\PCIE x1 MXM 3.1 Riser Basic.PCBDOC
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -73,7 +56,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRSXVFTJ
 
-[Document3]
+[Document2]
 DocumentPath=PCB\(KiCAD Old) PCIEx1toMXM3.0.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -90,7 +73,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TFOCCBOY
 
-[Document4]
+[Document3]
 DocumentPath=Schematics\(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,7 +90,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YVZXOZYY
 
-[Document5]
+[Document4]
 DocumentPath=Schematics\Table of Contents and Information.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -124,7 +107,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZECRAPIW
 
-[Document6]
+[Document5]
 DocumentPath=Schematics\Bill of Materials.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -141,7 +124,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RRORWXGG
 
-[Document7]
+[Document6]
 DocumentPath=Schematics\Block Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -158,7 +141,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LLHMAYOK
 
-[Document8]
+[Document7]
 DocumentPath=Schematics\PCIE x1 Edge Connector Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -175,7 +158,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZDUJJVOU
 
-[Document9]
+[Document8]
 DocumentPath=Schematics\Display Interfaces.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -192,7 +175,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AXXEDLJI
 
-[Document10]
+[Document9]
 DocumentPath=Schematics\MXM 3.1 Connector Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -209,7 +192,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YEQTWWSX
 
-[Document11]
+[Document10]
 DocumentPath=Schematics\Miscellaneous.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -226,7 +209,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YEQTWWSX
 
-[Document12]
+[Document11]
 DocumentPath=Schematics\Power Sources and Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YEQTWWSX
+DocumentUniqueId=KWUYPBQX
 
 [DeviceSheet1]
 DocumentPath=Managed\Sheets\D283AE02-477F-4616-B659-E128A1588D5D\CON_PCI_Express_X1_36PIN.Harness
