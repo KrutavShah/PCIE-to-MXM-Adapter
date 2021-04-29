@@ -27,6 +27,12 @@ fp-info-cache
 #ZIP Files
 *.zip
 
-#Directories (Closed Source)
-/PCIE x16 to MXM 3.1 Riser Mini [Altium]
-/PCIE x16 to MXM 3.1 Riser Pro [Altium]
+#Directories
+**/PCIE x16 to MXM 3.1 Riser Mini [Altium]/**
+**/PCIE x16 to MXM 3.1 Riser Pro [Altium]/**
+PCIE*x16*to*MXM*3.1*Riser*Mini*[Altium]/
+PCIE*x16*to*MXM*3.1*Riser*Pro*[Altium]/
+PCIE\ x16\ to\ MXM\ 3.1\ Riser\ Mini\ [Altium]/
+PCIE\ x16\ to\ MXM\ 3.1\ Riser\ Pro\ [Altium]/
+"PCIE x16 to MXM 3.1 Riser Mini [Altium]/"
+"PCIE x16 to MXM 3.1 Riser Pro [Altium]/"
