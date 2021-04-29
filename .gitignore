@@ -14,7 +14,7 @@ _autosave-*
 fp-info-cache
 
 # Netlist files (exported from Eeschema)
-
+.net
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
@@ -27,3 +27,6 @@ fp-info-cache
 #ZIP Files
 *.zip
 
+#Directories (Closed Source)
+/PCIE x16 to MXM 3.1 Riser Mini [Altium]
+/PCIE x16 to MXM 3.1 Riser Pro [Altium]
