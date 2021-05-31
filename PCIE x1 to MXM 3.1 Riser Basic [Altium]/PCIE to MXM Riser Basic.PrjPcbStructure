@@ -1,9 +1,8 @@
-Record=TopLevelDocument|FileName=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|SheetNumber= 
-Record=NoMainPathDocument|SourceDocument=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|FileName=Bill of Materials.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|FileName=Block Diagram.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|FileName=Display Interfaces.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|FileName=Miscellaneous.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|FileName=MXM 3.1 Connector Interface.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|FileName=PCIE x1 Edge Connector Interface.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|FileName=Power Sources and Supply.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=(KiCAD Old) PCIE x1 MXM 3.1 Riser Basic.SchDoc|FileName=Table of Contents and Information.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=Bill of Materials.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Block Diagram.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Display Interfaces.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Miscellaneous.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=MXM 3.1 Connector Interface.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=PCIE x1 Edge Connector Interface.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Power Sources and Supply.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Table of Contents and Information.SchDoc|SheetNumber=1
