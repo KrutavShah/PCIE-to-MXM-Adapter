@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name PCIEx1toMXM3.0-rescue)(type Legacy)(uri "C:/Users/Administrator/Documents/KiCad Projects/PCIE to MXM Adapter/PCIE x1 to MXM3.0/PCIEx1toMXM3.0-rescue.lib")(options "")(descr ""))
-  (lib (name PCIEx16toMXM3.0)(type Legacy)(uri ${KIPRJMOD}/PCIEx16toMXM3.0.lib)(options "")(descr ""))
-  (lib (name "PCIEx16toMXM3.0 Mini")(type Legacy)(uri "Z:/Krutav.com Company Items/Krutav Projects/Altium/PCIE-to-MXM-Adapter/Archive/PCIE x16 to MXM3.0 Mini/PCIEx16toMXM3.0 Mini.lib")(options "")(descr ""))
-)
