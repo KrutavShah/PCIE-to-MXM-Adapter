@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=D2_P Pin=C3-1
+Added Pin To Net: NetName=D2_N Pin=C4-1
+Added Pin To Net: NetName=DP_A_L0_N Pin=C4-2
+Added Pin To Net: NetName=D1_P Pin=C5-1
+Added Pin To Net: NetName=D1_N Pin=C6-1
+Added Pin To Net: NetName=D0_P Pin=C7-1
+Added Pin To Net: NetName=DP_A_L2_P Pin=C7-2
+Added Pin To Net: NetName=D0_N Pin=C8-1
+Added Pin To Net: NetName=CK_P Pin=C9-1
+Added Pin To Net: NetName=CK_N Pin=C10-1
+Added Pin To Net: NetName=DP_A_L3_N Pin=C10-2

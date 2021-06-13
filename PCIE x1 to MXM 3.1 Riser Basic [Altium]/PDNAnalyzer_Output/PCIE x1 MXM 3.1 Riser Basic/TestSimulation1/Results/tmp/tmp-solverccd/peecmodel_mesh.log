@@ -1,0 +1,23 @@
+
+Program                          : pcbmerge
+Version                          : 1.7.3
+Date                             : 13.Jun 2021 20:54:05
+Input file                       : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\design.dar
+Control file                     : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\tmp-solverccd\peecmodel.opt
+Selection file                   : 
+Result file                      : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\tmp-solverccd\peecmodel.pci
+Error file                       : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\IRDROPRESULTS\logfile.log
+
+
+
+No. Signal Capacitive Areas      : 36521
+No. Reference Capacitive Areas   : 0
+No. Signal Inductive Segments    : 65275
+No. Reference Inductive Segments : 0
+No. Via Inductive Segments       : 939
+No. Dielectric Elements          : 0
+
+No. Terminals                    : 122
+
+Runtime                          : 12 sec 
+

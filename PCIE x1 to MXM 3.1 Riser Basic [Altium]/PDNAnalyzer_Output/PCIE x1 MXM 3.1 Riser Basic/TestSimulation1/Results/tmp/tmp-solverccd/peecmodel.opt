@@ -1,0 +1,108 @@
+*
+*!::   begin of data
+*!::  format: PEEC-options
+*!:: program: ccd_solver
+*!:: version: 1.0
+*!::    date: 13.06.2021
+*
+* Global Options
+  unit=mil;
+* Options for Merging/Meshing
+  step=39.3700787402;
+  dielstep=39.3700787402;
+  usestep=yes;
+  stepdynamical=no;
+  removecutoutsize=7.8;
+  smallcutoutsize=78.7401574803;
+  freqmax=1000000000;
+  smoothing=self;
+  smoothangle=11.25;
+  smoothlength=9.84251968504;
+  smoothdeviation=3.93700787402;
+  considerneighbours=no;
+  viewregions=yes;
+  viamodel=r;
+    viasubcircuit:
+      id=1;
+      via_r=0.001;
+      via_l=1e-08;
+      via_c=1e-10;
+  dielhandling=none;
+  reduceboardoutline=yes;
+  reduceidealground=yes;
+  channelwidth=314.960629921;
+  groundasref=no;
+  powerasref=no;
+  reduceground=no;
+  reducepower=no;
+  channelground=314.960629921;
+  channelpower=314.960629921;
+  backgroundperm=1;
+  backgroundloss=0;
+  backgroundfreq=0;
+* Selected Objects
+    selectednet:
+      id=1;
+      name=+12V;
+    selectednet:
+      id=2;
+      name=+3.3V;
+    selectednet:
+      id=3;
+      name=+5V;
+    selectednet:
+      id=33;
+      name=GND;
+* Terminals
+  viewterminals=yes;
+* Peec Parameters
+  model=neutral;
+  irdrop=yes;
+  altium=no;
+  thermo=no;
+  pdn=no;
+  capacitance=yes;
+  inductance=yes;
+  conductance=yes;
+  indcoupling=yes;
+  capcoupling=yes;
+  fastsolverenabled=no;
+  considerwirebonds=no;
+  frequency=0;
+  optdisctype=flat;
+* Advanced Options
+  capshared=yes;
+  indshared=yes;
+  capusefactor=no;
+  indusefactor=no;
+  capsearchfactor=5;
+  indsearchfactor=5;
+  capsearchradius=236.220472441;
+  indsearchradius=236.220472441;
+  captollimit=0;
+  indtollimit=0;
+  capdynamic=no;
+  inddynamic=no;
+  capmaxncomplete=6000;
+  indmaxncomplete=6000;
+* Expert Options
+  useforemi=no;
+  mindisfactor=1;
+  spicenodetype=node;
+  gndnodeedgeinfo=yes;
+  printstatus=looppercent;
+  reducedmatrix=no;
+  freqforreducedmatrix=1000;
+  createesf=no;
+  only_local_region=no;
+  bboxgap=5;
+  bboxstepx=5;
+  bboxstepy=5;
+  bboxstepz=5;
+*
+*!::   end of data
+*!::  format: PEEC-options
+*!:: program: ccd_solver
+*!:: version: 1.0
+*!::    date: 13.06.2021
+*

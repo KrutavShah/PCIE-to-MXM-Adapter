@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=SMCLK_R Pin=J1-34
+Added Pin To Net: NetName=SMCLK_R Pin=R26-1
+Added Net: Name=SMCLK_R
+Added Pin To Net: NetName=SMDAT_R Pin=J1-32
+Added Pin To Net: NetName=SMDAT_R Pin=R27-1
+Added Net: Name=SMDAT_R

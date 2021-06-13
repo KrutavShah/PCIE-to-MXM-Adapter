@@ -1,0 +1,10 @@
+Program                          : export3d
+Version                          : 1.4.1
+Date                             : 13.Jun 2021 13:54:30
+Runtime                          : 
+Neutral top file                 : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\tmp-solverccd\irdrop.ntt
+Neutral model file               : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\tmp-solverccd\irdrop.nt3
+Top circuit file                 : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\tmp-solverccd\peecmodel.tcf
+Model file                       : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\tmp-solverccd\peecmodel.pcm
+Control file                     : Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\control.ctr
+Simulator type                   : SLSim

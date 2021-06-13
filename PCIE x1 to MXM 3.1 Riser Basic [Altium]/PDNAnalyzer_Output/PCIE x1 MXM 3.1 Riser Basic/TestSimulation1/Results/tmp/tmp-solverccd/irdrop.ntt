@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- SolverCCD Version 1.0 --><PEEC_NTT ModelName="systemname"><Index File="neutral-ntt" Program="solverccd" Version="1.0" Date="13.06.2021" /><Format Frequency="1.0" Simulator="SLSim" DielLossFreq="1" plb="Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\design.plb" useForEMI="true" /><ComponentSelection file="peecmodel.clc" /></PEEC_NTT>

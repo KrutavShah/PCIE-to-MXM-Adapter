@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20160211">
+  <Objects>
+    <Object name="VCOMP0_0">
+      <Cone dimension="10 10 10" direction="1 0 0" material="Port^Material" position="1875.984130859 137.7953033447 -0.9779527783394" short="VCOMP0_0" text="VCOMP0_0"/>
+      <LineSet material="Wire^Material" points="1836.614013672 137.7953033447 -0.9779527783394 1915.354248047 137.7953033447 -0.9779527783394" stripped="1"/>
+    </Object>
+    <Object name="VCOMP2_0">
+      <Cone dimension="10 10 10" direction="-0.3162278831005 -0.9486832618713 0" material="Port^Material" position="3823.634765625 3556.935058594 59.45511627197" short="VCOMP2_0" text="VCOMP2_0"/>
+      <LineSet material="Wire^Material" points="3906.312011719 3804.966552734 59.45511627197 3740.957519531 3308.903564453 59.45511627197" stripped="1"/>
+    </Object>
+    <Object name="VCOMP3_0">
+      <Cone dimension="10 10 10" direction="-1 0 0" material="Port^Material" position="2013.779418945 137.7953033447 -0.9779527783394" short="VCOMP3_0" text="VCOMP3_0"/>
+      <LineSet material="Wire^Material" points="2112.204589844 137.7953033447 -0.9779527783394 1915.354248047 137.7953033447 -0.9779527783394" stripped="1"/>
+    </Object>
+    <Object name="VCOMP5_0">
+      <Cone dimension="10 10 10" direction="-0.9960519075394 0.08877283334732 0" material="Port^Material" position="1143.50378418 738.1892089844 59.45511627197" short="VCOMP5_0" text="VCOMP5_0"/>
+      <LineSet material="Wire^Material" points="1253.936645508 728.3469238281 59.45511627197 1033.070922852 748.0314941406 59.45511627197" stripped="1"/>
+    </Object>
+    <Object name="VCOMP1_0">
+      <Cone dimension="10 10 10" direction="-1 0 0" material="Port^Material" position="3464.566894531 1179.133789063 59.45511627197" short="VCOMP1_0" text="VCOMP1_0"/>
+      <LineSet material="Wire^Material" points="3562.9921875 1179.133789063 59.45511627197 3366.141601563 1179.133789063 59.45511627197" stripped="1"/>
+    </Object>
+    <Object name="VCOMP4_0">
+      <Cone dimension="10 10 10" direction="0.9936210513115 0.1127708107233 0" material="Port^Material" position="1943.897583008 1017.716491699 59.45511627197" short="VCOMP4_0" text="VCOMP4_0"/>
+      <LineSet material="Wire^Material" points="521.653503418 856.2991943359 59.45511627197 3366.141601563 1179.133789063 59.45511627197" stripped="1"/>
+    </Object>
+    <Object name="VCOMP6_0">
+      <Cone dimension="10 10 10" direction="1 0 0" material="Port^Material" position="3292.322753906 1179.133789063 59.45511627197" short="VCOMP6_0" text="VCOMP6_0"/>
+      <LineSet material="Wire^Material" points="3218.50390625 1179.133789063 59.45511627197 3366.141601563 1179.133789063 59.45511627197" stripped="1"/>
+    </Object>
+  </Objects>
+  <Materials>
+    <Material name="Comp^Material">
+      <Drawstyle color="0 1 0" linestrength="5" transparency="0"/>
+    </Material>
+    <Material name="Port^Material">
+      <Drawstyle color="1 0 0" linestrength="5" transparency="0"/>
+    </Material>
+    <Material name="Wire^Material">
+      <Drawstyle color="0 0 1" linestrength="5" transparency="0"/>
+    </Material>
+  </Materials>
+</CSTAuxiliaryGeometry>

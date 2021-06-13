@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=SDA Pin=R14-2
+Added Pin To Net: NetName=SCL Pin=R15-2
+Added Pin To Net: NetName=+3.3V Pin=R17-1
+Added Pin To Net: NetName=DP_A_AUX_N Pin=R17-2
+Added Pin To Net: NetName=CEC Pin=R14-2
+Added Pin To Net: NetName=+HD5V Pin=J3-18
+Added Pin To Net: NetName=+HD5V Pin=R14-1
+Added Pin To Net: NetName=+HD5V Pin=R15-1
+Added Net: Name=+HD5V

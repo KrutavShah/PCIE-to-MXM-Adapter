@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaGeometryFile version="20151207">
+  <Components>
+    <Shape name="TOPLAYER_+12V_tri" id="1" visible="1" material="TOPLAYER_+12V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="22"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="TOPLAYER_+12V_seg" id="2" visible="1" material="" line_material="TOPLAYER_+12V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="2"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="TOPLAYER_+3.3V_tri" id="3" visible="1" material="TOPLAYER_+3.3V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="23"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="TOPLAYER_+3.3V_seg" id="4" visible="1" material="" line_material="TOPLAYER_+3.3V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="3"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="TOPLAYER_+5V_tri" id="5" visible="1" material="TOPLAYER_+5V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="24"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="TOPLAYER_+5V_seg" id="6" visible="1" material="" line_material="TOPLAYER_+5V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="4"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="TOPLAYER_GND_tri" id="7" visible="1" material="TOPLAYER_GND_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="25"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="TOPLAYER_GND_seg" id="8" visible="1" material="" line_material="TOPLAYER_GND_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="5"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE1_+12V_tri" id="9" visible="1" material="INTERNALPLANE1_+12V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="26"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE1_+12V_seg" id="10" visible="1" material="" line_material="INTERNALPLANE1_+12V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="6"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE1_+3.3V_tri" id="11" visible="1" material="INTERNALPLANE1_+3.3V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="27"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE1_+3.3V_seg" id="12" visible="1" material="" line_material="INTERNALPLANE1_+3.3V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="7"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE1_+5V_tri" id="13" visible="1" material="INTERNALPLANE1_+5V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="28"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE1_+5V_seg" id="14" visible="1" material="" line_material="INTERNALPLANE1_+5V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="8"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE1_GND_tri" id="15" visible="1" material="INTERNALPLANE1_GND_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="29"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE1_GND_seg" id="16" visible="1" material="" line_material="INTERNALPLANE1_GND_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="9"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE2_+12V_tri" id="17" visible="1" material="INTERNALPLANE2_+12V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="30"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE2_+12V_seg" id="18" visible="1" material="" line_material="INTERNALPLANE2_+12V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="10"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE2_+3.3V_tri" id="19" visible="1" material="INTERNALPLANE2_+3.3V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="31"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE2_+3.3V_seg" id="20" visible="1" material="" line_material="INTERNALPLANE2_+3.3V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="11"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE2_+5V_tri" id="21" visible="1" material="INTERNALPLANE2_+5V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="32"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE2_+5V_seg" id="22" visible="1" material="" line_material="INTERNALPLANE2_+5V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="12"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE2_GND_tri" id="23" visible="1" material="INTERNALPLANE2_GND_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="33"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="INTERNALPLANE2_GND_seg" id="24" visible="1" material="" line_material="INTERNALPLANE2_GND_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="13"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="BOTTOMLAYER_+12V_tri" id="25" visible="1" material="BOTTOMLAYER_+12V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="34"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="BOTTOMLAYER_+12V_seg" id="26" visible="1" material="" line_material="BOTTOMLAYER_+12V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="14"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="BOTTOMLAYER_+3.3V_tri" id="27" visible="1" material="BOTTOMLAYER_+3.3V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="35"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="BOTTOMLAYER_+3.3V_seg" id="28" visible="1" material="" line_material="BOTTOMLAYER_+3.3V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="15"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="BOTTOMLAYER_+5V_tri" id="29" visible="1" material="BOTTOMLAYER_+5V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="36"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="BOTTOMLAYER_+5V_seg" id="30" visible="1" material="" line_material="BOTTOMLAYER_+5V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="16"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="BOTTOMLAYER_GND_tri" id="31" visible="1" material="BOTTOMLAYER_GND_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="37"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="BOTTOMLAYER_GND_seg" id="32" visible="1" material="" line_material="BOTTOMLAYER_GND_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="17"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Via_+12V_tri" id="33" visible="1" material="Via_+12V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="38"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Via_+12V_seg" id="34" visible="1" material="" line_material="Via_+12V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="18"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Via_+3.3V_tri" id="35" visible="1" material="Via_+3.3V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="39"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Via_+3.3V_seg" id="36" visible="1" material="" line_material="Via_+3.3V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="19"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Via_+5V_tri" id="37" visible="1" material="Via_+5V_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="40"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Via_+5V_seg" id="38" visible="1" material="" line_material="Via_+5V_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="20"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Via_GND_tri" id="39" visible="1" material="Via_GND_tri" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="41"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Via_GND_seg" id="40" visible="1" material="" line_material="Via_GND_seg">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list="21"/>
+      <MeshGroup2D>
+        <Pos list=""/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Top Components" id="41" visible="1" material="Top Components" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="42"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Bottom Components" id="42" visible="1" material="Bottom Components" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="43"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Dielectrics" id="43" visible="1" material="Dielectrics" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="44"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Board Outline" id="44" visible="1" material="Board Outline" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="45"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+  </Components>
+  <SimulationDomain min="-1.983500003815 -1.983500003815 -0.9779527783394" max="4017.731445313 3938.991455078 62.21102523804"/>
+  <Materials>
+    <Material name="TOPLAYER_+12V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="TOPLAYER_+12V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="TOPLAYER_+3.3V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="TOPLAYER_+3.3V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="TOPLAYER_+5V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="TOPLAYER_+5V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="TOPLAYER_GND_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="TOPLAYER_GND_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE1_+12V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE1_+12V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE1_+3.3V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE1_+3.3V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE1_+5V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE1_+5V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE1_GND_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE1_GND_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE2_+12V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE2_+12V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE2_+3.3V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE2_+3.3V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE2_+5V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE2_+5V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE2_GND_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="INTERNALPLANE2_GND_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="BOTTOMLAYER_+12V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="BOTTOMLAYER_+12V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="BOTTOMLAYER_+3.3V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="BOTTOMLAYER_+3.3V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="BOTTOMLAYER_+5V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="BOTTOMLAYER_+5V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="BOTTOMLAYER_GND_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="BOTTOMLAYER_GND_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Via_+12V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Via_+12V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Via_+3.3V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Via_+3.3V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Via_+5V_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Via_+5V_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Via_GND_tri" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Via_GND_seg" priority="0">
+      <Drawstyle color="0.8000000119209 0.2000000029802 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Top Components" priority="0">
+      <Drawstyle color="0.5 0.5 0.5" linestrength="1" transparency="0.5"/>
+    </Material>
+    <Material name="Bottom Components" priority="0">
+      <Drawstyle color="0.5 0.5 0.5" linestrength="1" transparency="0.5"/>
+    </Material>
+    <Material name="Dielectrics" priority="0">
+      <Drawstyle color="0.2000000029802 0.8000000119209 0.2000000029802" linestrength="1" transparency="0"/>
+    </Material>
+    <Material name="Board Outline" priority="0">
+      <Drawstyle color="0.1000000014901 0.1000000014901 0.1000000014901" linestrength="1" transparency="0"/>
+    </Material>
+  </Materials>
+  <GeometryFile filename="peecmodel.slm" type="slim" subdomain_id=""/>
+  <MeshType type="SURFACE"/>
+  <Groups>
+    <Group name="Top Components" type="layer" ID="Top Components">
+      <Item name="Top Components" type="normal"/>
+    </Group>
+    <Group name="TOPLAYER" type="layer" ID="TOPLAYER">
+      <Item name="TOPLAYER_+12V_tri" type="normal"/>
+      <Item name="TOPLAYER_+3.3V_tri" type="normal"/>
+      <Item name="TOPLAYER_+5V_tri" type="normal"/>
+      <Item name="TOPLAYER_GND_tri" type="normal"/>
+      <Item name="TOPLAYER_+12V_seg" type="lines"/>
+      <Item name="TOPLAYER_+3.3V_seg" type="lines"/>
+      <Item name="TOPLAYER_+5V_seg" type="lines"/>
+      <Item name="TOPLAYER_GND_seg" type="lines"/>
+    </Group>
+    <Group name="INTERNALPLANE1" type="layer" ID="INTERNALPLANE1">
+      <Item name="INTERNALPLANE1_+12V_tri" type="normal"/>
+      <Item name="INTERNALPLANE1_+3.3V_tri" type="normal"/>
+      <Item name="INTERNALPLANE1_+5V_tri" type="normal"/>
+      <Item name="INTERNALPLANE1_GND_tri" type="normal"/>
+      <Item name="INTERNALPLANE1_+12V_seg" type="lines"/>
+      <Item name="INTERNALPLANE1_+3.3V_seg" type="lines"/>
+      <Item name="INTERNALPLANE1_+5V_seg" type="lines"/>
+      <Item name="INTERNALPLANE1_GND_seg" type="lines"/>
+    </Group>
+    <Group name="INTERNALPLANE2" type="layer" ID="INTERNALPLANE2">
+      <Item name="INTERNALPLANE2_+12V_tri" type="normal"/>
+      <Item name="INTERNALPLANE2_+3.3V_tri" type="normal"/>
+      <Item name="INTERNALPLANE2_+5V_tri" type="normal"/>
+      <Item name="INTERNALPLANE2_GND_tri" type="normal"/>
+      <Item name="INTERNALPLANE2_+12V_seg" type="lines"/>
+      <Item name="INTERNALPLANE2_+3.3V_seg" type="lines"/>
+      <Item name="INTERNALPLANE2_+5V_seg" type="lines"/>
+      <Item name="INTERNALPLANE2_GND_seg" type="lines"/>
+    </Group>
+    <Group name="BOTTOMLAYER" type="layer" ID="BOTTOMLAYER">
+      <Item name="BOTTOMLAYER_+12V_tri" type="normal"/>
+      <Item name="BOTTOMLAYER_+3.3V_tri" type="normal"/>
+      <Item name="BOTTOMLAYER_+5V_tri" type="normal"/>
+      <Item name="BOTTOMLAYER_GND_tri" type="normal"/>
+      <Item name="BOTTOMLAYER_+12V_seg" type="lines"/>
+      <Item name="BOTTOMLAYER_+3.3V_seg" type="lines"/>
+      <Item name="BOTTOMLAYER_+5V_seg" type="lines"/>
+      <Item name="BOTTOMLAYER_GND_seg" type="lines"/>
+    </Group>
+    <Group name="Bottom Components" type="layer" ID="Bottom Components">
+      <Item name="Bottom Components" type="normal"/>
+    </Group>
+    <Group name="+12V" type="net" ID="+12V">
+      <Item name="TOPLAYER_+12V_tri" type="normal"/>
+      <Item name="INTERNALPLANE1_+12V_tri" type="normal"/>
+      <Item name="INTERNALPLANE2_+12V_tri" type="normal"/>
+      <Item name="BOTTOMLAYER_+12V_tri" type="normal"/>
+      <Item name="Via_+12V_tri" type="normal"/>
+      <Item name="TOPLAYER_+12V_seg" type="lines"/>
+      <Item name="INTERNALPLANE1_+12V_seg" type="lines"/>
+      <Item name="INTERNALPLANE2_+12V_seg" type="lines"/>
+      <Item name="BOTTOMLAYER_+12V_seg" type="lines"/>
+      <Item name="Via_+12V_seg" type="lines"/>
+    </Group>
+    <Group name="+3.3V" type="net" ID="+3.3V">
+      <Item name="TOPLAYER_+3.3V_tri" type="normal"/>
+      <Item name="INTERNALPLANE1_+3.3V_tri" type="normal"/>
+      <Item name="INTERNALPLANE2_+3.3V_tri" type="normal"/>
+      <Item name="BOTTOMLAYER_+3.3V_tri" type="normal"/>
+      <Item name="Via_+3.3V_tri" type="normal"/>
+      <Item name="TOPLAYER_+3.3V_seg" type="lines"/>
+      <Item name="INTERNALPLANE1_+3.3V_seg" type="lines"/>
+      <Item name="INTERNALPLANE2_+3.3V_seg" type="lines"/>
+      <Item name="BOTTOMLAYER_+3.3V_seg" type="lines"/>
+      <Item name="Via_+3.3V_seg" type="lines"/>
+    </Group>
+    <Group name="+5V" type="net" ID="+5V">
+      <Item name="TOPLAYER_+5V_tri" type="normal"/>
+      <Item name="INTERNALPLANE1_+5V_tri" type="normal"/>
+      <Item name="INTERNALPLANE2_+5V_tri" type="normal"/>
+      <Item name="BOTTOMLAYER_+5V_tri" type="normal"/>
+      <Item name="Via_+5V_tri" type="normal"/>
+      <Item name="TOPLAYER_+5V_seg" type="lines"/>
+      <Item name="INTERNALPLANE1_+5V_seg" type="lines"/>
+      <Item name="INTERNALPLANE2_+5V_seg" type="lines"/>
+      <Item name="BOTTOMLAYER_+5V_seg" type="lines"/>
+      <Item name="Via_+5V_seg" type="lines"/>
+    </Group>
+    <Group name="GND" type="net" ID="GND">
+      <Item name="TOPLAYER_GND_tri" type="normal"/>
+      <Item name="INTERNALPLANE1_GND_tri" type="normal"/>
+      <Item name="INTERNALPLANE2_GND_tri" type="normal"/>
+      <Item name="BOTTOMLAYER_GND_tri" type="normal"/>
+      <Item name="Via_GND_tri" type="normal"/>
+      <Item name="TOPLAYER_GND_seg" type="lines"/>
+      <Item name="INTERNALPLANE1_GND_seg" type="lines"/>
+      <Item name="INTERNALPLANE2_GND_seg" type="lines"/>
+      <Item name="BOTTOMLAYER_GND_seg" type="lines"/>
+      <Item name="Via_GND_seg" type="lines"/>
+    </Group>
+    <Group name="Vias" type="vias" ID="Vias">
+      <Item name="Via_+12V_tri" type="normal"/>
+      <Item name="Via_+3.3V_tri" type="normal"/>
+      <Item name="Via_+5V_tri" type="normal"/>
+      <Item name="Via_GND_tri" type="normal"/>
+      <Item name="Via_+12V_seg" type="lines"/>
+      <Item name="Via_+3.3V_seg" type="lines"/>
+      <Item name="Via_+5V_seg" type="lines"/>
+      <Item name="Via_GND_seg" type="lines"/>
+    </Group>
+    <Group name="Dielectrics" type="dielectrics" ID="Dielectrics">
+      <Item name="Dielectrics" type="normal"/>
+    </Group>
+    <Group name="Board Outline" type="board_outline" ID="Board Outline">
+      <Item name="Board Outline" type="normal"/>
+    </Group>
+  </Groups>
+</MetaGeometryFile>

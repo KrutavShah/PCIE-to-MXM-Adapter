@@ -1,0 +1,87 @@
+Kernel solverccd - Version 2018.4 Build: 20180318
+Kernel solverccd has started
+Install path: C:\ProgramData\Altium\Altium Designer {2DA17F8F-4D3B-448F-BB6D-F0064FA95126}\Extensions\PDN Analyzer\Solver\
+Performing direct IR-Drop calculation
+Starting pcbmerge
+pcbmerge - Version 2018.4 Build: 20180318
+Reading dar-file
+Opening input file
+Healing antipads
+Extracting geometry of signals nets
+Creating containers
+Combining nets with allowed overlap
+Connecting gridded paths
+Removing small cutouts
+Self-checking
+Self check of signal objects ...
+Extracting geometry of reference nets
+Creating containers
+Combining nets with allowed overlap
+Connecting gridded paths
+Removing small cutouts
+Self-checking
+Self check of reference objects ...
+Smoothing parts
+Smoothing signal objects ...
+Smoothing reference objects ...
+Checking overlap
+Merging signal areas
+Merging signal areas ...
+Merging reference areas
+Merging reference areas ...
+Reducing power and ground nets
+Merging paths
+Meshing parts
+Discretizing 4 layers
+Building topology and writing results
+Check Topology
+WARNING: 1140 in pcbmerge
+No DC path from following terminals:
+   No DC connection found for VCOMP5_1
+   No DC connection found for VCOMP6_10
+   No DC connection found for VCOMP6_11
+   No DC connection found for VCOMP6_12
+   No DC connection found for VCOMP6_13
+   No DC connection found for VCOMP6_14
+   No DC connection found for VCOMP6_15
+   No DC connection found for VCOMP6_16
+   No DC connection found for VCOMP6_17
+   No DC connection found for VCOMP6_18
+   No DC connection found for VCOMP6_19
+   No DC connection found for VCOMP6_20
+   No DC connection found for VCOMP6_21
+   No DC connection found for VCOMP6_22
+   No DC connection found for VCOMP6_23
+   No DC connection found for VCOMP6_24
+   No DC connection found for VCOMP6_25
+   No DC connection found for VCOMP6_26
+   No DC connection found for VCOMP6_27
+   No DC connection found for VCOMP6_28
+   No DC connection found for VCOMP6_29
+   No DC connection found for VCOMP6_3
+   No DC connection found for VCOMP6_30
+   No DC connection found for VCOMP6_31
+   No DC connection found for VCOMP6_32
+   No DC connection found
+Single ended nodes detected!
+  20 high-resistance connections to gnd were inserted!
+Floating islands detected!
+  2 high-resistance connections to gnd were inserted!
+Writing Results
+   No. Signal Capacitive Areas:      36521
+   No. Reference Capacitive Areas:   0
+   No. Signal Inductive Segments:    65275
+   No. Reference Inductive Segments: 0
+   No. Via Inductive Segments:       939
+   No. Dielectric Elements:          0
+   No. Terminals:                    122
+Program pcbmerge has finished in 12 sec 
+export3d - Version 2018.4 Build: 20180318
+export3d has started
+Reading neutral top data
+Reading component selection
+Reading PEEC model data
+Writing model
+Error: Error:  Cannot set up IR drop topology
+No DC path in ground system between active load element(s) and power supply ( VCOMP1_0 VCOMP4_0 VCOMP6_0 )
+Error:  The IR-drop analysis has failed ( Exporting 3d model has failed. ).

@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=WAKE_R# Pin=J1-4
+Added Pin To Net: NetName=WAKE_R# Pin=R29-1
+Added Net: Name=WAKE_R#

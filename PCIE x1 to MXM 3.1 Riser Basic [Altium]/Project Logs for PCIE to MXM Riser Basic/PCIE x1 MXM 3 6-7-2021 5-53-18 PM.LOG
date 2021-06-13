@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=CLKREQ_R# Pin=J1-154
+Added Pin To Net: NetName=CLKREQ_R# Pin=R30-1
+Added Net: Name=CLKREQ_R#

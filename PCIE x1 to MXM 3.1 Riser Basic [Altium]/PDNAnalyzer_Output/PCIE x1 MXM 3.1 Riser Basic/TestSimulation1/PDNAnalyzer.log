@@ -1,3 +1,4 @@
+eMessage_Info ODB file is out of date, regenerating it...
 eMessage_Info Begin analyzing TestSimulation1
 eMessage_Info Generated the settings file: Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\PCIE x1 MXM 3.1 Riser Basic.py
 <<info>>
@@ -7,8 +8,9 @@ CST PI-DC Module [built: Mar 18 2018 / 22:44:35, version=Version 2018.4 Build: 2
 100
 <<end>>
 <<progress>>
-Solver Process 7072 exited with code 0.
-<<progress>>
+0
+rogress>>
+Solver Process 2444 exited with code 1.
 0
 Reading layers
 <<end>>
@@ -81,39 +83,59 @@ CST PI-DC solution
 <<end>>
 <<warning>>
 No DC path from following terminals:
-   No DC connection found for VCOMP2_0
-   No DC connection found for VCOMP2_1
+   No DC connection found for VCOMP5_1
+   No DC connection found for VCOMP6_10
+   No DC connection found for VCOMP6_11
+   No DC connection found for VCOMP6_12
+   No DC connection found for VCOMP6_13
+   No DC connection found for VCOMP6_14
+   No DC connection found for VCOMP6_15
+   No DC connection found for VCOMP6_16
+   No DC connection found for VCOMP6_17
+   No DC connection found for VCOMP6_18
+   No DC connection found for VCOMP6_19
+   No DC connection found for VCOMP6_20
+   No DC connection found for VCOMP6_21
+   No DC connection found for VCOMP6_22
+   No DC connection found for VCOMP6_23
+   No DC connection found for VCOMP6_24
+   No DC connection found for VCOMP6_25
+   No DC connection found for VCOMP6_26
+   No DC connection found for VCOMP6_27
+   No DC connection found for VCOMP6_28
+   No DC connection found for VCOMP6_29
+   No DC connection found for VCOMP6_3
+   No DC connection found for VCOMP6_30
+   No DC connection found for VCOMP6_31
+   No DC connection found for VCOMP6_32
+   No DC connection found
 <<end>>
 <<progress>>
 10
 CST PI-DC solution
 <<end>>
-<<progress>>
-20
-CST PI-DC solution
+<<error>>
+eMessage_Error <<error>>
+Error:  Cannot set up IR drop topology
+eMessage_Error Error:  Cannot set up IR drop topology
+No DC path in ground system between active load element(s) and power supply ( VCOMP1_0 VCOMP4_0 VCOMP6_0 )
+eMessage_Error No DC path in ground system between active load element(s) and power supply ( VCOMP1_0 VCOMP4_0 VCOMP6_0 )
 <<end>>
-<<progress>>
-30
-CST PI-DC solution
+eMessage_Error <<end>>
+<<error>>
+eMessage_Error <<error>>
+The IR-drop analysis has failed ( Exporting 3d model has failed. ).
+eMessage_Error The IR-drop analysis has failed ( Exporting 3d model has failed. ).
 <<end>>
-<<warning>>
-Unphysical voltage drop on IO side! Possible reasons:
-  - the DC path of the power/ground system is not closed due to missing or undefined components;
-  - the resistance Rpath of the DC path might be too large due to components with high resistances;
-  - the current Iic drawn by the ICs is too large or the voltage 'Usupply' of the power supply is too small;
-  - the condition 'Usupply > Rpath*Iic' for a working power/ground system is not fulfilled;
+eMessage_Error <<end>>
+<<error>>
+eMessage_Error <<error>>
+The field solver stopped due to internal error.
+eMessage_Error The field solver stopped due to internal error.
+-> PDN Analyzer stopped with error.
+eMessage_Error -> PDN Analyzer stopped with error.
 <<end>>
-<<progress>>
-50
-CST PI-DC solution
-<<end>>
-<<progress>>
-100
-CST PI-DC solution
-<<end>>
-<<info>>
-PI-DC analysis finished successfully.
-<<end>>
+eMessage_Error <<end>>
 eMessage_Info Load and analyze result for TestSimulation1
-eMessage_Info No violations
+eMessage_Error fields.json doesn't exist
 eMessage_Info Analysis Complete TestSimulation1

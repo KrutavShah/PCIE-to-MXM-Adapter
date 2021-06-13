@@ -1,0 +1,19 @@
+Added Pin To Net: NetName=D2_P Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=D2_N Pin=J3-3
+Added Pin To Net: NetName=D1_P Pin=J3-4
+Added Pin To Net: NetName=GND Pin=J3-5
+Added Pin To Net: NetName=D1_N Pin=J3-6
+Added Pin To Net: NetName=D0_P Pin=J3-7
+Added Pin To Net: NetName=GND Pin=J3-8
+Added Pin To Net: NetName=D0_N Pin=J3-9
+Added Pin To Net: NetName=CK_P Pin=J3-10
+Added Pin To Net: NetName=GND Pin=J3-11
+Added Pin To Net: NetName=CK_N Pin=J3-12
+Added Pin To Net: NetName=CEC Pin=J3-13
+Added Pin To Net: NetName=GND Pin=J3-17
+Added Pin To Net: NetName=+5V Pin=J3-18
+Added Pin To Net: NetName=NetJ3_15 Pin=J3-15
+Added Net: Name=NetJ3_15
+Added Pin To Net: NetName=NetJ3_16 Pin=J3-16
+Added Net: Name=NetJ3_16

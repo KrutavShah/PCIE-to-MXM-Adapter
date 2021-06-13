@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=TH_OVERT# New Net Name=OVERHEAT#
+Change Net Name : Old Net Name=TH_PWM New Net Name=FAN_PWM
+Added Pin To Net: NetName=MXM_PM_SWING# Pin=J1-19
+Added Pin To Net: NetName=MXM_PM_SWING# Pin=R23-2
+Added Net: Name=MXM_PM_SWING#

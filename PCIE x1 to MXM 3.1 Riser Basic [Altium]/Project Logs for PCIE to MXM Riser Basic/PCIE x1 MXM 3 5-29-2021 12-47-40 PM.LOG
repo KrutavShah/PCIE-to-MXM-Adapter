@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=HPD_R Pin=Q4-1
+Added Pin To Net: NetName=+3.3V Pin=Q4-3
+Added Pin To Net: NetName=HPD_R Pin=R4-1
+Added Pin To Net: NetName=HPD Pin=R4-2
+Added Pin To Net: NetName=+3.3V Pin=R14-1
+Added Pin To Net: NetName=NetJ3_18 Pin=R14-1
+Added Pin To Net: NetName=CEC Pin=R14-2
+Added Pin To Net: NetName=SDA Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R18-2

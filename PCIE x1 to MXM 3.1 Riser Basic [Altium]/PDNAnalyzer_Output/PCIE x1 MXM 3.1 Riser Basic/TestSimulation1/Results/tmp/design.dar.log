@@ -1,5 +1,5 @@
 
-Importing Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\odb.tgz... [Mon Apr 26 11:26:00 2021]
+Importing Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\odb.tgz... [Sun Jun 13 13:54:04 2021]
 ============================================================
 Reading ODB++ database ...
 
@@ -8,24 +8,25 @@ Reading file odb/matrix/matrix...
 Reading file odb/steps/pcb/profile...
 Reading file odb/steps/pcb/eda/data...
 Origin of ODB++ database:  Altium Designer file - Version 1.0.0.30000
-eda data: 7 packages, 180 nets.
+WARNING: Ignoring I(24 time(s))
+eda data: 13 packages, 182 nets.
 Reading file odb/steps/pcb/layers/topsolder/features...
-337 SWHs on layer TOPSOLDER
+442 SWHs on layer TOPSOLDER
 
 Reading file odb/steps/pcb/layers/toplayer/features...
-745 SWHs on layer TOPLAYER
+1435 SWHs on layer TOPLAYER
 
 Reading file odb/steps/pcb/layers/internalplane1/features...
-339 SWHs on layer INTERNALPLANE1
+289 SWHs on layer INTERNALPLANE1
 
 Reading file odb/steps/pcb/layers/internalplane2/features...
-339 SWHs on layer INTERNALPLANE2
+111 SWHs on layer INTERNALPLANE2
 
 Reading file odb/steps/pcb/layers/bottomlayer/features...
-408 SWHs on layer BOTTOMLAYER
+785 SWHs on layer BOTTOMLAYER
 
 Reading file odb/steps/pcb/layers/bottomsolder/features...
-42 SWHs on layer BOTTOMSOLDER
+48 SWHs on layer BOTTOMSOLDER
 
 Added substrate layer SUBSTRATE-1 below etch layer TOPLAYER
 Added substrate layer SUBSTRATE-2 below etch layer INTERNALPLANE1
@@ -44,13 +45,51 @@ Reading file odb/steps/pcb/layers/drill_plated_bottom-top/features...
 Reading file odb/steps/pcb/layers/comp_+_top/components...
 Reading file odb/steps/pcb/layers/comp_+_bot/components...
 WARNING: unequal pin numbers in component group: 
-	 J2
-	 R2
-	 J3
-	 Q2
+	 R15
+	 C12
 	 J1
+	 R30
+	 R29
+	 L1
+	 R4
+	 C17
+	 R8
+	 R21
+	 R3
 	 R1
-INFO: 5 duplicate vertices ignored
+	 R19
+	 C18
+	 R5
+	 Q2
+	 R16
+	 R10
+	 R6
+	 C11
+	 Q3
+	 U1
+	 R25
+	 R22
+	 R27
+	 R17
+	 R18
+	 R9
+	 J3
+	 R12
+	 J2
+	 Q4
+	 R13
+	 R24
+	 R20
+	 R2
+	 R28
+	 R31
+	 R26
+	 R14
+	 R7
+	 R23
+	 R11
+INFO: 16 duplicate vertices ignored
+INFO: 48 plated drill holes without logical net information
 ========================================
 INFO: Created CSV file (Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\design.csv) with component properties extracted from ODB++ file.
 ========================================
@@ -58,8 +97,7 @@ INFO: Created CSV file (Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-
 Lumped-element import (Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\design.csv)...
 Detected ' ; ' as separator.
 
-Value-string translations:
-	0.22uF_______0201_X5R_6.3V_20% ->  219.99999999999997 nF (C)
+WARNING: unable to interpret: CC0402MRX5R5BB224
 WARNING: unable to interpret: Comment
 ========================================
 WARNING: There were some warnings while importing the auto-generated CSV-file 'Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PDNAnalyzer_Output\PCIE x1 MXM 3.1 Riser Basic\TestSimulation1\Results\tmp\design.csv'. Please review the auto-generated file under Parts Editor->Load (csv).

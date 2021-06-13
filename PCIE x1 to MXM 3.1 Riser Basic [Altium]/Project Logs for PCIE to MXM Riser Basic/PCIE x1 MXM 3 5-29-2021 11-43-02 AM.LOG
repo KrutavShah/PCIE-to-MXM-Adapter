@@ -1,0 +1,26 @@
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=+12V Pin=C13-2
+Added Pin To Net: NetName=PWR_EN Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=+3.3V Pin=R14-1
+Added Pin To Net: NetName=CEC Pin=R14-2
+Added Pin To Net: NetName=+12V Pin=U1-1
+Change Net Name : Old Net Name=NetJ3_15 New Net Name=SCL
+Change Net Name : Old Net Name=NetJ3_16 New Net Name=SDA
+Change Net Name : Old Net Name=PERST New Net Name=PERST#
+Change Net Name : Old Net Name=WAKE New Net Name=WAKE#
+Added Net: Name=HPD_R
+Added Pin To Net: NetName=HPD Pin=J3-19
+Added Net: Name=HPD
+Added Pin To Net: NetName=NetC14_1 Pin=C14-1
+Added Pin To Net: NetName=NetC14_1 Pin=L1-1
+Added Pin To Net: NetName=NetC14_1 Pin=U1-2
+Added Net: Name=NetC14_1
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC14_2 Pin=U1-4
+Added Net: Name=NetC14_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=R19-2
+Added Pin To Net: NetName=NetR5_2 Pin=U1-6
+Added Net: Name=NetR5_2
