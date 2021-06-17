@@ -1,0 +1,12 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PCIE to MXM Riser Basic.PrjPcb]
+   Generated File[PCIE x1 MXM 3.1 Riser Basic.RUL]
+   Generated File[PCIE x1 MXM 3.1 Riser Basic.EXTREP]
+   Generated File[PCIE x1 MXM 3.1 Riser Basic.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:14:01 PM On 6/14/2021
