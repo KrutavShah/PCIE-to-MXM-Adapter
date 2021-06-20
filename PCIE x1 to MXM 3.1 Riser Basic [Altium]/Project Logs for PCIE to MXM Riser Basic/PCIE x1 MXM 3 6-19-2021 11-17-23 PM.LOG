@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=OVERHEAT# Pin=Q5-1
+Added Pin To Net: NetName=MXM_EN Pin=J1-8
+Added Pin To Net: NetName=MXM_EN Pin=Q5-3
+Added Net: Name=MXM_EN
