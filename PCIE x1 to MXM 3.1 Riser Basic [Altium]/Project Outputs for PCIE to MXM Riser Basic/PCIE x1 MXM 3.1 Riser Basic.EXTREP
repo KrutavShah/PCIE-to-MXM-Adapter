@@ -1,9 +1,19 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PCIE x1 MXM 3.1 Riser Basic.GBR   6/14/2021  10:14:01 PM
+Gerber File Extension Report For: PCIE x1 MXM 3.1 Riser Basic.GBR   7/7/2021  5:21:15 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
+.GTO                TopOverlay                              
+.GTS                TopSolder                               
+.GTL                TopLayer                                
+.G1                 InternalPlane1                          
+.G2                 InternalPlane2                          
+.GBL                BottomLayer                             
+.GBS                BottomSolder                            
+.GBO                BottomOverlay                           
+.GM1                PCI-SIG Outline                         
+.GKO                KeepOutLayer                            
 ------------------------------------------------------------------------------------------

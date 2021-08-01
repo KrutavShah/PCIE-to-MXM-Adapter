@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: Z:\Krutav.com Company Items\Krutav Projects\Altium\PCIE-to-MXM-Adapter\PCIE x1 to MXM 3.1 Riser Basic [Altium]\PCB\PCIE x1 MXM 3.1 Riser Basic.PCBDOC
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcie x1 mxm 3.1 riser basic-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=pcie x1 mxm 3.1 riser basic-slotholes.txt|DrillLayers=gtl,g1,g2,gbl

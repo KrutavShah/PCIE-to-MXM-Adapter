@@ -1,12 +1,13 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [PCIE to MXM Riser Basic.PrjPcb]
-   Generated File[PCIE x1 MXM 3.1 Riser Basic.RUL]
-   Generated File[PCIE x1 MXM 3.1 Riser Basic.EXTREP]
-   Generated File[PCIE x1 MXM 3.1 Riser Basic.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PCIE to MXM Riser Basic.PrjPcb]
+   Generated File[PCIE x1 MXM 3.1 Riser Basic-RoundHoles.TXT]
+   Generated File[PCIE x1 MXM 3.1 Riser Basic-SlotHoles.TXT]
+   Generated File[PCIE x1 MXM 3.1 Riser Basic.LDP]
+   Generated File[PCIE x1 MXM 3.1 Riser Basic.DRR]
 
 
-Files Generated   : 3
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 10:14:01 PM On 6/14/2021
+Finished Output Generation At 5:22:10 PM On 7/7/2021

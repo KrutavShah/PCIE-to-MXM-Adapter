@@ -1,0 +1,13 @@
+Change Net Name : Old Net Name=DP_B_AUX_N New Net Name=DP_B_L3_P
+Change Net Name : Old Net Name=DP_B_AUX_P New Net Name=DP_B_AUX_N
+Change Net Name : Old Net Name=DP_B_L0_P New Net Name=DP_B_L0_N
+Change Net Name : Old Net Name=DP_B_L1_N New Net Name=DP_B_L0_P
+Change Net Name : Old Net Name=DP_B_L1_P New Net Name=DP_B_L1_N
+Change Net Name : Old Net Name=DP_B_L2_N New Net Name=DP_B_L1_P
+Change Net Name : Old Net Name=DP_B_L2_P New Net Name=DP_B_L2_N
+Change Net Name : Old Net Name=DP_B_L3_N New Net Name=DP_B_L2_P
+Change Net Name : Old Net Name=DP_B_L3_P New Net Name=DP_B_L3_N
+Added Pin To Net: NetName=DP_B_AUX_P Pin=J1-274
+Added Net: Name=DP_B_AUX_P
+Added Pin To Net: NetName=DP_B_HPD Pin=J1-199
+Added Net: Name=DP_B_HPD

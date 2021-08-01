@@ -1,0 +1,3 @@
+Change Net Name : Old Net Name=TMDS_HPD New Net Name=DVI_HPD
+Change Net Name : Old Net Name=TMDS_SCL New Net Name=LVDS_CLK
+Change Net Name : Old Net Name=TMDS_SDA New Net Name=LVDS_DAT

@@ -1,0 +1,27 @@
+Added Pin To Net: NetName=DP_D_AUX_N Pin=J1-230
+Added Net: Name=DP_D_AUX_N
+Added Pin To Net: NetName=DP_D_AUX_P Pin=J1-232
+Added Net: Name=DP_D_AUX_P
+Added Pin To Net: NetName=DP_D_HPD Pin=J1-236
+Added Net: Name=DP_D_HPD
+Added Pin To Net: NetName=DP_D_L0_N Pin=J1-206
+Added Net: Name=DP_D_L0_N
+Added Pin To Net: NetName=DP_D_L0_P Pin=J1-208
+Added Net: Name=DP_D_L0_P
+Added Pin To Net: NetName=DP_D_L1_N Pin=J1-212
+Added Net: Name=DP_D_L1_N
+Added Pin To Net: NetName=DP_D_L1_P Pin=J1-214
+Added Net: Name=DP_D_L1_P
+Added Pin To Net: NetName=DP_D_L2_N Pin=J1-218
+Added Net: Name=DP_D_L2_N
+Added Pin To Net: NetName=DP_D_L2_P Pin=J1-220
+Added Net: Name=DP_D_L2_P
+Added Pin To Net: NetName=DP_D_L3_N Pin=J1-224
+Added Net: Name=DP_D_L3_N
+Added Pin To Net: NetName=DP_D_L3_P Pin=J1-226
+Added Net: Name=DP_D_L3_P
+Added Differential Pair: Name=DP_D_AUX
+Added Differential Pair: Name=DP_D_L0
+Added Differential Pair: Name=DP_D_L1
+Added Differential Pair: Name=DP_D_L2
+Added Differential Pair: Name=DP_D_L3

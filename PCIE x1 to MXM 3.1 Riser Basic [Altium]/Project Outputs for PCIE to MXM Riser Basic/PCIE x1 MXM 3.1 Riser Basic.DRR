@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCIE x1 MXM 3.1 Riser Basic.PCBDOC   7/7/2021  5:22:10 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : TopLayer to BottomLayer
+ASCII RoundHoles File : PCIE x1 MXM 3.1 Riser Basic-RoundHoles.TXT
+ASCII SlotHoles File : PCIE x1 MXM 3.1 Riser Basic-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.201mm)                                            Round             280       PTH        0.00inch (0.00mm)
+T2      12mil (0.3mm)                                             Round             143       PTH        0.00inch (0.00mm)
+T3      35mil (0.899mm)                                           Slot              4         PTH        0.00inch (0.00mm)
+T4      39mil (1.001mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T5      71mil (1.801mm)                                           Round             8         PTH        0.00inch (0.00mm)
+T6      125mil (3.18mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T7      126mil (3.2mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T8      47mil (1.199mm)                                           Round             1         NPTH       0.00inch (0.00mm)
+T9      67mil (1.699mm)                                           Round             1         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              445
+
+Total Processing Time (hh:mm:ss) : 00:00:00

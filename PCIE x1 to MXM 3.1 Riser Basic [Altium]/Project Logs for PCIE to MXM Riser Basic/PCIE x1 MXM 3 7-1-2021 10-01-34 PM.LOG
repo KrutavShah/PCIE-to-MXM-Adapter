@@ -1,0 +1,50 @@
+Added Pin To Net: NetName=LVDS_L0_N Pin=J1-200
+Added Net: Name=LVDS_L0_N
+Added Pin To Net: NetName=LVDS_L0_P Pin=J1-202
+Added Net: Name=LVDS_L0_P
+Added Pin To Net: NetName=LVDS_L1_N Pin=J1-194
+Added Net: Name=LVDS_L1_N
+Added Pin To Net: NetName=LVDS_L1_P Pin=J1-196
+Added Net: Name=LVDS_L1_P
+Added Pin To Net: NetName=LVDS_L2_N Pin=J1-188
+Added Net: Name=LVDS_L2_N
+Added Pin To Net: NetName=LVDS_L2_P Pin=J1-190
+Added Net: Name=LVDS_L2_P
+Added Pin To Net: NetName=LVDS_L3_N Pin=J1-182
+Added Net: Name=LVDS_L3_N
+Added Pin To Net: NetName=LVDS_L3_P Pin=J1-184
+Added Net: Name=LVDS_L3_P
+Added Pin To Net: NetName=LVDS_LCLK_N Pin=J1-176
+Added Net: Name=LVDS_LCLK_N
+Added Pin To Net: NetName=LVDS_LCLK_P Pin=J1-178
+Added Net: Name=LVDS_LCLK_P
+Added Pin To Net: NetName=LVDS_U0_N Pin=J1-193
+Added Net: Name=LVDS_U0_N
+Added Pin To Net: NetName=LVDS_U0_P Pin=J1-195
+Added Net: Name=LVDS_U0_P
+Added Pin To Net: NetName=LVDS_U1_N Pin=J1-187
+Added Net: Name=LVDS_U1_N
+Added Pin To Net: NetName=LVDS_U1_P Pin=J1-189
+Added Net: Name=LVDS_U1_P
+Added Pin To Net: NetName=LVDS_U2_N Pin=J1-181
+Added Net: Name=LVDS_U2_N
+Added Pin To Net: NetName=LVDS_U2_P Pin=J1-183
+Added Net: Name=LVDS_U2_P
+Added Pin To Net: NetName=LVDS_U3_N Pin=J1-175
+Added Net: Name=LVDS_U3_N
+Added Pin To Net: NetName=LVDS_U3_P Pin=J1-177
+Added Net: Name=LVDS_U3_P
+Added Pin To Net: NetName=LVDS_UCLK_N Pin=J1-169
+Added Net: Name=LVDS_UCLK_N
+Added Pin To Net: NetName=LVDS_UCLK_P Pin=J1-171
+Added Net: Name=LVDS_UCLK_P
+Added Differential Pair: Name=LVDS_L0
+Added Differential Pair: Name=LVDS_L1
+Added Differential Pair: Name=LVDS_L2
+Added Differential Pair: Name=LVDS_L3
+Added Differential Pair: Name=LVDS_LCLK
+Added Differential Pair: Name=LVDS_U0
+Added Differential Pair: Name=LVDS_U1
+Added Differential Pair: Name=LVDS_U2
+Added Differential Pair: Name=LVDS_U3
+Added Differential Pair: Name=LVDS_UCLK

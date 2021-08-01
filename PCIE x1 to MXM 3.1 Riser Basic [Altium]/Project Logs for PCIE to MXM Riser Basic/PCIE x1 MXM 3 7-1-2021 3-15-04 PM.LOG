@@ -1,0 +1,24 @@
+Added Pin To Net: NetName=+3.3V Pin=R32-1
+Added Pin To Net: NetName=OVERHEAT# Pin=R32-2
+Added Pin To Net: NetName=+3.3V Pin=R33-1
+Added Pin To Net: NetName=PRSNT_R# Pin=R33-2
+Added Pin To Net: NetName=DP_B_AUX_N Pin=J1-272
+Added Net: Name=DP_B_AUX_N
+Added Pin To Net: NetName=DP_B_AUX_P Pin=J1-274
+Added Net: Name=DP_B_AUX_P
+Added Pin To Net: NetName=DP_B_L0_N Pin=J1-248
+Added Net: Name=DP_B_L0_N
+Added Pin To Net: NetName=DP_B_L0_P Pin=J1-252
+Added Net: Name=DP_B_L0_P
+Added Pin To Net: NetName=DP_B_L1_N Pin=J1-254
+Added Net: Name=DP_B_L1_N
+Added Pin To Net: NetName=DP_B_L1_P Pin=J1-258
+Added Net: Name=DP_B_L1_P
+Added Pin To Net: NetName=DP_B_L2_N Pin=J1-260
+Added Net: Name=DP_B_L2_N
+Added Pin To Net: NetName=DP_B_L2_P Pin=J1-264
+Added Net: Name=DP_B_L2_P
+Added Pin To Net: NetName=DP_B_L3_N Pin=J1-266
+Added Net: Name=DP_B_L3_N
+Added Pin To Net: NetName=DP_B_L3_P Pin=J1-270
+Added Net: Name=DP_B_L3_P

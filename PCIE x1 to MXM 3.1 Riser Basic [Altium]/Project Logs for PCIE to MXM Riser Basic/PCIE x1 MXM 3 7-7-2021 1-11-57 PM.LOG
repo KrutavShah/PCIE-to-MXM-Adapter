@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=VGA_BLUE Pin=J1-172
+Added Net: Name=VGA_BLUE
+Added Pin To Net: NetName=VGA_CLK Pin=J1-160
+Added Net: Name=VGA_CLK
+Added Pin To Net: NetName=VGA_DAT Pin=J1-158
+Added Net: Name=VGA_DAT
+Added Pin To Net: NetName=VGA_GREEN Pin=J1-170
+Added Net: Name=VGA_GREEN
+Added Pin To Net: NetName=VGA_HSYNC Pin=J1-164
+Added Net: Name=VGA_HSYNC
+Added Pin To Net: NetName=VGA_RED Pin=J1-168
+Added Net: Name=VGA_RED
+Added Pin To Net: NetName=VGA_VSYNC Pin=J1-162
+Added Net: Name=VGA_VSYNC
