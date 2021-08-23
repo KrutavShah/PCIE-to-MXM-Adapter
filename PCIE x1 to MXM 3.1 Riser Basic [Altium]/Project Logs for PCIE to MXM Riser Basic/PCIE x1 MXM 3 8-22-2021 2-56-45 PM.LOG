@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=5V_FB Pin=U1-3
+Added Net: Name=5V_FB
+Added Pin To Net: NetName=CBST_L Pin=L1-1
+Added Pin To Net: NetName=CBST_L Pin=U1-6
+Added Net: Name=CBST_L
+Added Pin To Net: NetName=CBST_U Pin=U1-1
+Added Net: Name=CBST_U
+Added Pin To Net: NetName=NetR19_1 Pin=U1-4
+Added Net: Name=NetR19_1
