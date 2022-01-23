@@ -1,0 +1,12 @@
+Added Net: Name=EF_DVDT
+Added Pin To Net: NetName=EF_ILM Pin=R41-1
+Added Net: Name=EF_ILM
+Added Net: Name=EF_ITIMER
+Added Pin To Net: NetName=EF_OVCSEL Pin=R45-1
+Added Net: Name=EF_OVCSEL
+Added Net: Name=EF_OVLO
+Added Net: Name=EF_PGOOD
+Added Pin To Net: NetName=EF_PGTH Pin=R39-2
+Added Pin To Net: NetName=EF_PGTH Pin=R42-2
+Added Net: Name=EF_PGTH
+Added Net: Name=EF_UVLO

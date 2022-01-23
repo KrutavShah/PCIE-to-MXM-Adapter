@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=+12V_SLOT Pin=P1-A2
+Added Pin To Net: NetName=+12V_SLOT Pin=P1-A3
+Added Pin To Net: NetName=+12V_SLOT Pin=P1-B1
+Added Pin To Net: NetName=+12V_SLOT Pin=P1-B2
+Added Pin To Net: NetName=+12V_SLOT Pin=P1-B3
+Added Net: Name=+12V_SLOT

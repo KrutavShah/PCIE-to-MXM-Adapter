@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=+3.3V Pin=R38-1
+Added Pin To Net: NetName=+12V Pin=R39-1
+Added Pin To Net: NetName=+12V_SLOT Pin=R40-1
+Added Pin To Net: NetName=GND Pin=R41-2
+Added Pin To Net: NetName=GND Pin=R42-1
+Added Pin To Net: NetName=GND Pin=R43-1
+Added Pin To Net: NetName=GND Pin=R45-2
