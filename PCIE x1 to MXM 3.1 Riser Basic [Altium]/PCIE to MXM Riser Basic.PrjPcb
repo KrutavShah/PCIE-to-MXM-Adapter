@@ -125,13 +125,13 @@ GenerateClassCluster=0
 DocumentUniqueId=ZDUJJVOU
 
 [Document6]
-DocumentPath=Schematics\Display Interfaces.SchDoc
+DocumentPath=Schematics\Power Sources and Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -139,7 +139,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AXXEDLJI
+DocumentUniqueId=DGLTLWOS
 
 [Document7]
 DocumentPath=Schematics\MXM 3.1 Connector Interface.SchDoc
@@ -159,6 +159,23 @@ GenerateClassCluster=0
 DocumentUniqueId=EJACZPAA
 
 [Document8]
+DocumentPath=Schematics\Display Interface.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AXXEDLJI
+
+[Document9]
 DocumentPath=Schematics\Miscellaneous.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -174,23 +191,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YEQTWWSX
-
-[Document9]
-DocumentPath=Schematics\Power Sources and Supply.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DGLTLWOS
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PCIE to MXM Riser Basic\PCIE x1 MXM 3.1 Riser Basic-RoundHoles.TXT
