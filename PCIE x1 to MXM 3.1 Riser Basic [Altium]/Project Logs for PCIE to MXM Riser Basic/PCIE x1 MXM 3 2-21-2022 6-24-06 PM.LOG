@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=+12V Pin=U1-3
+Added Pin To Net: NetName=5V_FB Pin=U1-4
+Added Pin To Net: NetName=5V_CBST Pin=C13-1
+Added Pin To Net: NetName=5V_CBST Pin=U1-6
+Added Net: Name=5V_CBST
+Added Pin To Net: NetName=5V_EN Pin=R5-2
+Added Pin To Net: NetName=5V_EN Pin=U1-5
+Added Net: Name=5V_EN
+Added Pin To Net: NetName=5V_SW Pin=C13-2
+Added Pin To Net: NetName=5V_SW Pin=L1-1
+Added Pin To Net: NetName=5V_SW Pin=U1-2
+Added Net: Name=5V_SW

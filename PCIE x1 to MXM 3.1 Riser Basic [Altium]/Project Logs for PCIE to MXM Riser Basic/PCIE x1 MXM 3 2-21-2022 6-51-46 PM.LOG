@@ -1,0 +1,69 @@
+Change Component Comment : Designator=C36 Old Comment=0.1uF      0402 X7R 16V New Comment=0.1uF 0402    X7R 16V
+Change Component Comment : Designator=C34 Old Comment=0.1uF      0402 X7R 16V New Comment=1uF       0805 X5R 16V
+Change Component Comment : Designator=C18 Old Comment=0.22uF       0402 X5R 6.3V 20% New Comment=0.1uF 0402    X7R 16V
+Change Component Comment : Designator=C20 Old Comment=0.22uF       0402 X5R 6.3V 20% New Comment=0.1uF 0402    X7R 16V
+Change Component Comment : Designator=C22 Old Comment=0.22uF       0402 X5R 6.3V 20% New Comment=0.1uF 0402    X7R 16V
+Change Component Comment : Designator=C26 Old Comment=0.22uF       0402 X5R 6.3V 20% New Comment=0.1uF 0402    X7R 16V
+Change Component Comment : Designator=C24 Old Comment=0.22uF       0402 X5R 6.3V 20% New Comment=1uF 0402     X5R 25V
+Change Component Comment : Designator=C25 Old Comment=0.22uF       0402 X5R 6.3V 20% New Comment=1uF 0402     X5R 25V
+Change Component Comment : Designator=C30 Old Comment=0.22uF       0402 X5R 6.3V 20% New Comment=10uF 0603     X5R 16V
+Change Component Comment : Designator=C23 Old Comment=3.6nF       0402 X5R 6.3V 20% New Comment=2.7nF       0402 X7R 16V
+Change Component Comment : Designator=C31 Old Comment=3.6nF       0402 X5R 6.3V 20% New Comment=3.6nF      0805 X5R 16V
+Change Component Comment : Designator=C33 Old Comment=4.7uF 0603     X5R 16V New Comment=10uF 0603     X5R 16V
+Change Component Comment : Designator=R20 Old Comment=10KO 5% 0402 New Comment=0O 0402
+Change Component Comment : Designator=R19 Old Comment=10KO 5% 0402 New Comment=56.2KO 5% 0402
+Change Component Comment : Designator=C32 Old Comment=10uF 0603     X5R 16V New Comment=0.1uF 0402    X7R 16V
+Change Component Comment : Designator=C13 Old Comment=10uF       0805 X5R 25V 10% New Comment=0.1uF 0603   X7R 50V 10%
+Change Component Comment : Designator=C15 Old Comment=10uF       0805 X5R 25V 10% New Comment=22uF 0805    X5R 25V 20%
+Change Component Comment : Designator=C14 Old Comment=22uF      0805 X5R 25V New Comment=10uF 0603     X5R 16V
+Change Component Comment : Designator=R5 Old Comment=220KO 5% 0402 New Comment=10KO 5% 0402
+Change Component Comment : Designator=C3 Old Comment=CC0402MRX5R5BB224 New Comment=0.1uF       0402 X5R 16V 10%
+Change Component Comment : Designator=C4 Old Comment=CC0402MRX5R5BB224 New Comment=0.1uF       0402 X5R 16V 10%
+Change Component Comment : Designator=C5 Old Comment=CC0402MRX5R5BB224 New Comment=0.1uF       0402 X5R 16V 10%
+Change Component Comment : Designator=C6 Old Comment=CC0402MRX5R5BB224 New Comment=0.1uF       0402 X5R 16V 10%
+Change Component Comment : Designator=C7 Old Comment=CC0402MRX5R5BB224 New Comment=0.1uF       0402 X5R 16V 10%
+Change Component Comment : Designator=C8 Old Comment=CC0402MRX5R5BB224 New Comment=0.1uF       0402 X5R 16V 10%
+Change Component Comment : Designator=C9 Old Comment=CC0402MRX5R5BB224 New Comment=0.1uF       0402 X5R 16V 10%
+Change Component Comment : Designator=C10 Old Comment=CC0402MRX5R5BB224 New Comment=0.1uF       0402 X5R 16V 10%
+Change Component Comment : Designator=R26 Old Comment=Comment New Comment=0O 5% 0402
+Change Component Comment : Designator=R27 Old Comment=Comment New Comment=0O 5% 0402
+Change Component Comment : Designator=R29 Old Comment=Comment New Comment=0O 0402
+Change Component Comment : Designator=R1 Old Comment=Comment New Comment=2.2KO 5% 0402
+Change Component Comment : Designator=R2 Old Comment=Comment New Comment=2.2KO 5% 0402
+Change Component Comment : Designator=R15 Old Comment=Comment New Comment=2KO 5% 0402
+Change Component Comment : Designator=Q5 Old Comment=Comment New Comment=2N7002
+Change Component Comment : Designator=Q1 Old Comment=Comment New Comment=2N7002ET1G
+Change Component Comment : Designator=Q2 Old Comment=Comment New Comment=2N7002ET1G
+Change Component Comment : Designator=Q3 Old Comment=Comment New Comment=2N7002ET1G
+Change Component Comment : Designator=R42 Old Comment=Comment New Comment=5.62KO 0402
+Change Component Comment : Designator=R3 Old Comment=Comment New Comment=10KO 5% 0402
+Change Component Comment : Designator=R4 Old Comment=Comment New Comment=10KO 5% 0402
+Change Component Comment : Designator=R16 Old Comment=Comment New Comment=10KO 5% 0402
+Change Component Comment : Designator=R17 Old Comment=Comment New Comment=10KO 5% 0402
+Change Component Comment : Designator=R18 Old Comment=Comment New Comment=10KO 5% 0402
+Change Component Comment : Designator=R25 Old Comment=Comment New Comment=10KO 5% 0402
+Change Component Comment : Designator=R28 Old Comment=Comment New Comment=10KO 5% 0402
+Change Component Comment : Designator=R14 Old Comment=Comment New Comment=27KO 1% 0402
+Change Component Comment : Designator=R38 Old Comment=Comment New Comment=47KO 0402
+Change Component Comment : Designator=R39 Old Comment=Comment New Comment=47KO 0402
+Change Component Comment : Designator=R43 Old Comment=Comment New Comment=59KO 0402
+Change Component Comment : Designator=R45 Old Comment=Comment New Comment=390KO 0402
+Change Component Comment : Designator=R40 Old Comment=Comment New Comment=470KO 0402
+Change Component Comment : Designator=R6 Old Comment=Comment New Comment=499O 1% 0402
+Change Component Comment : Designator=R7 Old Comment=Comment New Comment=499O 1% 0402
+Change Component Comment : Designator=R8 Old Comment=Comment New Comment=499O 1% 0402
+Change Component Comment : Designator=R9 Old Comment=Comment New Comment=499O 1% 0402
+Change Component Comment : Designator=R10 Old Comment=Comment New Comment=499O 1% 0402
+Change Component Comment : Designator=R11 Old Comment=Comment New Comment=499O 1% 0402
+Change Component Comment : Designator=R12 Old Comment=Comment New Comment=499O 1% 0402
+Change Component Comment : Designator=R13 Old Comment=Comment New Comment=499O 1% 0402
+Change Component Comment : Designator=R41 Old Comment=Comment New Comment=562O 0402
+Change Component Comment : Designator=J3 Old Comment=Comment New Comment=685119135725
+Change Component Comment : Designator=Q6 Old Comment=Comment New Comment=AO3400A
+Change Component Comment : Designator=U1 Old Comment=Comment New Comment=AP62300TWU-7
+Change Component Comment : Designator=F1 Old Comment=Comment New Comment=ERB-RD2R00X
+Change Component Comment : Designator=J1 Old Comment=Comment New Comment=MM70-314-310B1-1-R300
+Change Component Comment : Designator=Q4 Old Comment=Comment New Comment=MMBT3904LT1G
+Change Component Comment : Designator=L1 Old Comment=Comment New Comment=NR6028T4R7M
+Change Component Comment : Designator=U2 Old Comment=Comment New Comment=TPS259472ARPWR
+Change Component Comment : Designator=J4 Old Comment=PinHeader_1x4_P2mm_Drill1mm New Comment=4-Pin Header

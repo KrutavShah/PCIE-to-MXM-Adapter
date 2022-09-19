@@ -1,6 +1,6 @@
 Record=TopLevelDocument|FileName=Bill of Materials.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Block Diagram.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Display Interfaces.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Display Interface.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=Miscellaneous.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=MXM 3.1 Connector Interface.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=Bill of Materials.SchDoc|FileName=PCIE x1 Edge Connector Interface.SchDoc|SheetNumber=4
